@@ -1,15 +1,19 @@
-# Domino's Next.js Clone
+﻿# Domino's Next.js Clone
 
-This project wraps the HTTrack mirror in a Next.js App Router project.
+This project converts the HTTrack capture in `www.dominos.com/` into a Next.js App Router project with real route folders and reusable rendering components.
 
 ## Structure
 
-- `app/[[...slug]]/route.ts` serves mirrored HTML pages like `/`, `/menu.html`, and `/deals.html`.
-- `app/legacy-assets/[[...path]]/route.ts` serves captured CSS, images, fonts, and JavaScript from the mirror.
-- `src/lib/legacy-site.ts` rewrites legacy asset paths so they work inside Next without conflicting with Next's own `/_next` files.
-- `www.dominos.com/` contains the original mirrored Domino's files.
+- `app/page.tsx` renders the home page from `www.dominos.com/index.html`.
+- `app/**/page.tsx` contains concrete route files for the cloned pages, for example `app/content/accessibility-policy/page.tsx`.
+- `app/layout.tsx` is the shared root layout.
+- `app/site-assets/[[...path]]/route.ts` serves captured images, fonts, CSS, PDFs, and other static assets.
+- `src/components/dominos/` contains shared React components for page rendering, head assets, navigation, main content, footer regions, internal `Link` mapping, and safe `Image` mapping.
+- `src/lib/dominos-site.ts` reads the captured source files, removes crawler/runtime artifacts, rewrites local asset URLs, and provides page metadata.
 
-The old Domino's JavaScript chunks captured by HTTrack are stripped at request time because the mirror is incomplete and those scripts try to fetch missing chunks. The local Sign In drawer script is preserved.
+## Cleanup
+
+The old catch-all HTML route and old asset route have been removed. Root crawler cache/log/cookie files are removed from the project. Captured HTML is cleaned at render time so crawler comments, injected meta tags, stale runtime data, and inline scripts do not ship through the app.
 
 ## Commands
 
@@ -25,3 +29,4 @@ Open the app at:
 ```text
 http://127.0.0.1:3000
 ```
+

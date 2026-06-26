@@ -1,8 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-www.dominos.com	TRUE	/	FALSE	1999999999	X-DPZ-D	06339762-e42a-4e56-8717-626f2408cc13
-www.dominos.com	TRUE	/	FALSE	1999999999	X-DPZ-ROLLOUT-PHASE-100	REDESIGN
-www.dominos.com	TRUE	/	FALSE	1999999999	521e8e12-25c8-4ec2-bb3e-f32e2921d5af	true
-www.dominos.com	TRUE	/	FALSE	1999999999	ECOM31578	89
-www.dominos.com	TRUE	/	FALSE	1999999999	SameSite	Strict
-
