@@ -1,19 +1,21 @@
-﻿# Domino's Next.js Clone
+# Domino's Next.js Clone
 
-This project converts the HTTrack capture in `www.dominos.com/` into a Next.js App Router project with real route folders and reusable rendering components.
+This project is a standalone Next.js App Router rebuild of the captured Domino's pages. The original HTTrack mirror has been removed; pages now render from local TypeScript/TSX files, local styles, local fonts, and local public assets.
 
 ## Structure
 
-- `app/page.tsx` renders the home page from `www.dominos.com/index.html`.
-- `app/**/page.tsx` contains concrete route files for the cloned pages, for example `app/content/accessibility-policy/page.tsx`.
+- `app/page.tsx` renders the home page.
+- `app/**/page.tsx` contains concrete route files for each converted page, for example `app/content/accessibility-policy/page.tsx`.
 - `app/layout.tsx` is the shared root layout.
-- `app/site-assets/[[...path]]/route.ts` serves captured images, fonts, CSS, PDFs, and other static assets.
-- `src/components/dominos/` contains shared React components for page rendering, head assets, navigation, main content, footer regions, internal `Link` mapping, and safe `Image` mapping.
-- `src/lib/dominos-site.ts` reads the captured source files, removes crawler/runtime artifacts, rewrites local asset URLs, and provides page metadata.
+- `src/generated/dominos-pages/` contains the converted TSX page bodies and page metadata.
+- `src/styles/dominos.css` imports the local site stylesheet set.
+- `src/styles/vendor/` contains the converted vendor CSS that used to come from captured `_next` assets.
+- `public/site-assets/` contains local images, icons, PDFs, and other static assets used by the pages.
+- `public/fonts/dominos/` contains local font files referenced by the CSS.
 
 ## Cleanup
 
-The old catch-all HTML route and old asset route have been removed. Root crawler cache/log/cookie files are removed from the project. Captured HTML is cleaned at render time so crawler comments, injected meta tags, stale runtime data, and inline scripts do not ship through the app.
+The HTTrack source mirror, crawler cache/log/cookie files, runtime HTML loader, catch-all HTML route, copied `_next` bundles, inline scripts, and old asset proxy route have been removed. The app no longer reads from `www.dominos.com` at runtime.
 
 ## Commands
 
@@ -29,4 +31,3 @@ Open the app at:
 ```text
 http://127.0.0.1:3000
 ```
-

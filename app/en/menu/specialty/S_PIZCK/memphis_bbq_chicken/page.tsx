@@ -1,20 +1,7 @@
-﻿import type { Metadata } from "next";
-import { notFound } from "next/navigation";
-import { DominosPage } from "@/src/components/dominos/DominosPage";
-import { getDominosMetadata, getDominosPageDocument } from "@/src/lib/dominos-site";
+import { EnMenuSpecialtySPIZCKMemphisBbqChickenGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuSpecialtySPIZCKMemphisBbqChickenGeneratedPage";
 
-const sourcePath = "en/menu/specialty/S_PIZCK/memphis_bbq_chicken.html";
+export { metadata };
 
-export async function generateMetadata(): Promise<Metadata> {
-  return getDominosMetadata(sourcePath);
-}
-
-export default async function Page() {
-  const document = await getDominosPageDocument(sourcePath);
-
-  if (!document) {
-    notFound();
-  }
-
-  return <DominosPage document={document} />;
+export default function Page() {
+  return <EnMenuSpecialtySPIZCKMemphisBbqChickenGeneratedPage />;
 }

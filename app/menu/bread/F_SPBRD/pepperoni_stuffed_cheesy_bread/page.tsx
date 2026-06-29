@@ -1,20 +1,7 @@
-﻿import type { Metadata } from "next";
-import { notFound } from "next/navigation";
-import { DominosPage } from "@/src/components/dominos/DominosPage";
-import { getDominosMetadata, getDominosPageDocument } from "@/src/lib/dominos-site";
+import { MenuBreadFSPBRDPepperoniStuffedCheesyBreadGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuBreadFSPBRDPepperoniStuffedCheesyBreadGeneratedPage";
 
-const sourcePath = "menu/bread/F_SPBRD/pepperoni_stuffed_cheesy_bread.html";
+export { metadata };
 
-export async function generateMetadata(): Promise<Metadata> {
-  return getDominosMetadata(sourcePath);
-}
-
-export default async function Page() {
-  const document = await getDominosPageDocument(sourcePath);
-
-  if (!document) {
-    notFound();
-  }
-
-  return <DominosPage document={document} />;
+export default function Page() {
+  return <MenuBreadFSPBRDPepperoniStuffedCheesyBreadGeneratedPage />;
 }

@@ -1,20 +1,7 @@
-﻿import type { Metadata } from "next";
-import { notFound } from "next/navigation";
-import { DominosPage } from "@/src/components/dominos/DominosPage";
-import { getDominosMetadata, getDominosPageDocument } from "@/src/lib/dominos-site";
+import { MenuSidesFSTJUDEStJudeDonationGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSidesFSTJUDEStJudeDonationGeneratedPage";
 
-const sourcePath = "menu/sides/F_STJUDE/st_jude_donation.html";
+export { metadata };
 
-export async function generateMetadata(): Promise<Metadata> {
-  return getDominosMetadata(sourcePath);
-}
-
-export default async function Page() {
-  const document = await getDominosPageDocument(sourcePath);
-
-  if (!document) {
-    notFound();
-  }
-
-  return <DominosPage document={document} />;
+export default function Page() {
+  return <MenuSidesFSTJUDEStJudeDonationGeneratedPage />;
 }

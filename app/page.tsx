@@ -1,8 +1,7 @@
-﻿import type { Metadata } from "next";
-import { HomePage, homeMetadata } from "@/src/components/home/HomePage";
+import { HomeGeneratedPage, metadata } from "../src/generated/dominos-pages/HomeGeneratedPage";
 
-export const metadata: Metadata = homeMetadata;
+export { metadata };
 
 export default function Page() {
-  return <HomePage />;
+  return <HomeGeneratedPage />;
 }

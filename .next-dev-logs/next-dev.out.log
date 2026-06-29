@@ -1,0 +1,42 @@
+
+> dominos-next-clone@1.0.0 dev
+> next dev --hostname 127.0.0.1 --port 3001
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+   ▲ Next.js 15.5.19
+   - Local:        http://127.0.0.1:3001
+   - Network:      http://127.0.0.1:3001
+
+ ✓ Starting...
+ ✓ Ready in 7.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.7s (617 modules)
+ GET / 200 in 476ms
+ GET / 200 in 447ms
+ ✓ Compiled /_not-found in 474ms (598 modules)
+ GET /fonts/dominos/Dominos_Sans_Display_VF.woff2 404 in 746ms
+ GET /fonts/dominos/Dominos_Sans_Text_VF.woff2 404 in 707ms
+ GET /fonts/dominos/TT_Commons_Pro_Variable.woff2 404 in 67ms
+ ✓ Compiled /deals in 139ms (601 modules)
+ GET /deals 200 in 687ms
+ GET /fonts/dominos/Dominos_Sans_Display_VF.woff2 404 in 117ms
+ GET /fonts/dominos/Dominos_Sans_Text_VF.woff2 404 in 109ms
+ GET /fonts/dominos/TT_Commons_Pro_Variable.woff2 404 in 47ms
+ GET / 200 in 779ms
+ ✓ Compiled /index0e22 in 338ms (604 modules)
+ GET /index0e22?type=order_carryout 200 in 750ms
+ ✓ Compiled /index32f4 in 340ms (607 modules)
+ GET /index32f4?type=order_delivery 200 in 709ms
+ ✓ Compiled /menu in 232ms (610 modules)
+ GET /menu 200 in 390ms
+ ✓ Compiled /my-deals-and-rewards in 377ms (613 modules)
+ GET /my-deals-and-rewards 200 in 1013ms
+ ✓ Compiled /tracker in 471ms (616 modules)
+ GET /tracker 200 in 848ms
+ GET /menu 200 in 136ms
+ ✓ Compiled /menu32f4 in 375ms (619 modules)
+ GET /menu32f4?type=order_delivery 200 in 528ms
+ GET /menu 200 in 119ms
+ GET /deals 200 in 173ms
+ GET /deals 200 in 109ms
+ GET /my-deals-and-rewards 200 in 119ms

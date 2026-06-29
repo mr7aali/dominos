@@ -1,20 +1,7 @@
-﻿import type { Metadata } from "next";
-import { notFound } from "next/navigation";
-import { DominosPage } from "@/src/components/dominos/DominosPage";
-import { getDominosMetadata, getDominosPageDocument } from "@/src/lib/dominos-site";
+import { EnMenuPastaSALFRChickenAlfredoGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuPastaSALFRChickenAlfredoGeneratedPage";
 
-const sourcePath = "en/menu/pasta/S_ALFR/chicken_alfredo.html";
+export { metadata };
 
-export async function generateMetadata(): Promise<Metadata> {
-  return getDominosMetadata(sourcePath);
-}
-
-export default async function Page() {
-  const document = await getDominosPageDocument(sourcePath);
-
-  if (!document) {
-    notFound();
-  }
-
-  return <DominosPage document={document} />;
+export default function Page() {
+  return <EnMenuPastaSALFRChickenAlfredoGeneratedPage />;
 }
