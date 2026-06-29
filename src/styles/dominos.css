@@ -1,0 +1,35 @@
+﻿@import "./vendor/base-app.css";
+@import "./vendor/makeline-ui.css";
+@import "./vendor/auth.css";
+@import "./vendor/service-methods.css";
+@import "./vendor/cart.css";
+@import "./vendor/campaign.css";
+@import "./vendor/deals.css";
+@import "./vendor/rewards.css";
+@import "./vendor/product.css";
+
+@font-face {
+  font-family: "Dominos Sans Display";
+  src: url("/fonts/dominos/Dominos_Sans_Display_VF.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dominos Sans Text";
+  src: url("/fonts/dominos/Dominos_Sans_Text_VF.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "One Dot";
+  src: url("/fonts/dominos/OneDot.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "One Dot";
+  src: url("/fonts/dominos/OneDot-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
