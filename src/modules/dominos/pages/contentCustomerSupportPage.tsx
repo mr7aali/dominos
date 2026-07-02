@@ -4,8 +4,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  "title": "Pizza Delivery & Carryout, Pasta, Wings & More | Domino's",
-  "description": "Order pizza, pasta, sandwiches & more online for carryout or delivery from Domino's. View menu, find locations, track orders. Sign up for Domino's email & text offers to get great deals on your next order.",
+  "title": "Pizza Delivery & Carryout, Pasta, Wings & More | Crumblez",
+  "description": "Order pizza, pasta, sandwiches & more online for carryout or delivery from Crumblez. View menu, find locations, track orders. Sign up for Crumblez email & text offers to get great deals on your next order.",
   "alternates": {
     "canonical": "/en/content/customer-support"
   },
@@ -56,17 +56,8 @@ export function ContentCustomerSupportPage() {
                   </Link>
                 </li>
               </ul>
-              <Link aria-label="Domino's logo link, home or home page" className="sh-col-start-2 sh-row-start-1 sh-flex sh-items-center sh-justify-center sh-px-regular sh-py-small focus:sh-rounded-sm focus:sh-outline focus:sh-outline-1 focus:sh-outline-neutral-white" data-testid="domino-logo-button" href="/">
-                <svg width="36" height="36" aria-hidden="true" viewBox="0 0 214.6 228.87" xmlns="http://www.w3.org/2000/svg" className="w-[2.25rem] h-[2.25rem] lg:w-jumbo lg:h-jumbo">
-                  <g>
-                    <path d="M210.79 62.11l-58.3-58.3a13 13 0 00-18.42 0L85.18 52.7 3.81 134.08a13 13 0 000 18.42l58.3 58.31a13 13 0 0018.42 0l72.94-72.95 57.32-57.32a13 13 0 000-18.42" fill="#fff"></path>
-                    <path d="M155.4 83.11a16.87 16.87 0 115-11.94 16.87 16.87 0 01-5 11.94m51.27-16.85L148.37 8a7.2 7.2 0 00-10.18 0l-63 63 68.47 68.47 63-63a7.2 7.2 0 000-10.18" fill="#ff0000"></path>
-                    <path d="M84.09 131.79a16.86 16.86 0 11-4.95 11.94 16.82 16.82 0 014.95-11.94M58.42 155a16.93 16.93 0 114.93-12 16.92 16.92 0 01-4.93 12M7.93 138.2a7.2 7.2 0 000 10.18l58.3 58.31a7.2 7.2 0 0010.18 0l63-63L70.93 75.2z" fill="#0090e2"></path>
-                  </g>
-                  <text fill="#fff" fontFamily="MyriadPro-Semibold, MyriadPro Semibold" fontSize="33.33" fontWeight="700" x="99.13" y="220.53">
-                    {"®"}
-                  </text>
-                </svg>
+              <Link aria-label="Crumblez logo link, home page" className="sh-col-start-2 sh-row-start-1 sh-flex sh-items-center sh-justify-center sh-px-regular sh-py-small focus:sh-rounded-sm focus:sh-outline focus:sh-outline-1 focus:sh-outline-neutral-white" data-testid="crumblez-logo-button" href="/">
+                <img alt="" className="block w-[2.25rem] h-[2.25rem] object-contain lg:w-jumbo lg:h-jumbo" src="/logo.jpeg" />
               </Link>
               <div className="sh-col-start-3 sh-row-start-1 sh-flex sh-items-center sh-justify-end sh-px-regular sh-py-small sh-gap-medium xs:sh-gap-[8px]">
                 <div className="sh-hidden sh-max-w-xs sh-flex-1 sh-justify-end sh-overflow-hidden lg:sh-flex lg:sh-p-[2px]">
@@ -109,7 +100,7 @@ export function ContentCustomerSupportPage() {
                       {"Customer Support"}
                     </h2>
                     <p className="cn-typo-body-1 cn-text-text-secondary cn-mb-small last:cn-mb-none">
-                      {"Domino's Pizza cares about its customers and the quality of its products and service."}
+                      {"Crumblez cares about its customers and the quality of its products and service."}
                     </p>
                     <p className="cn-typo-body-1 cn-text-text-secondary cn-mb-small last:cn-mb-none">
                       {"Many of the most commonly asked questions can be answered by selecting from the list of categories below."}
@@ -156,7 +147,7 @@ export function ContentCustomerSupportPage() {
                       <button className="cn-flex cn-w-full cn-items-center cn-justify-between cn-gap-x-regular cn-p-medium cn-font-bold cn-text-ui-extra-dark-cool cn-typo-body-1" id="headlessui-disclosure-button-:R555dmf6:" type="button" aria-expanded="false" data-headlessui-state="">
                         <span className="cn-text-left">
                           <strong>
-                            {"Domino's® Rewards"}
+                            {"Crumblez Rewards"}
                           </strong>
                         </span>
                         <div className="cn-min-w-fit cn-transition-transform">
@@ -192,7 +183,7 @@ export function ContentCustomerSupportPage() {
                       <button className="cn-flex cn-w-full cn-items-center cn-justify-between cn-gap-x-regular cn-p-medium cn-font-bold cn-text-ui-extra-dark-cool cn-typo-body-1" id="headlessui-disclosure-button-:R5t5dmf6:" type="button" aria-expanded="false" data-headlessui-state="">
                         <span className="cn-text-left">
                           <strong>
-                            {"Franchising and careers at Domino's Pizza"}
+                            {"Franchising and careers at Crumblez"}
                           </strong>
                         </span>
                         <div className="cn-min-w-fit cn-transition-transform">
@@ -248,7 +239,7 @@ export function ContentCustomerSupportPage() {
         <footer className="sh-my-none sh-flex sh-flex-wrap sh-justify-center">
           <div className="sh-flex sh-w-full sh-flex-col sh-gap-x-large sh-bg-background-primary sh-px-medium sh-py-xx-large sh-text-text-secondary md:sh-px-x-large lg:sh-flex-row lg:sh-flex-wrap lg:sh-gap-none lg:sh-px-mega-4 lg:sh-py-mega-3">
             <div className="sh-w-full lg:sh-pb-jumbo">
-              <img alt="" className="block w-[2.25rem] h-[2.25rem] lg:w-jumbo lg:h-jumbo" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/logo-dominos-trademark.svg" />
+              <img alt="" className="block w-[2.25rem] h-[2.25rem] object-contain lg:w-jumbo lg:h-jumbo" src="/logo.jpeg" />
             </div>
             <div className="sh-flex sh-w-full sh-flex-col sh-gap-x-large lg:sh-flex-row lg:sh-justify-between lg:sh-gap-mega-6 xl:sh-gap-mega-26">
               <div className="hidden lg:block flex-1">
@@ -272,7 +263,7 @@ export function ContentCustomerSupportPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/about-pizza">
-                            {"About Domino's"}
+                            {"About Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -304,7 +295,7 @@ export function ContentCustomerSupportPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/international">
-                            {"World of Domino's"}
+                            {"World of Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -539,7 +530,7 @@ export function ContentCustomerSupportPage() {
                 </div>
                 <div data-testid="social-links" className="md:sh-w-1/2 lg:sh-w-full">
                   <h2 className="sh-mb-regular sh-font-bold sh-typo-body-1" id=":R2kqf6:">
-                    {"Follow Domino's"}
+                    {"Follow Crumblez"}
                   </h2>
                   <ul className="sh-flex sh-space-x-regular" aria-labelledby=":R2kqf6:"></ul>
                 </div>
@@ -565,7 +556,7 @@ export function ContentCustomerSupportPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/about-pizza">
-                            {"About Domino's"}
+                            {"About Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -597,7 +588,7 @@ export function ContentCustomerSupportPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/international">
-                            {"World of Domino's"}
+                            {"World of Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -840,7 +831,7 @@ export function ContentCustomerSupportPage() {
                     {"Offer Details"}
                   </h2>
                   <p className="sh-typo-body-3 sh-mb-x-large last:sh-mb-none">
-                    {"Any Delivery Charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers carry less than $20. Minimum purchase required for delivery. Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Returned checks, along with the state's maximum allowable returned check fee, may be electronically presented to your bank. ©2024 Domino's IP Holder LLC. Domino's®, Domino's Pizza® and the game piece logo are registered trademarks of Domino's IP Holder LLC. \"Coca-Cola\" and the Contour Bottle design are registered trademarks of The Coca-Cola Company. Apple, the Apple logo and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android is a trademark of Google Inc. Windows® Phone is a registered trademark of the Microsoft group of companies."}
+                    {"Any Delivery Charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers carry less than $20. Minimum purchase required for delivery. Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Returned checks, along with the state's maximum allowable returned check fee, may be electronically presented to your bank. ©2024 Crumblez IP Holder LLC. Crumblez, Crumblez® and the game piece logo are registered trademarks of Crumblez IP Holder LLC. \"Coca-Cola\" and the Contour Bottle design are registered trademarks of The Coca-Cola Company. Apple, the Apple logo and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android is a trademark of Google Inc. Windows® Phone is a registered trademark of the Microsoft group of companies."}
                   </p>
                 </div>
                 <div className="sh-hidden lg:sh-block">
@@ -903,7 +894,7 @@ export function ContentCustomerSupportPage() {
                   <div className="sh-gap-none">
                     <button className="sh-flex sh-items-center sh-gap-x-regular sh-font-bold sh-typo-body-2" id="headlessui-disclosure-button-:Ralaf6:" type="button" aria-expanded="false" data-headlessui-state="">
                       <h2 className="sh-typo-body-2">
-                        {"Domino's® Rewards"}
+                        {"Crumblez Rewards"}
                       </h2>
                       <div className="ui-open:rotate-180 transition-transform">
                         <svg width="16" height="16" viewBox="0 0 16 16" className="block flex-shrink-0 align-middle w-large h-large" aria-hidden="true">
@@ -917,7 +908,7 @@ export function ContentCustomerSupportPage() {
                   <div className="sh-gap-none">
                     <button className="sh-flex sh-items-center sh-gap-x-regular sh-font-bold sh-typo-body-2 sh-w-full sh-justify-between" id="headlessui-disclosure-button-:Rclaf6:" type="button" aria-expanded="false" data-headlessui-state="">
                       <h2 className="sh-typo-body-2">
-                        {"Domino's® Rewards"}
+                        {"Crumblez Rewards"}
                       </h2>
                       <div className="ui-open:rotate-180 transition-transform">
                         <svg width="16" height="16" viewBox="0 0 16 16" className="block flex-shrink-0 align-middle w-large h-large" aria-hidden="true">

@@ -4,8 +4,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  "title": "Pizza Delivery & Carryout, Pasta, Wings & More | Domino's",
-  "description": "Order pizza, pasta, sandwiches & more online for carryout or delivery from Domino's. View menu, find locations, track orders. Sign up for Domino's email & text offers to get great deals on your next order.",
+  "title": "Pizza Delivery & Carryout, Pasta, Wings & More | Crumblez",
+  "description": "Order pizza, pasta, sandwiches & more online for carryout or delivery from Crumblez. View menu, find locations, track orders. Sign up for Crumblez email & text offers to get great deals on your next order.",
   "alternates": {
     "canonical": "/en/content/gluten-free-warning"
   },
@@ -56,17 +56,8 @@ export function EnContentGlutenFreeWarningPage() {
                   </Link>
                 </li>
               </ul>
-              <Link aria-label="Domino's logo link, home or home page" className="sh-col-start-2 sh-row-start-1 sh-flex sh-items-center sh-justify-center sh-px-regular sh-py-small focus:sh-rounded-sm focus:sh-outline focus:sh-outline-1 focus:sh-outline-neutral-white" data-testid="domino-logo-button" href="/en">
-                <svg width="36" height="36" aria-hidden="true" viewBox="0 0 214.6 228.87" xmlns="http://www.w3.org/2000/svg" className="w-[2.25rem] h-[2.25rem] lg:w-jumbo lg:h-jumbo">
-                  <g>
-                    <path d="M210.79 62.11l-58.3-58.3a13 13 0 00-18.42 0L85.18 52.7 3.81 134.08a13 13 0 000 18.42l58.3 58.31a13 13 0 0018.42 0l72.94-72.95 57.32-57.32a13 13 0 000-18.42" fill="#fff"></path>
-                    <path d="M155.4 83.11a16.87 16.87 0 115-11.94 16.87 16.87 0 01-5 11.94m51.27-16.85L148.37 8a7.2 7.2 0 00-10.18 0l-63 63 68.47 68.47 63-63a7.2 7.2 0 000-10.18" fill="#ff0000"></path>
-                    <path d="M84.09 131.79a16.86 16.86 0 11-4.95 11.94 16.82 16.82 0 014.95-11.94M58.42 155a16.93 16.93 0 114.93-12 16.92 16.92 0 01-4.93 12M7.93 138.2a7.2 7.2 0 000 10.18l58.3 58.31a7.2 7.2 0 0010.18 0l63-63L70.93 75.2z" fill="#0090e2"></path>
-                  </g>
-                  <text fill="#fff" fontFamily="MyriadPro-Semibold, MyriadPro Semibold" fontSize="33.33" fontWeight="700" x="99.13" y="220.53">
-                    {"®"}
-                  </text>
-                </svg>
+              <Link aria-label="Crumblez logo link, home page" className="sh-col-start-2 sh-row-start-1 sh-flex sh-items-center sh-justify-center sh-px-regular sh-py-small focus:sh-rounded-sm focus:sh-outline focus:sh-outline-1 focus:sh-outline-neutral-white" data-testid="crumblez-logo-button" href="/en">
+                <img alt="" className="block w-[2.25rem] h-[2.25rem] object-contain lg:w-jumbo lg:h-jumbo" src="/logo.jpeg" />
               </Link>
               <div className="sh-col-start-3 sh-row-start-1 sh-flex sh-items-center sh-justify-end sh-px-regular sh-py-small sh-gap-medium xs:sh-gap-[8px]">
                 <div className="sh-hidden sh-max-w-xs sh-flex-1 sh-justify-end sh-overflow-hidden lg:sh-flex lg:sh-p-[2px]">
@@ -127,19 +118,19 @@ export function EnContentGlutenFreeWarningPage() {
                       </Link>
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Gluten Free Crust. Domino's pizza made with a Gluten Free Crust is prepared in a common kitchen with the risk of gluten exposure. Therefore, Domino's DOES NOT recommend this pizza for customers with celiac disease. Customers with Gluten sensitivities should exercise judgement in consuming this pizza."}
+                      {"Gluten Free Crust. Crumblez pizza made with a Gluten Free Crust is prepared in a common kitchen with the risk of gluten exposure. Therefore, Crumblez DOES NOT recommend this pizza for customers with celiac disease. Customers with Gluten sensitivities should exercise judgement in consuming this pizza."}
                     </p>
                     <h2 id="finally-a-gluten-free-crust-that-doesnt-taste-like-the-box-it-came-in" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Finally a Gluten Free Crust that doesn't taste like the box it came in!"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's is proud to offer our Gluten Free Crust for those who are looking to reduce gluten in their diet. This product is not for everyone, so we want you to have all the information before you try it."}
+                      {"Crumblez is proud to offer our Gluten Free Crust for those who are looking to reduce gluten in their diet. This product is not for everyone, so we want you to have all the information before you try it."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Our Gluten Free Crust contains no wheat, rye, or barley and has a gluten content of less than 20ppm. We make all of our pizzas in the same kitchens; and even as clean as we keep them, there may be trace glutens present. Therefore, it wouldn't be entirely honest to guarantee that pizzas made with this crust are absolutely gluten free. And if we weren't honest, we wouldn't be Domino's."}
+                      {"Our Gluten Free Crust contains no wheat, rye, or barley and has a gluten content of less than 20ppm. We make all of our pizzas in the same kitchens; and even as clean as we keep them, there may be trace glutens present. Therefore, it wouldn't be entirely honest to guarantee that pizzas made with this crust are absolutely gluten free. And if we weren't honest, we wouldn't be Crumblez."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"So now you know the facts. If you're looking for a great tasting pizza crust without the gluten (and our kitchen processes work for you), try Domino's pizza made with our Gluten Free Crust."}
+                      {"So now you know the facts. If you're looking for a great tasting pizza crust without the gluten (and our kitchen processes work for you), try Crumblez pizza made with our Gluten Free Crust."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
                       {"Check out the video and our Gluten Free Crust "}
@@ -217,22 +208,22 @@ export function EnContentGlutenFreeWarningPage() {
                       </li>
                     </ul>
                     <div className="youTubeContainer">
-                      <iframe title="Domino's Gluten Free Crust" width="560" height="315" src="https://www.youtube.com/embed/r8KEsgEQR3Y" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                      <iframe title="Crumblez Gluten Free Crust" width="560" height="315" src="https://www.youtube.com/embed/r8KEsgEQR3Y" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
                     </div>
                     <h2 id="dominos-gluten-free-crust-faqs" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
-                      {"Domino's Gluten Free Crust FAQs"}
+                      {"Crumblez Gluten Free Crust FAQs"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's® pizza made with a Gluten Free Crust is prepared in a common kitchen with the risk of gluten exposure. Therefore, Domino's® DOES NOT recommend this pizza for customers with celiac disease. Customers with gluten sensitivities should exercise judgment in consuming this pizza."}
+                      {"Crumblez pizza made with a Gluten Free Crust is prepared in a common kitchen with the risk of gluten exposure. Therefore, Crumblez DOES NOT recommend this pizza for customers with celiac disease. Customers with gluten sensitivities should exercise judgment in consuming this pizza."}
                     </p>
                     <h3 id="what-ingredients-are-in-dominos-gluten-free-crust" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
-                      {"What ingredients are in Domino's® Gluten Free Crust?"}
+                      {"What ingredients are in Crumblez Gluten Free Crust?"}
                     </h3>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
                       {"Water, Modified Rice Starch, Rice Flour, Brown Rice Flour, Potato Starch, Olive Oil, Potato Flour, Evaporated Cane Sugar, Fresh Yeast, Honey, Avicel, Salt, Calcium Propionate. Note: Avicel functions as a fat replacer in Gluten Free crusts. It is used primarily to help retain moisture so the crust is not too dry and tough."}
                     </p>
                     <h3 id="which-dominos-products-contain-gluten" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
-                      {"Which Domino's® products contain gluten?"}
+                      {"Which Crumblez products contain gluten?"}
                     </h3>
                     <ul className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1 sh-list-disc sh-space-y-small sh-ml-regular sh-pl-regular">
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
@@ -303,31 +294,31 @@ export function EnContentGlutenFreeWarningPage() {
                       {"Is the Gluten Free Crust prepared -- BEFORE going to the store -- in a gluten free environment?"}
                     </h3>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's® Gluten Free Crust is manufactured by a supplier who runs its Gluten Free products on a certified, clean production line in a gluten free facility. To ensure compliance to our standards of less than 20ppm gluten in Domino's® Gluten Free Crust, the manufacturing facility and the Gluten Free Crusts produced there are regularly tested, prior to arriving to our stores."}
+                      {"Crumblez Gluten Free Crust is manufactured by a supplier who runs its Gluten Free products on a certified, clean production line in a gluten free facility. To ensure compliance to our standards of less than 20ppm gluten in Crumblez Gluten Free Crust, the manufacturing facility and the Gluten Free Crusts produced there are regularly tested, prior to arriving to our stores."}
                     </p>
                     <h3 id="what-is-gluten-exposure" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
                       {"What is gluten exposure?"}
                     </h3>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Gluten is present in Domino's® Hand Tossed Dough and Pan Dough. After stretching the dough, small gluten particles could remain on the pizza maker's hands, which then touch the cheese and toppings and could transfer to these ingredients. Due to the handcrafted nature of Domino's® products and because stores do not have a separate gluten free area in the kitchen, a possibility for gluten exposure can occur. As such, pizza made with Domino's® Gluten Free Crust is not recommended for customers with celiac disease. However, because the risk for exposure is low, this pizza made with Domino's® Gluten Free Crust is an option for individuals with mild gluten sensitivities."}
+                      {"Gluten is present in Crumblez Hand Tossed Dough and Pan Dough. After stretching the dough, small gluten particles could remain on the pizza maker's hands, which then touch the cheese and toppings and could transfer to these ingredients. Due to the handcrafted nature of Crumblez products and because stores do not have a separate gluten free area in the kitchen, a possibility for gluten exposure can occur. As such, pizza made with Crumblez Gluten Free Crust is not recommended for customers with celiac disease. However, because the risk for exposure is low, this pizza made with Crumblez Gluten Free Crust is an option for individuals with mild gluten sensitivities."}
                     </p>
                     <h3 id="is-there-gluten-exposure-in-the-store" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
                       {"Is there gluten exposure in the store?"}
                     </h3>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Because Domino's Gluten Free Crust pizza is prepared in a common kitchen, there is risk of gluten exposure. Domino's® conducted third party cross contamination studies of the pizzas made on the Gluten Free Crust. Results showed, while there was some gluten in the store the amount of gluten exposure detected in the final pizza is low. Please note that because our hand tossed pizzas are hand stretched using cornmeal, there is no airborne wheat flour in our stores. You can watch the video above that explains while our Gluten Free Crust is free from gluten, there is a risk of gluten exposure."}
+                      {"Because Crumblez Gluten Free Crust pizza is prepared in a common kitchen, there is risk of gluten exposure. Crumblez conducted third party cross contamination studies of the pizzas made on the Gluten Free Crust. Results showed, while there was some gluten in the store the amount of gluten exposure detected in the final pizza is low. Please note that because our hand tossed pizzas are hand stretched using cornmeal, there is no airborne wheat flour in our stores. You can watch the video above that explains while our Gluten Free Crust is free from gluten, there is a risk of gluten exposure."}
                     </p>
                     <h3 id="why-wont-dominos-stores-use-a-separate-area-of-the-kitchen-or-use-new-ingredients-when-making-pizza-with-the-gluten-free-crust" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
-                      {"Why won't Domino's® stores use a separate area of the kitchen or use new ingredients when making pizza with the Gluten Free Crust?"}
+                      {"Why won't Crumblez stores use a separate area of the kitchen or use new ingredients when making pizza with the Gluten Free Crust?"}
                     </h3>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's® worked closely with a leading gluten awareness organization, which helped us recognize that with our current operational model we cannot, beyond all doubt, provide the environment needed to assure those with celiac disease that the whole pizza is 100 percent gluten free. Domino's® does not want to set unrealistic expectations of how the Gluten Free Crust is handled in our stores. Domino's® would rather be honest and transparent about this product and avoid risking a customer ordering this product under false pretenses. Domino's® includes its Gluten Free Crust disclaimer in store, online, in all advertising and on small pizza boxes."}
+                      {"Crumblez worked closely with a leading gluten awareness organization, which helped us recognize that with our current operational model we cannot, beyond all doubt, provide the environment needed to assure those with celiac disease that the whole pizza is 100 percent gluten free. Crumblez does not want to set unrealistic expectations of how the Gluten Free Crust is handled in our stores. Crumblez would rather be honest and transparent about this product and avoid risking a customer ordering this product under false pretenses. Crumblez includes its Gluten Free Crust disclaimer in store, online, in all advertising and on small pizza boxes."}
                     </p>
                     <h3 id="who-should-eat-dominos-gluten-free-crust" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
-                      {"Who should eat Domino's® Gluten Free Crust?"}
+                      {"Who should eat Crumblez Gluten Free Crust?"}
                     </h3>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's® Pizza does not give medical advice. Please contact your physician if you have concerns about consuming this product, knowing the following:"}
+                      {"Crumblez does not give medical advice. Please contact your physician if you have concerns about consuming this product, knowing the following:"}
                     </p>
                     <ul className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1 sh-list-disc sh-space-y-small sh-ml-regular sh-pl-regular">
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
@@ -338,19 +329,19 @@ export function EnContentGlutenFreeWarningPage() {
                       </li>
                     </ul>
                     <h3 id="does-dominos-offer-any-substitutions-for-a-gluten-free-crust" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
-                      {"Does Domino's® offer any substitutions for a Gluten Free Crust?"}
+                      {"Does Crumblez offer any substitutions for a Gluten Free Crust?"}
                     </h3>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"No. All other Domino's® crusts contain gluten."}
+                      {"No. All other Crumblez crusts contain gluten."}
                     </p>
                     <h3 id="can-i-purchase-just-a-gluten-free-crust-and-make-my-pizza-at-home" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
                       {"Can I purchase just a Gluten Free Crust and make my pizza at home?"}
                     </h3>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"No. It is Domino's® Pizza's corporate policy to not sell any individual ingredients."}
+                      {"No. It is Crumblez's corporate policy to not sell any individual ingredients."}
                     </p>
                     <h3 id="are-dominos-salads-gluten-free" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
-                      {"Are Domino's® salads gluten free?"}
+                      {"Are Crumblez salads gluten free?"}
                     </h3>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
                       {"The Classic Garden Salad and Chicken Caesar Salad both contain crouton packets, which contain gluten."}
@@ -362,10 +353,10 @@ export function EnContentGlutenFreeWarningPage() {
                       {"Yes. The garlic parmesan white sauce is a Garlic Parmesan sauce and it is gluten free. To be certain that the store uses the Garlic Parmesan White Sauce on your pizza, be sure to ask for it by name when ordering. Note: our Alfredo Sauce does contain gluten."}
                     </p>
                     <h3 id="will-dominos-ever-offer-its-gluten-free-crust-in-larger-sizes" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
-                      {"Will Domino's® ever offer its Gluten Free Crust in larger sizes?"}
+                      {"Will Crumblez ever offer its Gluten Free Crust in larger sizes?"}
                     </h3>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's® continues to review options that would answer the needs of those who cannot have gluten in their diet. Currently, we only offer our Gluten Free Crust in a small size. We will continue to monitor demand to determine if offering a larger size is a viable option."}
+                      {"Crumblez continues to review options that would answer the needs of those who cannot have gluten in their diet. Currently, we only offer our Gluten Free Crust in a small size. We will continue to monitor demand to determine if offering a larger size is a viable option."}
                     </p>
                     <h3 id="what-is-gluten" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
                       {"What is gluten?"}
@@ -393,7 +384,7 @@ export function EnContentGlutenFreeWarningPage() {
         <footer className="sh-my-none sh-flex sh-flex-wrap sh-justify-center">
           <div className="sh-flex sh-w-full sh-flex-col sh-gap-x-large sh-bg-background-primary sh-px-medium sh-py-xx-large sh-text-text-secondary md:sh-px-x-large lg:sh-flex-row lg:sh-flex-wrap lg:sh-gap-none lg:sh-px-mega-4 lg:sh-py-mega-3">
             <div className="sh-w-full lg:sh-pb-jumbo">
-              <img alt="" className="block w-[2.25rem] h-[2.25rem] lg:w-jumbo lg:h-jumbo" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/logo-dominos-trademark.svg" />
+              <img alt="" className="block w-[2.25rem] h-[2.25rem] object-contain lg:w-jumbo lg:h-jumbo" src="/logo.jpeg" />
             </div>
             <div className="sh-flex sh-w-full sh-flex-col sh-gap-x-large lg:sh-flex-row lg:sh-justify-between lg:sh-gap-mega-6 xl:sh-gap-mega-26">
               <div className="hidden lg:block flex-1">
@@ -417,7 +408,7 @@ export function EnContentGlutenFreeWarningPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/about-pizza">
-                            {"About Domino's"}
+                            {"About Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -449,7 +440,7 @@ export function EnContentGlutenFreeWarningPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/international">
-                            {"World of Domino's"}
+                            {"World of Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -684,7 +675,7 @@ export function EnContentGlutenFreeWarningPage() {
                 </div>
                 <div data-testid="social-links" className="md:sh-w-1/2 lg:sh-w-full">
                   <h2 className="sh-mb-regular sh-font-bold sh-typo-body-1" id=":R2kqf6:">
-                    {"Follow Domino's"}
+                    {"Follow Crumblez"}
                   </h2>
                   <ul className="sh-flex sh-space-x-regular" aria-labelledby=":R2kqf6:"></ul>
                 </div>
@@ -710,7 +701,7 @@ export function EnContentGlutenFreeWarningPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/about-pizza">
-                            {"About Domino's"}
+                            {"About Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -742,7 +733,7 @@ export function EnContentGlutenFreeWarningPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/international">
-                            {"World of Domino's"}
+                            {"World of Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -985,7 +976,7 @@ export function EnContentGlutenFreeWarningPage() {
                     {"Offer Details"}
                   </h2>
                   <p className="sh-typo-body-3 sh-mb-x-large last:sh-mb-none">
-                    {"Any Delivery Charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers carry less than $20. Minimum purchase required for delivery. Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Returned checks, along with the state's maximum allowable returned check fee, may be electronically presented to your bank. ©2024 Domino's IP Holder LLC. Domino's®, Domino's Pizza® and the game piece logo are registered trademarks of Domino's IP Holder LLC. \"Coca-Cola\" and the Contour Bottle design are registered trademarks of The Coca-Cola Company. Apple, the Apple logo and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android is a trademark of Google Inc. Windows® Phone is a registered trademark of the Microsoft group of companies."}
+                    {"Any Delivery Charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers carry less than $20. Minimum purchase required for delivery. Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Returned checks, along with the state's maximum allowable returned check fee, may be electronically presented to your bank. ©2024 Crumblez IP Holder LLC. Crumblez, Crumblez® and the game piece logo are registered trademarks of Crumblez IP Holder LLC. \"Coca-Cola\" and the Contour Bottle design are registered trademarks of The Coca-Cola Company. Apple, the Apple logo and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android is a trademark of Google Inc. Windows® Phone is a registered trademark of the Microsoft group of companies."}
                   </p>
                 </div>
                 <div className="sh-hidden lg:sh-block">
@@ -1048,7 +1039,7 @@ export function EnContentGlutenFreeWarningPage() {
                   <div className="sh-gap-none">
                     <button className="sh-flex sh-items-center sh-gap-x-regular sh-font-bold sh-typo-body-2" id="headlessui-disclosure-button-:Ralaf6:" type="button" aria-expanded="false" data-headlessui-state="">
                       <h2 className="sh-typo-body-2">
-                        {"Domino's® Rewards"}
+                        {"Crumblez Rewards"}
                       </h2>
                       <div className="ui-open:rotate-180 transition-transform">
                         <svg width="16" height="16" viewBox="0 0 16 16" className="block flex-shrink-0 align-middle w-large h-large" aria-hidden="true">
@@ -1062,7 +1053,7 @@ export function EnContentGlutenFreeWarningPage() {
                   <div className="sh-gap-none">
                     <button className="sh-flex sh-items-center sh-gap-x-regular sh-font-bold sh-typo-body-2 sh-w-full sh-justify-between" id="headlessui-disclosure-button-:Rclaf6:" type="button" aria-expanded="false" data-headlessui-state="">
                       <h2 className="sh-typo-body-2">
-                        {"Domino's® Rewards"}
+                        {"Crumblez Rewards"}
                       </h2>
                       <div className="ui-open:rotate-180 transition-transform">
                         <svg width="16" height="16" viewBox="0 0 16 16" className="block flex-shrink-0 align-middle w-large h-large" aria-hidden="true">

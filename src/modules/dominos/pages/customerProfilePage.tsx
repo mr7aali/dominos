@@ -3,7 +3,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  "title": "Domino's Clone"
+  "title": "Crumblez Clone"
 };
 
 export function CustomerProfilePage() {

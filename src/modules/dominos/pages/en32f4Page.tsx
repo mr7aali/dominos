@@ -4,8 +4,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  "title": "Pizza Delivery & Carryout, Pasta, Wings & More | Domino's",
-  "description": "Order pizza, pasta, sandwiches & more online for carryout or delivery from Domino's. View menu, find locations, track orders. Sign up for Domino's email & text offers to get great deals on your next order.",
+  "title": "Pizza Delivery & Carryout, Pasta, Wings & More | Crumblez",
+  "description": "Order pizza, pasta, sandwiches & more online for carryout or delivery from Crumblez. View menu, find locations, track orders. Sign up for Crumblez email & text offers to get great deals on your next order.",
   "alternates": {
     "canonical": "/en"
   },
@@ -61,17 +61,8 @@ export function En32f4Page() {
                   </Link>
                 </li>
               </ul>
-              <Link aria-label="Domino's logo link, home or home page" className="sh-col-start-2 sh-row-start-1 sh-flex sh-items-center sh-justify-center sh-px-regular sh-py-small focus:sh-rounded-sm focus:sh-outline focus:sh-outline-1 focus:sh-outline-neutral-white" data-testid="domino-logo-button" href="/en">
-                <svg width="36" height="36" aria-hidden="true" viewBox="0 0 214.6 228.87" xmlns="http://www.w3.org/2000/svg" className="w-[2.25rem] h-[2.25rem] lg:w-jumbo lg:h-jumbo">
-                  <g>
-                    <path d="M210.79 62.11l-58.3-58.3a13 13 0 00-18.42 0L85.18 52.7 3.81 134.08a13 13 0 000 18.42l58.3 58.31a13 13 0 0018.42 0l72.94-72.95 57.32-57.32a13 13 0 000-18.42" fill="#fff"></path>
-                    <path d="M155.4 83.11a16.87 16.87 0 115-11.94 16.87 16.87 0 01-5 11.94m51.27-16.85L148.37 8a7.2 7.2 0 00-10.18 0l-63 63 68.47 68.47 63-63a7.2 7.2 0 000-10.18" fill="#ff0000"></path>
-                    <path d="M84.09 131.79a16.86 16.86 0 11-4.95 11.94 16.82 16.82 0 014.95-11.94M58.42 155a16.93 16.93 0 114.93-12 16.92 16.92 0 01-4.93 12M7.93 138.2a7.2 7.2 0 000 10.18l58.3 58.31a7.2 7.2 0 0010.18 0l63-63L70.93 75.2z" fill="#0090e2"></path>
-                  </g>
-                  <text fill="#fff" fontFamily="MyriadPro-Semibold, MyriadPro Semibold" fontSize="33.33" fontWeight="700" x="99.13" y="220.53">
-                    {"®"}
-                  </text>
-                </svg>
+              <Link aria-label="Crumblez logo link, home page" className="sh-col-start-2 sh-row-start-1 sh-flex sh-items-center sh-justify-center sh-px-regular sh-py-small focus:sh-rounded-sm focus:sh-outline focus:sh-outline-1 focus:sh-outline-neutral-white" data-testid="crumblez-logo-button" href="/en">
+                <img alt="" className="block w-[2.25rem] h-[2.25rem] object-contain lg:w-jumbo lg:h-jumbo" src="/logo.jpeg" />
               </Link>
               <div className="sh-col-start-3 sh-row-start-1 sh-flex sh-items-center sh-justify-end sh-px-regular sh-py-small sh-gap-medium xs:sh-gap-[8px]">
                 <div className="sh-hidden sh-max-w-xs sh-flex-1 sh-justify-end sh-overflow-hidden lg:sh-flex lg:sh-p-[2px]">
@@ -134,7 +125,7 @@ export function En32f4Page() {
                                 {"Choose Carryout or Delivery"}
                               </span>
                               <span className="sh-hidden md:sh-inline">
-                                {"Get Domino's delivered to your door or pick up at a store."}
+                                {"Get Crumblez delivered to your door or pick up at a store."}
                               </span>
                             </p>
                             <div className="sh-w-[8rem] sh-min-w-[8rem] sh-whitespace-nowrap">
@@ -1060,13 +1051,13 @@ export function En32f4Page() {
                 <div className="rw-rounded-lg rw-bg-cool-gray-200">
                   <div className="rw-grid rw-grid-cols-1 rw-gap-regular md:rw-p-small lg:rw-grid-cols-[1fr_2fr]">
                     <div className="rw-flex rw-flex-col rw-items-center rw-justify-between rw-px-xx-large rw-py-x-large rw-text-center rw-gap-x-large lg:rw-items-start lg:rw-text-start">
-                      <img alt="Domino's Rewards" src="/site-assets/cms/assets/dominos-rewards-brand-blue.svg" className="rw-w-[9rem] lg:rw-w-[13.6rem]" />
+                      <span className="rw-text-blue-600 rw-typo-display-3 lg:rw-typo-display-2">{"Crumblez Rewards"}</span>
                       <span className="rw-text-blue-600 rw-typo-display-3 lg:rw-typo-display-2">
                         {"Earn "}
                         <span className="rw-text-red">
                           {"free"}
                         </span>
-                        {" Domino's every 2 orders"}
+                        {" Crumblez every 2 orders"}
                       </span>
                       <div className="rw-flex rw-w-full rw-max-w-sm rw-justify-center rw-space-x-regular">
                         <button type="button" className="w-full rounded-full text-center outline-none duration-75 disabled:active:scale-100 [&:not([aria-disabled='true'])]:active:scale-95 flex items-center justify-center gap-small aria-disabled:cursor-not-allowed [&:not([aria-disabled='true'])]:hover:text-neutral-white [&:not([aria-disabled='true'])]:active:border-dark-blue [&:not([aria-disabled='true'])]:active:bg-dark-blue [&:not([aria-disabled='true'])]:active:text-neutral-white [&:not([aria-disabled='true'])]:active:shadow-none disabled:border-warm-gray-400 disabled:bg-neutral-white disabled:text-warm-gray-400 text-accessible-blue [&:not([aria-disabled='true'])]:focus:border-2 [&:not([aria-disabled='true'])]:focus:border-accessible-blue [&:not([aria-disabled='true'])]:hover:[box-shadow:0_4px_16px_0_rgba(0,105,167,0.35)] [&:not([aria-disabled='true'])]:active:border-brand-dark-blue [&:not([aria-disabled='true'])]:active:border-[3px] [&:not([aria-disabled='true'])]:active:bg-brand-dark-blue [&:not([aria-disabled='true'])]:active:text-text-invert [&:not([aria-disabled='true'])]:active:[box-shadow:none] hover:border-transparent hover:bg-accessible-blue [&:not([aria-disabled='true'])]:hover:text-text-invert hover:[box-shadow:none] [&:not([aria-disabled='true'])]:focus:border-accessible-blue [&:not([aria-disabled='true'])]:focus:text-accessible-blue [&:not([aria-disabled='true'])]:focus-visible:text-accessible-blue [&:not([aria-disabled='true'])]:focus:hover:text-text-invert [&:not([aria-disabled='true'])]:[box-shadow:0_0_0_2px_rgba(0,105,167,0.70),0_0_5px_2px_rgba(0,105,167,0.50)] [&:not([aria-disabled='true'])]:focus:[box-shadow:0_0_0_2px_#FFF,0_0_0_4px_rgba(0,105,167,0.70),0_0_5px_4px_rgba(0,105,167,0.50)] disabled:border-2 disabled:border-warm-gray-400 disabled:!shadow-none disabled:bg-background-primary disabled:text-ui-disabled disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] px-medium py-small typo-label-4 relative active:after:content-[''] active:after:absolute active:after:inline-block active:after:inset-none active:after:scale-x-105 active:after:scale-y-110">
@@ -1083,7 +1074,7 @@ export function En32f4Page() {
                   </div>
                   <div className="rw-flex rw-items-center rw-justify-center rw-rounded-b-lg rw-bg-cool-gray-200">
                     <span className="rw-p-small rw-font-medium rw-text-ui-dark-cool rw-typo-label-5">
-                      {"See Domino's® Rewards"}
+                      {"See Crumblez Rewards"}
                       <button type="button" className="font-sans underline p-tiny font-bold text-ui-dark-cool hover:text-opacity-90">
                         {"Terms & Conditions"}
                       </button>
@@ -1284,7 +1275,7 @@ export function En32f4Page() {
         <footer className="sh-my-none sh-flex sh-flex-wrap sh-justify-center">
           <div className="sh-flex sh-w-full sh-flex-col sh-gap-x-large sh-bg-background-primary sh-px-medium sh-py-xx-large sh-text-text-secondary md:sh-px-x-large lg:sh-flex-row lg:sh-flex-wrap lg:sh-gap-none lg:sh-px-mega-4 lg:sh-py-mega-3">
             <div className="sh-w-full lg:sh-pb-jumbo">
-              <img alt="" className="block w-[2.25rem] h-[2.25rem] lg:w-jumbo lg:h-jumbo" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/logo-dominos-trademark.svg" />
+              <img alt="" className="block w-[2.25rem] h-[2.25rem] object-contain lg:w-jumbo lg:h-jumbo" src="/logo.jpeg" />
             </div>
             <div className="sh-flex sh-w-full sh-flex-col sh-gap-x-large lg:sh-flex-row lg:sh-justify-between lg:sh-gap-mega-6 xl:sh-gap-mega-26">
               <div className="hidden lg:block flex-1">
@@ -1308,7 +1299,7 @@ export function En32f4Page() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/about-pizza">
-                            {"About Domino's"}
+                            {"About Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -1340,7 +1331,7 @@ export function En32f4Page() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/international">
-                            {"World of Domino's"}
+                            {"World of Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -1575,7 +1566,7 @@ export function En32f4Page() {
                 </div>
                 <div data-testid="social-links" className="md:sh-w-1/2 lg:sh-w-full">
                   <h2 className="sh-mb-regular sh-font-bold sh-typo-body-1" id=":R2kqf6:">
-                    {"Follow Domino's"}
+                    {"Follow Crumblez"}
                   </h2>
                   <ul className="sh-flex sh-space-x-regular" aria-labelledby=":R2kqf6:"></ul>
                 </div>
@@ -1601,7 +1592,7 @@ export function En32f4Page() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/about-pizza">
-                            {"About Domino's"}
+                            {"About Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -1633,7 +1624,7 @@ export function En32f4Page() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/international">
-                            {"World of Domino's"}
+                            {"World of Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -1876,7 +1867,7 @@ export function En32f4Page() {
                     {"Offer Details"}
                   </h2>
                   <p className="sh-typo-body-3 sh-mb-x-large last:sh-mb-none">
-                    {"Any Delivery Charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers carry less than $20. Minimum purchase required for delivery. Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Returned checks, along with the state's maximum allowable returned check fee, may be electronically presented to your bank. ©2024 Domino's IP Holder LLC. Domino's®, Domino's Pizza® and the game piece logo are registered trademarks of Domino's IP Holder LLC. \"Coca-Cola\" and the Contour Bottle design are registered trademarks of The Coca-Cola Company. Apple, the Apple logo and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android is a trademark of Google Inc. Windows® Phone is a registered trademark of the Microsoft group of companies."}
+                    {"Any Delivery Charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers carry less than $20. Minimum purchase required for delivery. Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Returned checks, along with the state's maximum allowable returned check fee, may be electronically presented to your bank. ©2024 Crumblez IP Holder LLC. Crumblez, Crumblez® and the game piece logo are registered trademarks of Crumblez IP Holder LLC. \"Coca-Cola\" and the Contour Bottle design are registered trademarks of The Coca-Cola Company. Apple, the Apple logo and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android is a trademark of Google Inc. Windows® Phone is a registered trademark of the Microsoft group of companies."}
                   </p>
                 </div>
                 <div className="sh-hidden lg:sh-block">
@@ -1939,7 +1930,7 @@ export function En32f4Page() {
                   <div className="sh-gap-none">
                     <button className="sh-flex sh-items-center sh-gap-x-regular sh-font-bold sh-typo-body-2" id="headlessui-disclosure-button-:Ralaf6:" type="button" aria-expanded="false" data-headlessui-state="">
                       <h2 className="sh-typo-body-2">
-                        {"Domino's® Rewards"}
+                        {"Crumblez Rewards"}
                       </h2>
                       <div className="ui-open:rotate-180 transition-transform">
                         <svg width="16" height="16" viewBox="0 0 16 16" className="block flex-shrink-0 align-middle w-large h-large" aria-hidden="true">
@@ -1953,7 +1944,7 @@ export function En32f4Page() {
                   <div className="sh-gap-none">
                     <button className="sh-flex sh-items-center sh-gap-x-regular sh-font-bold sh-typo-body-2 sh-w-full sh-justify-between" id="headlessui-disclosure-button-:Rclaf6:" type="button" aria-expanded="false" data-headlessui-state="">
                       <h2 className="sh-typo-body-2">
-                        {"Domino's® Rewards"}
+                        {"Crumblez Rewards"}
                       </h2>
                       <div className="ui-open:rotate-180 transition-transform">
                         <svg width="16" height="16" viewBox="0 0 16 16" className="block flex-shrink-0 align-middle w-large h-large" aria-hidden="true">

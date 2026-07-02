@@ -1,9 +1,9 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Domino's Next.js Clone",
-  description: "A componentized Next.js App Router conversion of the cloned Domino's site."
+  title: "Crumblez",
+  description: "Order pizza, pasta, sandwiches, wings, and more from Crumblez."
 };
 
 export default function RootLayout({

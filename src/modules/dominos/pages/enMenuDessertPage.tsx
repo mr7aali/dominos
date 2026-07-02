@@ -4,8 +4,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  "title": "Cinnamon & Chocolate Desserts Near Me | Domino's",
-  "description": "Order your favorite Domino's dessert online, including Chocolate Lava Crunch Cakes! Sign up for email & text offers to get great deals on your next order.",
+  "title": "Cinnamon & Chocolate Desserts Near Me | Crumblez",
+  "description": "Order your favorite Crumblez dessert online, including Chocolate Lava Crunch Cakes! Sign up for email & text offers to get great deals on your next order.",
   "alternates": {
     "canonical": "/en/menu/dessert"
   },
@@ -61,17 +61,8 @@ export function EnMenuDessertPage() {
                   </Link>
                 </li>
               </ul>
-              <Link aria-label="Domino's logo link, home or home page" className="sh-col-start-2 sh-row-start-1 sh-flex sh-items-center sh-justify-center sh-px-regular sh-py-small focus:sh-rounded-sm focus:sh-outline focus:sh-outline-1 focus:sh-outline-neutral-white" data-testid="domino-logo-button" href="/en">
-                <svg width="36" height="36" aria-hidden="true" viewBox="0 0 214.6 228.87" xmlns="http://www.w3.org/2000/svg" className="w-[2.25rem] h-[2.25rem] lg:w-jumbo lg:h-jumbo">
-                  <g>
-                    <path d="M210.79 62.11l-58.3-58.3a13 13 0 00-18.42 0L85.18 52.7 3.81 134.08a13 13 0 000 18.42l58.3 58.31a13 13 0 0018.42 0l72.94-72.95 57.32-57.32a13 13 0 000-18.42" fill="#fff"></path>
-                    <path d="M155.4 83.11a16.87 16.87 0 115-11.94 16.87 16.87 0 01-5 11.94m51.27-16.85L148.37 8a7.2 7.2 0 00-10.18 0l-63 63 68.47 68.47 63-63a7.2 7.2 0 000-10.18" fill="#ff0000"></path>
-                    <path d="M84.09 131.79a16.86 16.86 0 11-4.95 11.94 16.82 16.82 0 014.95-11.94M58.42 155a16.93 16.93 0 114.93-12 16.92 16.92 0 01-4.93 12M7.93 138.2a7.2 7.2 0 000 10.18l58.3 58.31a7.2 7.2 0 0010.18 0l63-63L70.93 75.2z" fill="#0090e2"></path>
-                  </g>
-                  <text fill="#fff" fontFamily="MyriadPro-Semibold, MyriadPro Semibold" fontSize="33.33" fontWeight="700" x="99.13" y="220.53">
-                    {"®"}
-                  </text>
-                </svg>
+              <Link aria-label="Crumblez logo link, home page" className="sh-col-start-2 sh-row-start-1 sh-flex sh-items-center sh-justify-center sh-px-regular sh-py-small focus:sh-rounded-sm focus:sh-outline focus:sh-outline-1 focus:sh-outline-neutral-white" data-testid="crumblez-logo-button" href="/en">
+                <img alt="" className="block w-[2.25rem] h-[2.25rem] object-contain lg:w-jumbo lg:h-jumbo" src="/logo.jpeg" />
               </Link>
               <div className="sh-col-start-3 sh-row-start-1 sh-flex sh-items-center sh-justify-end sh-px-regular sh-py-small sh-gap-medium xs:sh-gap-[8px]">
                 <div className="sh-hidden sh-max-w-xs sh-flex-1 sh-justify-end sh-overflow-hidden lg:sh-flex lg:sh-p-[2px]">
@@ -205,7 +196,7 @@ export function EnMenuDessertPage() {
                         <div className="order-last flex flex-col gap-x-small">
                           <div className="flex flex-col gap-tiny">
                             <h2 className="flex gap-tiny font-bold text-text-primary typo-body-1">
-                              {"Domino's Marbled Cookie Brownie"}
+                              {"Crumblez Marbled Cookie Brownie"}
                             </h2>
                             <p className="text-text-secondary typo-body-2 lg:typo-body-1 line-clamp-3">
                               {"Taste the decadent blend of gooey oven-baked cookie with chocolatey chunks and delicious fudge brownie. Oven-baked to perfection and cut into 9 pieces - this dessert is perfect to share with the whole group."}
@@ -215,20 +206,20 @@ export function EnMenuDessertPage() {
                         <div className="group relative order-first">
                           <div className="relative flex aspect-square justify-end overflow-hidden rounded-xl border-solid border-2 border-transparent bg-cool-gray-200 group-hover:border-cool-gray-700 group-active:border-blue">
                             <picture>
-                              <source data-testid="Domino's Marbled Cookie Brownie-source-xl" srcSet="/site-assets/cms/assets/b37f9e7a-b17b-4614-882f-e1b6700cbba4db3d.png?modified_on=2024-07-29T12%3A34%3A46.346Z&im=Resize%3D%28501%2C501%29%3BCrop%2Crect%3D%2894%2C46%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="Domino's Marbled Cookie Brownie-source-lg" srcSet="/site-assets/cms/assets/b37f9e7a-b17b-4614-882f-e1b6700cbba4db3d.png?modified_on=2024-07-29T12%3A34%3A46.346Z&im=Resize%3D%28501%2C501%29%3BCrop%2Crect%3D%2894%2C46%2C431%2C431%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="Domino's Marbled Cookie Brownie-source-md" srcSet="/site-assets/cms/assets/b37f9e7a-b17b-4614-882f-e1b6700cbba4db3d.png?modified_on=2024-07-29T12%3A34%3A46.346Z&im=Resize%3D%28258%2C258%29%3BCrop%2Crect%3D%2838%2C18%2C228%2C228%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img className="min-h-full min-w-full object-right" data-testid="Domino's Marbled Cookie Brownie-img-sm" alt="" loading="lazy" src="/site-assets/cms/assets/b37f9e7a-b17b-4614-882f-e1b6700cbba4db3d.png?modified_on=2024-07-29T12%3A34%3A46.346Z&im=Resize%3D%28258%2C258%29%3BCrop%2Crect%3D%2838%2C18%2C234%2C234%29%2CallowExpansion" />
+                              <source data-testid="Crumblez Marbled Cookie Brownie-source-xl" srcSet="/site-assets/cms/assets/b37f9e7a-b17b-4614-882f-e1b6700cbba4db3d.png?modified_on=2024-07-29T12%3A34%3A46.346Z&im=Resize%3D%28501%2C501%29%3BCrop%2Crect%3D%2894%2C46%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
+                              <source data-testid="Crumblez Marbled Cookie Brownie-source-lg" srcSet="/site-assets/cms/assets/b37f9e7a-b17b-4614-882f-e1b6700cbba4db3d.png?modified_on=2024-07-29T12%3A34%3A46.346Z&im=Resize%3D%28501%2C501%29%3BCrop%2Crect%3D%2894%2C46%2C431%2C431%29%2CallowExpansion" media="(min-width: 1000px)" />
+                              <source data-testid="Crumblez Marbled Cookie Brownie-source-md" srcSet="/site-assets/cms/assets/b37f9e7a-b17b-4614-882f-e1b6700cbba4db3d.png?modified_on=2024-07-29T12%3A34%3A46.346Z&im=Resize%3D%28258%2C258%29%3BCrop%2Crect%3D%2838%2C18%2C228%2C228%29%2CallowExpansion" media="(min-width: 500px)" />
+                              <img className="min-h-full min-w-full object-right" data-testid="Crumblez Marbled Cookie Brownie-img-sm" alt="" loading="lazy" src="/site-assets/cms/assets/b37f9e7a-b17b-4614-882f-e1b6700cbba4db3d.png?modified_on=2024-07-29T12%3A34%3A46.346Z&im=Resize%3D%28258%2C258%29%3BCrop%2Crect%3D%2838%2C18%2C234%2C234%29%2CallowExpansion" />
                             </picture>
                           </div>
                           <div className="absolute inset-none m-small flex flex-col items-end justify-end lg:flex-row">
                             <Link className="sr-only" href="/en/menu/dessert/F_MRBRWNE/dominos_marbled_cookie_brownie">
                               {"Customize "}
-                              {"Domino's Marbled Cookie Brownie"}
+                              {"Crumblez Marbled Cookie Brownie"}
                             </Link>
                             <div className="pd-rounded-full pd-transition-all pd-duration-400 motion-reduce:pd-transition-none">
                               <span className="">
-                                <button aria-label="Add Domino's Marbled Cookie Brownie to Cart" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-red bg-red-default border border-neutral-white [&:not([aria-disabled='true'])]:hover:bg-red-800 [&:not([aria-disabled='true'])]:active:bg-wine [&:not([aria-disabled='true'])]:focus:shadow-button-primary disabled:bg-ui-background-border [&:not([aria-disabled='false'])]:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:shadow-[0_0_2px_0_rgba(255,73,73,0.40),1px_1px_10px_0_rgba(255,73,73,0.30)] [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(227,24,55,0.70),0_0_0_4px_#E31837] [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] [&:not([aria-disabled='true'])]:active:bg-red-900 disabled:bg-warm-gray-400 disabled:pointer-events-none h-x-large w-x-large p-x-small rounded-full aspect-square" type="button">
+                                <button aria-label="Add Crumblez Marbled Cookie Brownie to Cart" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-red bg-red-default border border-neutral-white [&:not([aria-disabled='true'])]:hover:bg-red-800 [&:not([aria-disabled='true'])]:active:bg-wine [&:not([aria-disabled='true'])]:focus:shadow-button-primary disabled:bg-ui-background-border [&:not([aria-disabled='false'])]:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:shadow-[0_0_2px_0_rgba(255,73,73,0.40),1px_1px_10px_0_rgba(255,73,73,0.30)] [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(227,24,55,0.70),0_0_0_4px_#E31837] [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] [&:not([aria-disabled='true'])]:active:bg-red-900 disabled:bg-warm-gray-400 disabled:pointer-events-none h-x-large w-x-large p-x-small rounded-full aspect-square" type="button">
                                   <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/icon-type-add-cart--background-primary.svg" />
                                 </button>
                               </span>
@@ -237,7 +228,7 @@ export function EnMenuDessertPage() {
                             <div hidden style={{ display: "none" }}>
                               <div className="w-fit rounded-full border border-cool-gray-700 bg-cool-gray-200 p-tiny leading-none shadow-[0_2px_6px_0_rgba(120,84,49,0.10)]">
                                 <div className="inline-flex items-center justify-center gap-small leading-none">
-                                  <button aria-label="Remove one Domino's Marbled Cookie Brownie" aria-disabled="true" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square cursor-not-allowed bg-cool-gray-500 pointer-events-none border" type="button">
+                                  <button aria-label="Remove one Crumblez Marbled Cookie Brownie" aria-disabled="true" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square cursor-not-allowed bg-cool-gray-500 pointer-events-none border" type="button">
                                     <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/minus--text-tertiary.svg" />
                                   </button>
                                   <div role="status" aria-busy="false" className="flex justify-center">
@@ -248,7 +239,7 @@ export function EnMenuDessertPage() {
                                       {"Quantity: 0"}
                                     </span>
                                   </div>
-                                  <button aria-label="Add one Domino's Marbled Cookie Brownie" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square" type="button">
+                                  <button aria-label="Add one Crumblez Marbled Cookie Brownie" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square" type="button">
                                     <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/plus--background-primary.svg" />
                                   </button>
                                 </div>
@@ -524,7 +515,7 @@ export function EnMenuDessertPage() {
         <footer className="sh-my-none sh-flex sh-flex-wrap sh-justify-center">
           <div className="sh-flex sh-w-full sh-flex-col sh-gap-x-large sh-bg-background-primary sh-px-medium sh-py-xx-large sh-text-text-secondary md:sh-px-x-large lg:sh-flex-row lg:sh-flex-wrap lg:sh-gap-none lg:sh-px-mega-4 lg:sh-py-mega-3">
             <div className="sh-w-full lg:sh-pb-jumbo">
-              <img alt="" className="block w-[2.25rem] h-[2.25rem] lg:w-jumbo lg:h-jumbo" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/logo-dominos-trademark.svg" />
+              <img alt="" className="block w-[2.25rem] h-[2.25rem] object-contain lg:w-jumbo lg:h-jumbo" src="/logo.jpeg" />
             </div>
             <div className="sh-flex sh-w-full sh-flex-col sh-gap-x-large lg:sh-flex-row lg:sh-justify-between lg:sh-gap-mega-6 xl:sh-gap-mega-26">
               <div className="hidden lg:block flex-1">
@@ -548,7 +539,7 @@ export function EnMenuDessertPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/about-pizza">
-                            {"About Domino's"}
+                            {"About Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -580,7 +571,7 @@ export function EnMenuDessertPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/international">
-                            {"World of Domino's"}
+                            {"World of Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -815,7 +806,7 @@ export function EnMenuDessertPage() {
                 </div>
                 <div data-testid="social-links" className="md:sh-w-1/2 lg:sh-w-full">
                   <h2 className="sh-mb-regular sh-font-bold sh-typo-body-1" id=":R2kqf6:">
-                    {"Follow Domino's"}
+                    {"Follow Crumblez"}
                   </h2>
                   <ul className="sh-flex sh-space-x-regular" aria-labelledby=":R2kqf6:"></ul>
                 </div>
@@ -841,7 +832,7 @@ export function EnMenuDessertPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/about-pizza">
-                            {"About Domino's"}
+                            {"About Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -873,7 +864,7 @@ export function EnMenuDessertPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/international">
-                            {"World of Domino's"}
+                            {"World of Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -1116,7 +1107,7 @@ export function EnMenuDessertPage() {
                     {"Offer Details"}
                   </h2>
                   <p className="sh-typo-body-3 sh-mb-x-large last:sh-mb-none">
-                    {"Any Delivery Charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers carry less than $20. Minimum purchase required for delivery. Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Returned checks, along with the state's maximum allowable returned check fee, may be electronically presented to your bank. ©2024 Domino's IP Holder LLC. Domino's®, Domino's Pizza® and the game piece logo are registered trademarks of Domino's IP Holder LLC. \"Coca-Cola\" and the Contour Bottle design are registered trademarks of The Coca-Cola Company. Apple, the Apple logo and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android is a trademark of Google Inc. Windows® Phone is a registered trademark of the Microsoft group of companies."}
+                    {"Any Delivery Charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers carry less than $20. Minimum purchase required for delivery. Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Returned checks, along with the state's maximum allowable returned check fee, may be electronically presented to your bank. ©2024 Crumblez IP Holder LLC. Crumblez, Crumblez® and the game piece logo are registered trademarks of Crumblez IP Holder LLC. \"Coca-Cola\" and the Contour Bottle design are registered trademarks of The Coca-Cola Company. Apple, the Apple logo and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android is a trademark of Google Inc. Windows® Phone is a registered trademark of the Microsoft group of companies."}
                   </p>
                 </div>
                 <div className="sh-hidden lg:sh-block">
@@ -1179,7 +1170,7 @@ export function EnMenuDessertPage() {
                   <div className="sh-gap-none">
                     <button className="sh-flex sh-items-center sh-gap-x-regular sh-font-bold sh-typo-body-2" id="headlessui-disclosure-button-:Ralaf6:" type="button" aria-expanded="false" data-headlessui-state="">
                       <h2 className="sh-typo-body-2">
-                        {"Domino's® Rewards"}
+                        {"Crumblez Rewards"}
                       </h2>
                       <div className="ui-open:rotate-180 transition-transform">
                         <svg width="16" height="16" viewBox="0 0 16 16" className="block flex-shrink-0 align-middle w-large h-large" aria-hidden="true">
@@ -1193,7 +1184,7 @@ export function EnMenuDessertPage() {
                   <div className="sh-gap-none">
                     <button className="sh-flex sh-items-center sh-gap-x-regular sh-font-bold sh-typo-body-2 sh-w-full sh-justify-between" id="headlessui-disclosure-button-:Rclaf6:" type="button" aria-expanded="false" data-headlessui-state="">
                       <h2 className="sh-typo-body-2">
-                        {"Domino's® Rewards"}
+                        {"Crumblez Rewards"}
                       </h2>
                       <div className="ui-open:rotate-180 transition-transform">
                         <svg width="16" height="16" viewBox="0 0 16 16" className="block flex-shrink-0 align-middle w-large h-large" aria-hidden="true">

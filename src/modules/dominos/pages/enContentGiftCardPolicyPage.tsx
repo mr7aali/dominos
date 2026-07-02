@@ -4,8 +4,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  "title": "Pizza Delivery & Carryout, Pasta, Wings & More | Domino's",
-  "description": "Order pizza, pasta, sandwiches & more online for carryout or delivery from Domino's. View menu, find locations, track orders. Sign up for Domino's email & text offers to get great deals on your next order.",
+  "title": "Pizza Delivery & Carryout, Pasta, Wings & More | Crumblez",
+  "description": "Order pizza, pasta, sandwiches & more online for carryout or delivery from Crumblez. View menu, find locations, track orders. Sign up for Crumblez email & text offers to get great deals on your next order.",
   "alternates": {
     "canonical": "/en/content/gift-card-policy"
   },
@@ -56,17 +56,8 @@ export function EnContentGiftCardPolicyPage() {
                   </Link>
                 </li>
               </ul>
-              <Link aria-label="Domino's logo link, home or home page" className="sh-col-start-2 sh-row-start-1 sh-flex sh-items-center sh-justify-center sh-px-regular sh-py-small focus:sh-rounded-sm focus:sh-outline focus:sh-outline-1 focus:sh-outline-neutral-white" data-testid="domino-logo-button" href="/en">
-                <svg width="36" height="36" aria-hidden="true" viewBox="0 0 214.6 228.87" xmlns="http://www.w3.org/2000/svg" className="w-[2.25rem] h-[2.25rem] lg:w-jumbo lg:h-jumbo">
-                  <g>
-                    <path d="M210.79 62.11l-58.3-58.3a13 13 0 00-18.42 0L85.18 52.7 3.81 134.08a13 13 0 000 18.42l58.3 58.31a13 13 0 0018.42 0l72.94-72.95 57.32-57.32a13 13 0 000-18.42" fill="#fff"></path>
-                    <path d="M155.4 83.11a16.87 16.87 0 115-11.94 16.87 16.87 0 01-5 11.94m51.27-16.85L148.37 8a7.2 7.2 0 00-10.18 0l-63 63 68.47 68.47 63-63a7.2 7.2 0 000-10.18" fill="#ff0000"></path>
-                    <path d="M84.09 131.79a16.86 16.86 0 11-4.95 11.94 16.82 16.82 0 014.95-11.94M58.42 155a16.93 16.93 0 114.93-12 16.92 16.92 0 01-4.93 12M7.93 138.2a7.2 7.2 0 000 10.18l58.3 58.31a7.2 7.2 0 0010.18 0l63-63L70.93 75.2z" fill="#0090e2"></path>
-                  </g>
-                  <text fill="#fff" fontFamily="MyriadPro-Semibold, MyriadPro Semibold" fontSize="33.33" fontWeight="700" x="99.13" y="220.53">
-                    {"®"}
-                  </text>
-                </svg>
+              <Link aria-label="Crumblez logo link, home page" className="sh-col-start-2 sh-row-start-1 sh-flex sh-items-center sh-justify-center sh-px-regular sh-py-small focus:sh-rounded-sm focus:sh-outline focus:sh-outline-1 focus:sh-outline-neutral-white" data-testid="crumblez-logo-button" href="/en">
+                <img alt="" className="block w-[2.25rem] h-[2.25rem] object-contain lg:w-jumbo lg:h-jumbo" src="/logo.jpeg" />
               </Link>
               <div className="sh-col-start-3 sh-row-start-1 sh-flex sh-items-center sh-justify-end sh-px-regular sh-py-small sh-gap-medium xs:sh-gap-[8px]">
                 <div className="sh-hidden sh-max-w-xs sh-flex-1 sh-justify-end sh-overflow-hidden lg:sh-flex lg:sh-p-[2px]">
@@ -127,15 +118,15 @@ export function EnContentGiftCardPolicyPage() {
                       </Link>
                       {" | "}
                       <Link href="/content/biometric-data-policy" className="sh-text-blue hover:sh-text-dark-blue sh-break-words sh-underline">
-                        {"Biometric Data Policy For Employees Of Domino's Pizza LLC"}
+                        {"Biometric Data Policy For Employees Of Crumblez LLC"}
                       </Link>
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Congratulations on the purchase or receipt of a Domino's Pizza Gift Card (\"Card\"). The following terms of use govern your use of the Card. By your purchase and/or use of the Card, you are agreeing to these terms and conditions as well as those provided on the back of each card and those provided by the Card issuer, CARDCO. "}
+                      {"Congratulations on the purchase or receipt of a Crumblez Gift Card (\"Card\"). The following terms of use govern your use of the Card. By your purchase and/or use of the Card, you are agreeing to these terms and conditions as well as those provided on the back of each card and those provided by the Card issuer, CARDCO. "}
                       <a href="http://dominos.cardcompliant.com/" className="sh-text-blue hover:sh-text-dark-blue sh-break-words sh-underline">
                         {"Click here to read the CARDCO terms and conditions"}
                       </a>
-                      {". Domino's GC Inc. and their respective parents, affiliates, successors and assigns are collectively referred to herein as \"Domino's Pizza.\" The Card can only be used at participating Domino's Pizza stores in the United States and for online purchases via www.dominos.com. The Card is a prepaid payment product. It is not a credit card, charge card or debit card. The value of the funds that are loaded onto the Card and are available for spending is referred to herein as the \"Available Funds.\" As you use the Card, the Card's Available Funds will be reduced by the full amount of each purchase including taxes, delivery or other charges, if any."}
+                      {". Crumblez GC Inc. and their respective parents, affiliates, successors and assigns are collectively referred to herein as \"Crumblez.\" The Card can only be used at participating Crumblez stores in the United States and for online purchases via www.dominos.com. The Card is a prepaid payment product. It is not a credit card, charge card or debit card. The value of the funds that are loaded onto the Card and are available for spending is referred to herein as the \"Available Funds.\" As you use the Card, the Card's Available Funds will be reduced by the full amount of each purchase including taxes, delivery or other charges, if any."}
                     </p>
                     <h2 id="purchasing-a-card" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Purchasing a Card"}
@@ -153,11 +144,11 @@ export function EnContentGiftCardPolicyPage() {
                       {"Using the Card"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"To use the Card at a participating Domino's Pizza store, simply identify the card number to the customer service representative while ordering for delivery, or for carry out purchases, present the Card at the time of placing your order. Note: You may be required to provide the actual Card at time of delivery. You can locate a participating Domino's Pizza store by calling 1-800-DOMINOS or visiting www.dominos.com. You may wish to retain your receipts as a record of the transaction. The Card can be used to pay the full amount of the merchandise, delivery, and applicable taxes, so long as the Available Funds on the Card is sufficient. The Card cannot be used to purchase gift cards. The Available Funds cannot be redeemed for cash, unless required by law. If you want to make a purchase for an amount greater than the Available Funds on the Card, you may use the Available Funds on your Card to pay part of the total purchase cost and then pay the remaining balance of the purchase cost with another form of payment accepted by the Domino's Pizza store. Some Domino's Pizza stores may only be able to allow a split tender transaction (i.e., use of two forms of payment) if the second form of payment is cash, credit card or check. If you plan to use another form of payment to pay for a part of the total purchase cost, please check the specific Domino's Pizza store's policy prior to initiating the transaction. You agree:"}
+                      {"To use the Card at a participating Crumblez store, simply identify the card number to the customer service representative while ordering for delivery, or for carry out purchases, present the Card at the time of placing your order. Note: You may be required to provide the actual Card at time of delivery. You can locate a participating Crumblez store by calling 1-800-CRUMBLEZ or visiting www.dominos.com. You may wish to retain your receipts as a record of the transaction. The Card can be used to pay the full amount of the merchandise, delivery, and applicable taxes, so long as the Available Funds on the Card is sufficient. The Card cannot be used to purchase gift cards. The Available Funds cannot be redeemed for cash, unless required by law. If you want to make a purchase for an amount greater than the Available Funds on the Card, you may use the Available Funds on your Card to pay part of the total purchase cost and then pay the remaining balance of the purchase cost with another form of payment accepted by the Crumblez store. Some Crumblez stores may only be able to allow a split tender transaction (i.e., use of two forms of payment) if the second form of payment is cash, credit card or check. If you plan to use another form of payment to pay for a part of the total purchase cost, please check the specific Crumblez store's policy prior to initiating the transaction. You agree:"}
                     </p>
                     <ul className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1 sh-list-disc sh-space-y-small sh-ml-regular sh-pl-regular">
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
-                        {"That Domino's Pizza or any participating Domino's Pizza franchisee or their vendor(s) are authorized to deduct the amount of your purchases, together with any other fees, taxes, or charges from the Available Funds on your Card whenever you use your Card to make a purchase."}
+                        {"That Crumblez or any participating Crumblez franchisee or their vendor(s) are authorized to deduct the amount of your purchases, together with any other fees, taxes, or charges from the Available Funds on your Card whenever you use your Card to make a purchase."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
                         {"To track your spending, added value, and to not use the Card for any amount that exceeds the Available Funds."}
@@ -166,7 +157,7 @@ export function EnContentGiftCardPolicyPage() {
                         {"Not to permit any other person to use the Card issued to you."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
-                        {"Not to use the Card at any locations other than participating Domino's Pizza stores located in the United States."}
+                        {"Not to use the Card at any locations other than participating Crumblez stores located in the United States."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
                         {"Not to use the Card for any illegal purposes."}
@@ -175,7 +166,7 @@ export function EnContentGiftCardPolicyPage() {
                         {"To keep the Card securely and treat it like cash.\nTo notify us at once if the Card is lost or stolen. If your Card is lost or stolen you can only obtain a refund for the Available Funds remaining on the Card as of the time you notify us of the loss. See the section entitled \"Refunds and Replacements\" below for complete details. Please note that purchases made with Cards are similar to those made with cash. You cannot \"stop payment\" or lodge a \"billing dispute\" on such transactions."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
-                        {"Any problems or disputes you may have regarding a purchase transaction should be addressed directly with the Domino's Pizza store from which you purchased."}
+                        {"Any problems or disputes you may have regarding a purchase transaction should be addressed directly with the Crumblez store from which you purchased."}
                       </li>
                     </ul>
                     <h2 id="information-about-available-funds" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
@@ -194,7 +185,7 @@ export function EnContentGiftCardPolicyPage() {
                       {"Returns"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"If you wish to return any product purchased with the Card, you will be subject to the particular Domino's Pizza store's return policies and may be issued cash refund or store credit or the return of Available Funds to the Card."}
+                      {"If you wish to return any product purchased with the Card, you will be subject to the particular Crumblez store's return policies and may be issued cash refund or store credit or the return of Available Funds to the Card."}
                     </p>
                     <h2 id="transactions-in-excess-of-available-funds" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Transactions in Excess of Available Funds"}
@@ -206,25 +197,25 @@ export function EnContentGiftCardPolicyPage() {
                       {"No Warranty of Availability or Uninterrupted Use"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"From time to time the Card service may be inoperative, and when this happens, you may be unable to use your Card or obtain information about Available Funds on your Card. Please notify us if you have any problems using your Card. You agree that Domino's Pizza is not responsible for any interruption of service."}
+                      {"From time to time the Card service may be inoperative, and when this happens, you may be unable to use your Card or obtain information about Available Funds on your Card. Please notify us if you have any problems using your Card. You agree that Crumblez is not responsible for any interruption of service."}
                     </p>
                     <h2 id="no-warranty-regarding-goods-and-services" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"No Warranty Regarding Goods and Services"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's Pizza is not responsible for the quality, safety, legality, or any other aspect of any goods or services purchased by you with your Card at Domino's Pizza stores not owned and operated by Domino's Pizza. Domino's Pizza franchisees are independent and separate businesses, not owned or operated by Domino's Pizza. The policies and practices of franchisees may vary according to their business practices and the state laws by which they are bound."}
+                      {"Crumblez is not responsible for the quality, safety, legality, or any other aspect of any goods or services purchased by you with your Card at Crumblez stores not owned and operated by Crumblez. Crumblez franchisees are independent and separate businesses, not owned or operated by Crumblez. The policies and practices of franchisees may vary according to their business practices and the state laws by which they are bound."}
                     </p>
                     <h2 id="refusal-of-card" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Refusal of Card"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's Pizza will not be liable for the failure of any establishment to honor the Card."}
+                      {"Crumblez will not be liable for the failure of any establishment to honor the Card."}
                     </p>
                     <h2 id="changing-the-gift-card-terms-of-use--card-cancellation" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Changing the Gift Card Terms of Use & Card Cancellation"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"We may change the terms of or add new terms to these terms and conditions at any time, in accordance with applicable law. In addition, we may suspend, cancel, add, modify or delete any feature offered in connection with your Card at our sole discretion at any time, with or without cause, and without giving you notice, subject to applicable law. If we cancel your Card, any Available Funds remaining on the Card upon such cancellation after payment for all of your transaction and applicable fees will be returned to you. We may condition reimbursement upon return of the Card. The Card is the property of Domino's GC Inc."}
+                      {"We may change the terms of or add new terms to these terms and conditions at any time, in accordance with applicable law. In addition, we may suspend, cancel, add, modify or delete any feature offered in connection with your Card at our sole discretion at any time, with or without cause, and without giving you notice, subject to applicable law. If we cancel your Card, any Available Funds remaining on the Card upon such cancellation after payment for all of your transaction and applicable fees will be returned to you. We may condition reimbursement upon return of the Card. The Card is the property of Crumblez GC Inc."}
                     </p>
                     <h2 id="assignment-and-waiver" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Assignment and Waiver"}
@@ -239,19 +230,19 @@ export function EnContentGiftCardPolicyPage() {
                       {"Any notice given by us shall be deemed given when deposited in the United States mail, postage prepaid, addressed to you at the latest address shown on our records."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"You will violate our copyright and trademark rights if you purchase or produce coupons books with offers for Domino's Pizza and sell them on eBay."}
+                      {"You will violate our copyright and trademark rights if you purchase or produce coupons books with offers for Crumblez and sell them on eBay."}
                     </p>
                     <h2 id="arbitration" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Arbitration"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"To fairly resolve any dispute arising between you and Domino's Pizza regarding the use and purchase of any Card, you agree that any claims by either you or Domino's Pizza shall be settled exclusively by binding arbitration governed by the Federal Arbitration Act and administered by the American Arbitration Association under its rules for the resolution of consumer-related disputes or other mutually agreeable procedures. You understand and agree that you will not participate in a class action or class-wide arbitration for any claims covered by these terms and conditions. Purchase or use of the Card constitutes your acceptance of these arbitration terms."}
+                      {"To fairly resolve any dispute arising between you and Crumblez regarding the use and purchase of any Card, you agree that any claims by either you or Crumblez shall be settled exclusively by binding arbitration governed by the Federal Arbitration Act and administered by the American Arbitration Association under its rules for the resolution of consumer-related disputes or other mutually agreeable procedures. You understand and agree that you will not participate in a class action or class-wide arbitration for any claims covered by these terms and conditions. Purchase or use of the Card constitutes your acceptance of these arbitration terms."}
                     </p>
                     <h2 id="applicable-law" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Applicable Law"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"These terms and conditions are governed by the laws of the State of Michigan, USA, excluding choice of law principles. The Domino's Gift Card is issued by Domino's GC Inc., 30 Frank Lloyd Wright Drive, Ann Arbor, MI 48106. For a store nearest you call 1-800-DOMINOS or visit www.dominos.com."}
+                      {"These terms and conditions are governed by the laws of the State of Michigan, USA, excluding choice of law principles. The Crumblez Gift Card is issued by Crumblez GC Inc., 30 Frank Lloyd Wright Drive, Ann Arbor, MI 48106. For a store nearest you call 1-800-CRUMBLEZ or visit www.dominos.com."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
                       {"Safeguarding your privacy and the security of your personal information is important to us. Please take a few minutes to read the following policy so that you understand how we treat your personal information as it relates to our Gift Card program. As we continuously improve and expand our services, this policy might change, so please check it periodically. If you have questions about our privacy policy, please use the form on our Contact Us page."}
@@ -260,7 +251,7 @@ export function EnContentGiftCardPolicyPage() {
                       {"Purpose"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's Pizza has adopted the Gift Card Privacy Policy in order to inform you of its policies with respect to information collected from this website. Your use of the Gift Card Program constitutes your acceptance of this Privacy Policy and your consent to the practices it describes. This policy applies to the Gift Card Program only, and does not apply to the handling of your personal data collected by Domino's Pizza LLC or its affiliates/owner-operators by means other than this web site."}
+                      {"Crumblez has adopted the Gift Card Privacy Policy in order to inform you of its policies with respect to information collected from this website. Your use of the Gift Card Program constitutes your acceptance of this Privacy Policy and your consent to the practices it describes. This policy applies to the Gift Card Program only, and does not apply to the handling of your personal data collected by Crumblez LLC or its affiliates/owner-operators by means other than this web site."}
                     </p>
                     <h2 id="information-we-collect" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Information We Collect"}
@@ -289,7 +280,7 @@ export function EnContentGiftCardPolicyPage() {
                       {"Information Use"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's Pizza may use the personally identifiable information collected as part of the Gift Card Program primarily for such purposes as:"}
+                      {"Crumblez may use the personally identifiable information collected as part of the Gift Card Program primarily for such purposes as:"}
                     </p>
                     <ul className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1 sh-list-disc sh-space-y-small sh-ml-regular sh-pl-regular">
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
@@ -318,7 +309,7 @@ export function EnContentGiftCardPolicyPage() {
                       {"Disclosure of Information"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"To process Card transactions, to provide customer service, to process claims for lost or stolen Cards, to develop marketing, to help protect against fraud, and to conduct research and analysis, it's often necessary for us to disclose cardholder and purchaser information to companies that work with us. For example, we may provide certain information to companies, including Domino's franchisees and affiliates that perform business operations or services, including marketing services, on our behalf. Domino's Pizza does not provide personally identifiable information to unaffiliated third parties for their use in marketing directly to you. And we may provide certain cardholder information to others outside of Domino's Pizza in connection with legal requirements, such as in response to an authorized subpoena, governmental request or investigation, or as otherwise permitted by law."}
+                      {"To process Card transactions, to provide customer service, to process claims for lost or stolen Cards, to develop marketing, to help protect against fraud, and to conduct research and analysis, it's often necessary for us to disclose cardholder and purchaser information to companies that work with us. For example, we may provide certain information to companies, including Crumblez franchisees and affiliates that perform business operations or services, including marketing services, on our behalf. Crumblez does not provide personally identifiable information to unaffiliated third parties for their use in marketing directly to you. And we may provide certain cardholder information to others outside of Crumblez in connection with legal requirements, such as in response to an authorized subpoena, governmental request or investigation, or as otherwise permitted by law."}
                     </p>
                     <h2 id="telephone-monitoringrecording" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Telephone Monitoring/Recording"}
@@ -330,13 +321,13 @@ export function EnContentGiftCardPolicyPage() {
                       {"Changes to our Gift Card Privacy Policy"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's Pizza reserves the right to modify or supplement this policy at any time. If a material change to the terms of this policy is made, Domino's will post a notice on its homepage and a link to the new policy."}
+                      {"Crumblez reserves the right to modify or supplement this policy at any time. If a material change to the terms of this policy is made, Crumblez will post a notice on its homepage and a link to the new policy."}
                     </p>
                     <h2 id="contacting-us" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Contacting Us"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"If you have questions about this privacy statement, the information practices of Domino's Pizza or your dealings with our website, please use the link on our Contact Us page."}
+                      {"If you have questions about this privacy statement, the information practices of Crumblez or your dealings with our website, please use the link on our Contact Us page."}
                     </p>
                   </div>
                 </div>
@@ -348,7 +339,7 @@ export function EnContentGiftCardPolicyPage() {
         <footer className="sh-my-none sh-flex sh-flex-wrap sh-justify-center">
           <div className="sh-flex sh-w-full sh-flex-col sh-gap-x-large sh-bg-background-primary sh-px-medium sh-py-xx-large sh-text-text-secondary md:sh-px-x-large lg:sh-flex-row lg:sh-flex-wrap lg:sh-gap-none lg:sh-px-mega-4 lg:sh-py-mega-3">
             <div className="sh-w-full lg:sh-pb-jumbo">
-              <img alt="" className="block w-[2.25rem] h-[2.25rem] lg:w-jumbo lg:h-jumbo" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/logo-dominos-trademark.svg" />
+              <img alt="" className="block w-[2.25rem] h-[2.25rem] object-contain lg:w-jumbo lg:h-jumbo" src="/logo.jpeg" />
             </div>
             <div className="sh-flex sh-w-full sh-flex-col sh-gap-x-large lg:sh-flex-row lg:sh-justify-between lg:sh-gap-mega-6 xl:sh-gap-mega-26">
               <div className="hidden lg:block flex-1">
@@ -372,7 +363,7 @@ export function EnContentGiftCardPolicyPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/about-pizza">
-                            {"About Domino's"}
+                            {"About Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -404,7 +395,7 @@ export function EnContentGiftCardPolicyPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/international">
-                            {"World of Domino's"}
+                            {"World of Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -639,7 +630,7 @@ export function EnContentGiftCardPolicyPage() {
                 </div>
                 <div data-testid="social-links" className="md:sh-w-1/2 lg:sh-w-full">
                   <h2 className="sh-mb-regular sh-font-bold sh-typo-body-1" id=":R2kqf6:">
-                    {"Follow Domino's"}
+                    {"Follow Crumblez"}
                   </h2>
                   <ul className="sh-flex sh-space-x-regular" aria-labelledby=":R2kqf6:"></ul>
                 </div>
@@ -665,7 +656,7 @@ export function EnContentGiftCardPolicyPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/about-pizza">
-                            {"About Domino's"}
+                            {"About Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -697,7 +688,7 @@ export function EnContentGiftCardPolicyPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/international">
-                            {"World of Domino's"}
+                            {"World of Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -940,7 +931,7 @@ export function EnContentGiftCardPolicyPage() {
                     {"Offer Details"}
                   </h2>
                   <p className="sh-typo-body-3 sh-mb-x-large last:sh-mb-none">
-                    {"Any Delivery Charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers carry less than $20. Minimum purchase required for delivery. Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Returned checks, along with the state's maximum allowable returned check fee, may be electronically presented to your bank. ©2024 Domino's IP Holder LLC. Domino's®, Domino's Pizza® and the game piece logo are registered trademarks of Domino's IP Holder LLC. \"Coca-Cola\" and the Contour Bottle design are registered trademarks of The Coca-Cola Company. Apple, the Apple logo and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android is a trademark of Google Inc. Windows® Phone is a registered trademark of the Microsoft group of companies."}
+                    {"Any Delivery Charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers carry less than $20. Minimum purchase required for delivery. Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Returned checks, along with the state's maximum allowable returned check fee, may be electronically presented to your bank. ©2024 Crumblez IP Holder LLC. Crumblez, Crumblez® and the game piece logo are registered trademarks of Crumblez IP Holder LLC. \"Coca-Cola\" and the Contour Bottle design are registered trademarks of The Coca-Cola Company. Apple, the Apple logo and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android is a trademark of Google Inc. Windows® Phone is a registered trademark of the Microsoft group of companies."}
                   </p>
                 </div>
                 <div className="sh-hidden lg:sh-block">
@@ -1003,7 +994,7 @@ export function EnContentGiftCardPolicyPage() {
                   <div className="sh-gap-none">
                     <button className="sh-flex sh-items-center sh-gap-x-regular sh-font-bold sh-typo-body-2" id="headlessui-disclosure-button-:Ralaf6:" type="button" aria-expanded="false" data-headlessui-state="">
                       <h2 className="sh-typo-body-2">
-                        {"Domino's® Rewards"}
+                        {"Crumblez Rewards"}
                       </h2>
                       <div className="ui-open:rotate-180 transition-transform">
                         <svg width="16" height="16" viewBox="0 0 16 16" className="block flex-shrink-0 align-middle w-large h-large" aria-hidden="true">
@@ -1017,7 +1008,7 @@ export function EnContentGiftCardPolicyPage() {
                   <div className="sh-gap-none">
                     <button className="sh-flex sh-items-center sh-gap-x-regular sh-font-bold sh-typo-body-2 sh-w-full sh-justify-between" id="headlessui-disclosure-button-:Rclaf6:" type="button" aria-expanded="false" data-headlessui-state="">
                       <h2 className="sh-typo-body-2">
-                        {"Domino's® Rewards"}
+                        {"Crumblez Rewards"}
                       </h2>
                       <div className="ui-open:rotate-180 transition-transform">
                         <svg width="16" height="16" viewBox="0 0 16 16" className="block flex-shrink-0 align-middle w-large h-large" aria-hidden="true">

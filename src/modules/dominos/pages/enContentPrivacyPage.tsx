@@ -4,8 +4,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  "title": "Pizza Delivery & Carryout, Pasta, Wings & More | Domino's",
-  "description": "Order pizza, pasta, sandwiches & more online for carryout or delivery from Domino's. View menu, find locations, track orders. Sign up for Domino's email & text offers to get great deals on your next order.",
+  "title": "Pizza Delivery & Carryout, Pasta, Wings & More | Crumblez",
+  "description": "Order pizza, pasta, sandwiches & more online for carryout or delivery from Crumblez. View menu, find locations, track orders. Sign up for Crumblez email & text offers to get great deals on your next order.",
   "alternates": {
     "canonical": "/en/content/privacy"
   },
@@ -56,17 +56,8 @@ export function EnContentPrivacyPage() {
                   </Link>
                 </li>
               </ul>
-              <Link aria-label="Domino's logo link, home or home page" className="sh-col-start-2 sh-row-start-1 sh-flex sh-items-center sh-justify-center sh-px-regular sh-py-small focus:sh-rounded-sm focus:sh-outline focus:sh-outline-1 focus:sh-outline-neutral-white" data-testid="domino-logo-button" href="/en">
-                <svg width="36" height="36" aria-hidden="true" viewBox="0 0 214.6 228.87" xmlns="http://www.w3.org/2000/svg" className="w-[2.25rem] h-[2.25rem] lg:w-jumbo lg:h-jumbo">
-                  <g>
-                    <path d="M210.79 62.11l-58.3-58.3a13 13 0 00-18.42 0L85.18 52.7 3.81 134.08a13 13 0 000 18.42l58.3 58.31a13 13 0 0018.42 0l72.94-72.95 57.32-57.32a13 13 0 000-18.42" fill="#fff"></path>
-                    <path d="M155.4 83.11a16.87 16.87 0 115-11.94 16.87 16.87 0 01-5 11.94m51.27-16.85L148.37 8a7.2 7.2 0 00-10.18 0l-63 63 68.47 68.47 63-63a7.2 7.2 0 000-10.18" fill="#ff0000"></path>
-                    <path d="M84.09 131.79a16.86 16.86 0 11-4.95 11.94 16.82 16.82 0 014.95-11.94M58.42 155a16.93 16.93 0 114.93-12 16.92 16.92 0 01-4.93 12M7.93 138.2a7.2 7.2 0 000 10.18l58.3 58.31a7.2 7.2 0 0010.18 0l63-63L70.93 75.2z" fill="#0090e2"></path>
-                  </g>
-                  <text fill="#fff" fontFamily="MyriadPro-Semibold, MyriadPro Semibold" fontSize="33.33" fontWeight="700" x="99.13" y="220.53">
-                    {"®"}
-                  </text>
-                </svg>
+              <Link aria-label="Crumblez logo link, home page" className="sh-col-start-2 sh-row-start-1 sh-flex sh-items-center sh-justify-center sh-px-regular sh-py-small focus:sh-rounded-sm focus:sh-outline focus:sh-outline-1 focus:sh-outline-neutral-white" data-testid="crumblez-logo-button" href="/en">
+                <img alt="" className="block w-[2.25rem] h-[2.25rem] object-contain lg:w-jumbo lg:h-jumbo" src="/logo.jpeg" />
               </Link>
               <div className="sh-col-start-3 sh-row-start-1 sh-flex sh-items-center sh-justify-end sh-px-regular sh-py-small sh-gap-medium xs:sh-gap-[8px]">
                 <div className="sh-hidden sh-max-w-xs sh-flex-1 sh-justify-end sh-overflow-hidden lg:sh-flex lg:sh-p-[2px]">
@@ -127,7 +118,7 @@ export function EnContentPrivacyPage() {
                       </Link>
                       {" | "}
                       <Link href="/content/biometric-data-policy" className="sh-text-blue hover:sh-text-dark-blue sh-break-words sh-underline">
-                        {"Biometric Data Policy For Employees Of Domino's Pizza LLC"}
+                        {"Biometric Data Policy For Employees Of Crumblez LLC"}
                       </Link>
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
@@ -139,7 +130,7 @@ export function EnContentPrivacyPage() {
                       {"Introduction"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"This Privacy Policy describes Domino's data practices regarding information we collect about you and the choices available to you regarding such information. For purposes of this Privacy Policy, \""}
+                      {"This Privacy Policy describes Crumblez data practices regarding information we collect about you and the choices available to you regarding such information. For purposes of this Privacy Policy, \""}
                       <strong className="sh-font-semibold sh-text-ui-extra-dark-cool">
                         {"information"}
                       </strong>
@@ -149,12 +140,12 @@ export function EnContentPrivacyPage() {
                       </strong>
                       {"\" means information relating to an identified or identifiable individual, and \""}
                       <strong className="sh-font-semibold sh-text-ui-extra-dark-cool">
-                        {"Domino's"}
+                        {"Crumblez"}
                       </strong>
-                      {"\" refers to Domino's Pizza LLC, the franchisor and data controller, and its subsidiaries."}
+                      {"\" refers to Crumblez LLC, the franchisor and data controller, and its subsidiaries."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"This Privacy Policy applies to information we collect where Domino's controls the purposes and means of processing, specifically information collected:"}
+                      {"This Privacy Policy applies to information we collect where Crumblez controls the purposes and means of processing, specifically information collected:"}
                     </p>
                     <ul className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1 sh-list-disc sh-space-y-small sh-ml-regular sh-pl-regular">
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
@@ -177,7 +168,7 @@ export function EnContentPrivacyPage() {
                         {".\")"}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
-                        {"Through orders placed via the Service, by phone, or in-store at a franchisee location to the extent Domino's (not the franchisee) determines the purposes and means of processing."}
+                        {"Through orders placed via the Service, by phone, or in-store at a franchisee location to the extent Crumblez (not the franchisee) determines the purposes and means of processing."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
                         {"From other sources, as described below, where we link or combine such information with information covered by this Privacy Policy."}
@@ -191,7 +182,7 @@ export function EnContentPrivacyPage() {
                         {"Data practices of our franchisees (each is a separate legal entity with its own privacy policy)."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
-                        {"Situations in which Domino's processes information solely on behalf of its franchisees."}
+                        {"Situations in which Crumblez processes information solely on behalf of its franchisees."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
                         {"Third parties whose processing we do not control."}
@@ -324,10 +315,10 @@ export function EnContentPrivacyPage() {
                       {"This section describes the information we collect and how we collect it."}
                     </p>
                     <h3 id="information-you-provide-to-dominos" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
-                      {"Information You Provide to Domino's"}
+                      {"Information You Provide to Crumblez"}
                     </h3>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's collects information you provide directly to us. The categories of information we collect in this context include:"}
+                      {"Crumblez collects information you provide directly to us. The categories of information we collect in this context include:"}
                     </p>
                     <ul className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1 sh-list-disc sh-space-y-small sh-ml-regular sh-pl-regular">
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
@@ -368,32 +359,32 @@ export function EnContentPrivacyPage() {
                       </li>
                     </ul>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Examples of how Domino's collects this information include:"}
+                      {"Examples of how Crumblez collects this information include:"}
                     </p>
                     <ul className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1 sh-list-disc sh-space-y-small sh-ml-regular sh-pl-regular">
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
                         <strong className="sh-font-semibold sh-text-ui-extra-dark-cool">
                           {"Orders"}
                         </strong>
-                        {". You can place an order via the Service, by phone, or in-store at a franchisee location. As part of this process, Domino's may require you to provide your contact identifiers, commercial or transactions information, and payment information. If you place the order by phone or in-store at a franchisee location, the franchisee may also collect and process the information you provide in accordance with its own privacy policy."}
+                        {". You can place an order via the Service, by phone, or in-store at a franchisee location. As part of this process, Crumblez may require you to provide your contact identifiers, commercial or transactions information, and payment information. If you place the order by phone or in-store at a franchisee location, the franchisee may also collect and process the information you provide in accordance with its own privacy policy."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
                         <strong className="sh-font-semibold sh-text-ui-extra-dark-cool">
                           {"Profile"}
                         </strong>
-                        {". You can register a profile via the Service. As part of this process, Domino's will require you to provide contact identifiers and account credentials. Domino's may also ask you to fill out your profile using profile information and to save your payment information for future orders."}
+                        {". You can register a profile via the Service. As part of this process, Crumblez will require you to provide contact identifiers and account credentials. Crumblez may also ask you to fill out your profile using profile information and to save your payment information for future orders."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
                         <strong className="sh-font-semibold sh-text-ui-extra-dark-cool">
-                          {"Domino's Rewards"}
+                          {"Crumblez Rewards"}
                         </strong>
-                        {". You can join Domino's Rewards by registering a profile via the Service. Domino's will collect information you provide as indicated above."}
+                        {". You can join Crumblez Rewards by registering a profile via the Service. Crumblez will collect information you provide as indicated above."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
                         <strong className="sh-font-semibold sh-text-ui-extra-dark-cool">
                           {"Promotions"}
                         </strong>
-                        {". In addition to Domino's Rewards, Domino's may offer other promotions (e.g., sweepstakes, contests, or surveys). To participate, you may be required to register a profile via the Service or separately provide information such as contact identifiers or content."}
+                        {". In addition to Crumblez Rewards, Crumblez may offer other promotions (e.g., sweepstakes, contests, or surveys). To participate, you may be required to register a profile via the Service or separately provide information such as contact identifiers or content."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
                         <strong className="sh-font-semibold sh-text-ui-extra-dark-cool">
@@ -506,7 +497,7 @@ export function EnContentPrivacyPage() {
                       {"Information from Our Franchisees"}
                     </h3>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"We collect information, such as contact identifiers and commercial or transactions information, from our franchisees when you place an order by phone or in‑store at their locations. Typically, we process this information on the franchisee's behalf to fulfill and support your order, in which case the franchisee's privacy policy applies (please review it for details). If Domino's determines the purposes and means of processing that information, then this Privacy Policy applies."}
+                      {"We collect information, such as contact identifiers and commercial or transactions information, from our franchisees when you place an order by phone or in‑store at their locations. Typically, we process this information on the franchisee's behalf to fulfill and support your order, in which case the franchisee's privacy policy applies (please review it for details). If Crumblez determines the purposes and means of processing that information, then this Privacy Policy applies."}
                     </p>
                     <h3 id="information-from-other-sources" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
                       {"Information from Other Sources"}
@@ -611,9 +602,9 @@ export function EnContentPrivacyPage() {
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
                         <strong className="sh-font-semibold sh-text-ui-extra-dark-cool">
-                          {"Domino's Rewards"}
+                          {"Crumblez Rewards"}
                         </strong>
-                        {". We collect and use information to provide you with Domino's Rewards, including allowing you to redeem awards when you place an order. Please review the Domino's Rewards Terms for details."}
+                        {". We collect and use information to provide you with Crumblez Rewards, including allowing you to redeem awards when you place an order. Please review the Crumblez Rewards Terms for details."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
                         <strong className="sh-font-semibold sh-text-ui-extra-dark-cool">
@@ -651,7 +642,7 @@ export function EnContentPrivacyPage() {
                         <strong className="sh-font-semibold sh-text-ui-extra-dark-cool">
                           {"Service Providers"}
                         </strong>
-                        {". Domino's discloses information to service providers that collect and process information on our behalf. This includes entities that help us with maintaining and operating our Service, payment processing, data analytics, marketing and advertising, and other business purposes. To the extent required by law, we contractually limit our service providers from retaining, using, or disclosing information for any purpose other than performing these functions, although we may permit them to use non-personal information for any purpose to the extent permitted by applicable law."}
+                        {". Crumblez discloses information to service providers that collect and process information on our behalf. This includes entities that help us with maintaining and operating our Service, payment processing, data analytics, marketing and advertising, and other business purposes. To the extent required by law, we contractually limit our service providers from retaining, using, or disclosing information for any purpose other than performing these functions, although we may permit them to use non-personal information for any purpose to the extent permitted by applicable law."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
                         <strong className="sh-font-semibold sh-text-ui-extra-dark-cool">
@@ -767,7 +758,7 @@ export function EnContentPrivacyPage() {
                         <strong className="sh-font-semibold sh-text-ui-extra-dark-cool">
                           {"Preference Signals"}
                         </strong>
-                        {". Your browser or extension may allow you to automatically transmit a \"Do Not Track\" signal to online services you visit. Except where required by law, Domino's does not respond to \"Do Not Track\" signals or other preference signals."}
+                        {". Your browser or extension may allow you to automatically transmit a \"Do Not Track\" signal to online services you visit. Except where required by law, Crumblez does not respond to \"Do Not Track\" signals or other preference signals."}
                       </li>
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
                         <strong className="sh-font-semibold sh-text-ui-extra-dark-cool">
@@ -964,7 +955,7 @@ export function EnContentPrivacyPage() {
                       {"Security"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's maintains reasonable physical, electronic, and procedural safeguards to help guard your information from loss, theft, misuse and unauthorized access, disclosure, alteration, and destruction. Please be aware, however, that transmission via the internet cannot be completely protected, and we cannot guarantee the security of information about you."}
+                      {"Crumblez maintains reasonable physical, electronic, and procedural safeguards to help guard your information from loss, theft, misuse and unauthorized access, disclosure, alteration, and destruction. Please be aware, however, that transmission via the internet cannot be completely protected, and we cannot guarantee the security of information about you."}
                     </p>
                     <h2 id="retention" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Retention"}
@@ -976,7 +967,7 @@ export function EnContentPrivacyPage() {
                       {"Changes to this Privacy Policy"}
                     </h2>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's reserves the right to modify or supplement this policy at any time. Any changes will be effective immediately upon posting of the revised Privacy Policy. Your continued use of our Service indicates your consent to the Privacy Policy then posted. If the changes are material, we may provide additional notice to you, such as through email or prominent notice on the Web Sites or Applications."}
+                      {"Crumblez reserves the right to modify or supplement this policy at any time. Any changes will be effective immediately upon posting of the revised Privacy Policy. Your continued use of our Service indicates your consent to the Privacy Policy then posted. If the changes are material, we may provide additional notice to you, such as through email or prominent notice on the Web Sites or Applications."}
                     </p>
                     <h2 id="contact-us" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Contact Us"}
@@ -992,7 +983,7 @@ export function EnContentPrivacyPage() {
                           </strong>
                           {":"}
                           <br />
-                          {"Domino's Pizza LLC"}
+                          {"Crumblez LLC"}
                           <br />
                           {"ATTN: Customer Care"}
                           <br />
@@ -1275,13 +1266,13 @@ export function EnContentPrivacyPage() {
                       {"Your rights are subject to exceptions and our retention practices. You have the right not to be discriminated against for exercising your rights. To the extent permitted by law, rights requests must be exercised through the applicable designated method listed above. You may make a rights request using an authorized agent. Except for rights requests made by opt-out preference signal, we will require written and signed proof of the agent’s permission to do so and we may verify your identity directly with you."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Please note that Domino's franchisees are independent entities and their processing of information is subject to their own privacy policies. If you wish to exercise any of these rights with respect to the processing of information by Domino's franchisees, please visit your local franchise-owned and operated store location to effectuate your requests, and we will work with the franchisee to address your request to the extent required by applicable law."}
+                      {"Please note that Crumblez franchisees are independent entities and their processing of information is subject to their own privacy policies. If you wish to exercise any of these rights with respect to the processing of information by Crumblez franchisees, please visit your local franchise-owned and operated store location to effectuate your requests, and we will work with the franchisee to address your request to the extent required by applicable law."}
                     </p>
                     <h3 id="financial-incentives" className="sh-mb-regular sh-mt-regular sh-text-warm-gray-1000 sh-typo-subhead-1">
                       {"Financial Incentives"}
                     </h3>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Under the California privacy law, earned points in Domino’s Rewards loyalty program may be considered a financial incentive provided in exchange for the collection and retention of your personal information. The value of your personal information is based upon a comparison of the amount spent by loyalty program customers compared to similarly situated customers who do not participate in the loyalty program over a 12-month period and also includes the following considerations:"}
+                      {"Under the California privacy law, earned points in Crumblez Rewards loyalty program may be considered a financial incentive provided in exchange for the collection and retention of your personal information. The value of your personal information is based upon a comparison of the amount spent by loyalty program customers compared to similarly situated customers who do not participate in the loyalty program over a 12-month period and also includes the following considerations:"}
                     </p>
                     <ul className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1 sh-list-disc sh-space-y-small sh-ml-regular sh-pl-regular">
                       <li className="sh-text-ui-dark-cool sh-typo-body-1">
@@ -1444,7 +1435,7 @@ export function EnContentPrivacyPage() {
                       {"Your rights are subject to exceptions and our retention practices. You have the right not to be discriminated against for exercising any of your rights. To the extent permitted by law, rights requests must be exercised through the applicable designated methods listed above. You may make a rights request using an authorized agent. Except for rights requests made by opt out preference signal, we will require written and signed proof of the agent’s permission to do so and we may verify your identity directly with you."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Please note that Domino's franchisees are independent entities and their processing of personal data is subject to their own privacy policies. If you wish to exercise any of these rights with respect to the processing of personal data by Domino's franchisees, please visit your local franchise-owned and operated store location to effectuate your requests, and we will work with the franchisee to address your request to the extent required by applicable law."}
+                      {"Please note that Crumblez franchisees are independent entities and their processing of personal data is subject to their own privacy policies. If you wish to exercise any of these rights with respect to the processing of personal data by Crumblez franchisees, please visit your local franchise-owned and operated store location to effectuate your requests, and we will work with the franchisee to address your request to the extent required by applicable law."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
                       {"You have the right to appeal our decision in response to your request. To appeal, please write us at the email or postal address set out in the "}
@@ -1596,7 +1587,7 @@ export function EnContentPrivacyPage() {
                       {" section above (specifying the rights you wish to exercise)."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Please note that Domino's franchisees are independent entities and their processing of personal data is subject to their own privacy policies. If you wish to exercise any of these rights with respect to the processing of personal data by Domino's franchisees, please visit your local franchise-owned and operated store location to effectuate your requests, and we will work with the franchisee to address your request to the extent required by applicable law."}
+                      {"Please note that Crumblez franchisees are independent entities and their processing of personal data is subject to their own privacy policies. If you wish to exercise any of these rights with respect to the processing of personal data by Crumblez franchisees, please visit your local franchise-owned and operated store location to effectuate your requests, and we will work with the franchisee to address your request to the extent required by applicable law."}
                     </p>
                     <h4 id="complaints" className="sh-mb-regular sh-mt-regular sh-text-blue sh-typo-subhead-2">
                       {"Complaints"}
@@ -1608,27 +1599,27 @@ export function EnContentPrivacyPage() {
                       {"Data Transfer and Data Privacy Framework"}
                     </h4>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's Pizza LLC and its subsidiaries Domino's Pizza Distribution LLC, Domino's Pizza International Franchising Inc., and Domino's Pizza International Payroll Services, Inc. (for this section collectively referred to as “Domino's”) comply with the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) as set forth by the U.S. Department of Commerce. Domino's has certified to the U.S. Department of Commerce that it adheres to the EU-U.S. Data Privacy Framework Principles (EU-U.S. DPF Principles) with regard to the processing of personal data received from the European Union in reliance on the EU-U.S. DPF and from the United Kingdom (and Gibraltar) in reliance on the UK Extension to the EU-U.S. DPF. Domino's has certified to the U.S. Department of Commerce that it adheres to the Swiss-U.S. Data Privacy Framework Principles (Swiss-U.S. DPF Principles) with regard to the processing of personal data received from Switzerland in reliance on the Swiss-U.S. DPF. If there is any conflict between the terms in this Data Privacy Framework Notice and the EU-U.S. DPF Principles and/or the Swiss-U.S. DPF Principles, the DPF Principles shall govern. To learn more about the Data Privacy Framework (DPF) program, and to view our certification, please visit "}
+                      {"Crumblez LLC and its subsidiaries Crumblez Distribution LLC, Crumblez International Franchising Inc., and Crumblez International Payroll Services, Inc. (for this section collectively referred to as “Crumblez”) comply with the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) as set forth by the U.S. Department of Commerce. Crumblez has certified to the U.S. Department of Commerce that it adheres to the EU-U.S. Data Privacy Framework Principles (EU-U.S. DPF Principles) with regard to the processing of personal data received from the European Union in reliance on the EU-U.S. DPF and from the United Kingdom (and Gibraltar) in reliance on the UK Extension to the EU-U.S. DPF. Crumblez has certified to the U.S. Department of Commerce that it adheres to the Swiss-U.S. Data Privacy Framework Principles (Swiss-U.S. DPF Principles) with regard to the processing of personal data received from Switzerland in reliance on the Swiss-U.S. DPF. If there is any conflict between the terms in this Data Privacy Framework Notice and the EU-U.S. DPF Principles and/or the Swiss-U.S. DPF Principles, the DPF Principles shall govern. To learn more about the Data Privacy Framework (DPF) program, and to view our certification, please visit "}
                       <a href="https://www.dataprivacyframework.gov/" className="sh-text-blue hover:sh-text-dark-blue sh-break-words sh-underline">
                         {"https://www.dataprivacyframework.gov/"}
                       </a>
                       {"."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"Domino's is responsible for the processing of personal data it receives under the DPF program and subsequently transfers to a third party acting as an agent on its behalf. Domino's complies with the DPF Principles for all onward transfers of personal data from the EU, UK, and Switzerland, including the onward transfer liability provisions."}
+                      {"Crumblez is responsible for the processing of personal data it receives under the DPF program and subsequently transfers to a third party acting as an agent on its behalf. Crumblez complies with the DPF Principles for all onward transfers of personal data from the EU, UK, and Switzerland, including the onward transfer liability provisions."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"The Federal Trade Commission has jurisdiction over Domino's compliance with the EU-U.S. DPF, the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. DPF. In certain situations, Domino's may be required to disclose personal data in response to lawful requests by public authorities, including to meet national security or law enforcement requirements."}
+                      {"The Federal Trade Commission has jurisdiction over Crumblez compliance with the EU-U.S. DPF, the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. DPF. In certain situations, Crumblez may be required to disclose personal data in response to lawful requests by public authorities, including to meet national security or law enforcement requirements."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"In compliance with the EU-U.S. DPF, the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. DPF, Domino’s commits to resolve DPF Principles-related complaints about our collection and use of your personal information. EU, UK, and Swiss individuals with inquiries or complaints regarding our handling of personal data received in reliance on the EU-U.S. DPF, the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. DPF should first contact Domino’s at: "}
+                      {"In compliance with the EU-U.S. DPF, the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. DPF, Crumblez commits to resolve DPF Principles-related complaints about our collection and use of your personal information. EU, UK, and Swiss individuals with inquiries or complaints regarding our handling of personal data received in reliance on the EU-U.S. DPF, the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. DPF should first contact Crumblez at: "}
                       <a href="mailto:privacy@dominos.com" className="sh-text-blue hover:sh-text-dark-blue sh-break-words sh-underline">
                         {"privacy@dominos.com"}
                       </a>
                       {"."}
                     </p>
                     <p className="sh-mb-regular sh-text-ui-dark-cool sh-typo-body-1">
-                      {"In compliance with the EU-U.S. DPF, the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. DPF, Domino's commits to refer unresolved complaints concerning our handling of Non-HR personal data received in reliance on the EU-U.S. DPF, the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. DPF to JAMS, an alternative dispute resolution provider based in the United States. For clarity, Non-HR data includes all personal data processed by Domino's on behalf of its customers. If you do not receive timely acknowledgment of your DPF Principles-related complaint from Domino's, or if Domino's has not addressed your DPF Principles-related complaint to your satisfaction, please visit "}
+                      {"In compliance with the EU-U.S. DPF, the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. DPF, Crumblez commits to refer unresolved complaints concerning our handling of Non-HR personal data received in reliance on the EU-U.S. DPF, the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. DPF to JAMS, an alternative dispute resolution provider based in the United States. For clarity, Non-HR data includes all personal data processed by Crumblez on behalf of its customers. If you do not receive timely acknowledgment of your DPF Principles-related complaint from Crumblez, or if Crumblez has not addressed your DPF Principles-related complaint to your satisfaction, please visit "}
                       <a href="https://www.jamsadr.com/DPF-Dispute-Resolution" className="sh-text-blue hover:sh-text-dark-blue sh-break-words sh-underline">
                         {"https://www.jamsadr.com/DPF-Dispute-Resolution"}
                       </a>
@@ -1651,7 +1642,7 @@ export function EnContentPrivacyPage() {
         <footer className="sh-my-none sh-flex sh-flex-wrap sh-justify-center">
           <div className="sh-flex sh-w-full sh-flex-col sh-gap-x-large sh-bg-background-primary sh-px-medium sh-py-xx-large sh-text-text-secondary md:sh-px-x-large lg:sh-flex-row lg:sh-flex-wrap lg:sh-gap-none lg:sh-px-mega-4 lg:sh-py-mega-3">
             <div className="sh-w-full lg:sh-pb-jumbo">
-              <img alt="" className="block w-[2.25rem] h-[2.25rem] lg:w-jumbo lg:h-jumbo" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/logo-dominos-trademark.svg" />
+              <img alt="" className="block w-[2.25rem] h-[2.25rem] object-contain lg:w-jumbo lg:h-jumbo" src="/logo.jpeg" />
             </div>
             <div className="sh-flex sh-w-full sh-flex-col sh-gap-x-large lg:sh-flex-row lg:sh-justify-between lg:sh-gap-mega-6 xl:sh-gap-mega-26">
               <div className="hidden lg:block flex-1">
@@ -1675,7 +1666,7 @@ export function EnContentPrivacyPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/about-pizza">
-                            {"About Domino's"}
+                            {"About Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -1707,7 +1698,7 @@ export function EnContentPrivacyPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/international">
-                            {"World of Domino's"}
+                            {"World of Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -1942,7 +1933,7 @@ export function EnContentPrivacyPage() {
                 </div>
                 <div data-testid="social-links" className="md:sh-w-1/2 lg:sh-w-full">
                   <h2 className="sh-mb-regular sh-font-bold sh-typo-body-1" id=":R2kqf6:">
-                    {"Follow Domino's"}
+                    {"Follow Crumblez"}
                   </h2>
                   <ul className="sh-flex sh-space-x-regular" aria-labelledby=":R2kqf6:"></ul>
                 </div>
@@ -1968,7 +1959,7 @@ export function EnContentPrivacyPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/about-pizza">
-                            {"About Domino's"}
+                            {"About Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -2000,7 +1991,7 @@ export function EnContentPrivacyPage() {
                         </li>
                         <li>
                           <Link className="sh-typo-body-2" target="_blank" rel="noreferrer" href="/en/international">
-                            {"World of Domino's"}
+                            {"World of Crumblez"}
                             <span className="sh-ml-x-small">
                               <img alt="" className="block w-regular h-regular inline" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/externalpage.svg" />
                             </span>
@@ -2243,7 +2234,7 @@ export function EnContentPrivacyPage() {
                     {"Offer Details"}
                   </h2>
                   <p className="sh-typo-body-3 sh-mb-x-large last:sh-mb-none">
-                    {"Any Delivery Charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers carry less than $20. Minimum purchase required for delivery. Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Returned checks, along with the state's maximum allowable returned check fee, may be electronically presented to your bank. ©2024 Domino's IP Holder LLC. Domino's®, Domino's Pizza® and the game piece logo are registered trademarks of Domino's IP Holder LLC. \"Coca-Cola\" and the Contour Bottle design are registered trademarks of The Coca-Cola Company. Apple, the Apple logo and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android is a trademark of Google Inc. Windows® Phone is a registered trademark of the Microsoft group of companies."}
+                    {"Any Delivery Charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers carry less than $20. Minimum purchase required for delivery. Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Returned checks, along with the state's maximum allowable returned check fee, may be electronically presented to your bank. ©2024 Crumblez IP Holder LLC. Crumblez, Crumblez® and the game piece logo are registered trademarks of Crumblez IP Holder LLC. \"Coca-Cola\" and the Contour Bottle design are registered trademarks of The Coca-Cola Company. Apple, the Apple logo and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android is a trademark of Google Inc. Windows® Phone is a registered trademark of the Microsoft group of companies."}
                   </p>
                 </div>
                 <div className="sh-hidden lg:sh-block">
@@ -2306,7 +2297,7 @@ export function EnContentPrivacyPage() {
                   <div className="sh-gap-none">
                     <button className="sh-flex sh-items-center sh-gap-x-regular sh-font-bold sh-typo-body-2" id="headlessui-disclosure-button-:Ralaf6:" type="button" aria-expanded="false" data-headlessui-state="">
                       <h2 className="sh-typo-body-2">
-                        {"Domino's® Rewards"}
+                        {"Crumblez Rewards"}
                       </h2>
                       <div className="ui-open:rotate-180 transition-transform">
                         <svg width="16" height="16" viewBox="0 0 16 16" className="block flex-shrink-0 align-middle w-large h-large" aria-hidden="true">
@@ -2320,7 +2311,7 @@ export function EnContentPrivacyPage() {
                   <div className="sh-gap-none">
                     <button className="sh-flex sh-items-center sh-gap-x-regular sh-font-bold sh-typo-body-2 sh-w-full sh-justify-between" id="headlessui-disclosure-button-:Rclaf6:" type="button" aria-expanded="false" data-headlessui-state="">
                       <h2 className="sh-typo-body-2">
-                        {"Domino's® Rewards"}
+                        {"Crumblez Rewards"}
                       </h2>
                       <div className="ui-open:rotate-180 transition-transform">
                         <svg width="16" height="16" viewBox="0 0 16 16" className="block flex-shrink-0 align-middle w-large h-large" aria-hidden="true">
