@@ -1,7 +1,7 @@
-import { ContentTermsOfUseGeneratedPage, metadata } from "../../../src/generated/dominos-pages/ContentTermsOfUseGeneratedPage";
+import { ContentTermsOfUsePage, metadata } from "../../../src/modules/dominos/pages/contentTermsOfUsePage";
 
 export { metadata };
 
 export default function Page() {
-  return <ContentTermsOfUseGeneratedPage />;
+  return <ContentTermsOfUsePage />;
 }

@@ -1,7 +1,7 @@
-import { EnContentAccessibilityPolicyGeneratedPage, metadata } from "../../../../src/generated/dominos-pages/EnContentAccessibilityPolicyGeneratedPage";
+import { EnContentAccessibilityPolicyPage, metadata } from "../../../../src/modules/dominos/pages/enContentAccessibilityPolicyPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnContentAccessibilityPolicyGeneratedPage />;
+  return <EnContentAccessibilityPolicyPage />;
 }

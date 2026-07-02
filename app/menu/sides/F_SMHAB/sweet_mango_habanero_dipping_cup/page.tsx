@@ -1,7 +1,7 @@
-import { MenuSidesFSMHABSweetMangoHabaneroDippingCupGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSidesFSMHABSweetMangoHabaneroDippingCupGeneratedPage";
+import { MenuSidesFSMHABSweetMangoHabaneroDippingCupPage, metadata } from "../../../../../src/modules/dominos/pages/menuSidesFSMHABSweetMangoHabaneroDippingCupPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSidesFSMHABSweetMangoHabaneroDippingCupGeneratedPage />;
+  return <MenuSidesFSMHABSweetMangoHabaneroDippingCupPage />;
 }

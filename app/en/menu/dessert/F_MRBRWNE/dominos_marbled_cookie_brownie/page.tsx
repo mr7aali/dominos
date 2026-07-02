@@ -1,7 +1,7 @@
-import { EnMenuDessertFMRBRWNEDominosMarbledCookieBrownieGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuDessertFMRBRWNEDominosMarbledCookieBrownieGeneratedPage";
+import { EnMenuDessertFMRBRWNEDominosMarbledCookieBrowniePage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuDessertFMRBRWNEDominosMarbledCookieBrowniePage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuDessertFMRBRWNEDominosMarbledCookieBrownieGeneratedPage />;
+  return <EnMenuDessertFMRBRWNEDominosMarbledCookieBrowniePage />;
 }

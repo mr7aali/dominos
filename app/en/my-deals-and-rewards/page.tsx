@@ -1,7 +1,7 @@
-import { EnMyDealsAndRewardsGeneratedPage, metadata } from "../../../src/generated/dominos-pages/EnMyDealsAndRewardsGeneratedPage";
+import { EnMyDealsAndRewardsPage, metadata } from "../../../src/modules/dominos/pages/enMyDealsAndRewardsPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMyDealsAndRewardsGeneratedPage />;
+  return <EnMyDealsAndRewardsPage />;
 }

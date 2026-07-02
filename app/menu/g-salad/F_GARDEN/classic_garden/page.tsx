@@ -1,7 +1,7 @@
-import { MenuGSaladFGARDENClassicGardenGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuGSaladFGARDENClassicGardenGeneratedPage";
+import { MenuGSaladFGARDENClassicGardenPage, metadata } from "../../../../../src/modules/dominos/pages/menuGSaladFGARDENClassicGardenPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuGSaladFGARDENClassicGardenGeneratedPage />;
+  return <MenuGSaladFGARDENClassicGardenPage />;
 }

@@ -1,7 +1,7 @@
-import { EnMenuWingsSBONELESSBonelessChickenGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuWingsSBONELESSBonelessChickenGeneratedPage";
+import { EnMenuWingsSBONELESSBonelessChickenPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuWingsSBONELESSBonelessChickenPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuWingsSBONELESSBonelessChickenGeneratedPage />;
+  return <EnMenuWingsSBONELESSBonelessChickenPage />;
 }

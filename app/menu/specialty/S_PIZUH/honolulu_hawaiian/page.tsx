@@ -1,7 +1,7 @@
-import { MenuSpecialtySPIZUHHonoluluHawaiianGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSpecialtySPIZUHHonoluluHawaiianGeneratedPage";
+import { MenuSpecialtySPIZUHHonoluluHawaiianPage, metadata } from "../../../../../src/modules/dominos/pages/menuSpecialtySPIZUHHonoluluHawaiianPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSpecialtySPIZUHHonoluluHawaiianGeneratedPage />;
+  return <MenuSpecialtySPIZUHHonoluluHawaiianPage />;
 }

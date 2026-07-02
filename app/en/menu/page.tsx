@@ -1,7 +1,7 @@
-import { EnMenuGeneratedPage, metadata } from "../../../src/generated/dominos-pages/EnMenuGeneratedPage";
+import { EnMenuPage, metadata } from "../../../src/modules/dominos/pages/enMenuPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuGeneratedPage />;
+  return <EnMenuPage />;
 }

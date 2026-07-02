@@ -1,7 +1,7 @@
-import { EnMenuSpecialtySZZExtravaganzzaGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuSpecialtySZZExtravaganzzaGeneratedPage";
+import { EnMenuSpecialtySZZExtravaganzzaPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuSpecialtySZZExtravaganzzaPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuSpecialtySZZExtravaganzzaGeneratedPage />;
+  return <EnMenuSpecialtySZZExtravaganzzaPage />;
 }

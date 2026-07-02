@@ -1,7 +1,7 @@
-import { MenuDessertFLAVAChocolateLavaCrunchCakesGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuDessertFLAVAChocolateLavaCrunchCakesGeneratedPage";
+import { MenuDessertFLAVAChocolateLavaCrunchCakesPage, metadata } from "../../../../../src/modules/dominos/pages/menuDessertFLAVAChocolateLavaCrunchCakesPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuDessertFLAVAChocolateLavaCrunchCakesGeneratedPage />;
+  return <MenuDessertFLAVAChocolateLavaCrunchCakesPage />;
 }

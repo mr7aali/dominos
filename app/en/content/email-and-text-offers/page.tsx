@@ -1,7 +1,7 @@
-import { EnContentEmailAndTextOffersGeneratedPage, metadata } from "../../../../src/generated/dominos-pages/EnContentEmailAndTextOffersGeneratedPage";
+import { EnContentEmailAndTextOffersPage, metadata } from "../../../../src/modules/dominos/pages/enContentEmailAndTextOffersPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnContentEmailAndTextOffersGeneratedPage />;
+  return <EnContentEmailAndTextOffersPage />;
 }

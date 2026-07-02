@@ -1,7 +1,7 @@
-import { MenuGSalad0e22GeneratedPage, metadata } from "../../../src/generated/dominos-pages/MenuGSalad0e22GeneratedPage";
+import { MenuGSalad0e22Page, metadata } from "../../../src/modules/dominos/pages/menuGSalad0e22Page";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuGSalad0e22GeneratedPage />;
+  return <MenuGSalad0e22Page />;
 }

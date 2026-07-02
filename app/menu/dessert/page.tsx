@@ -1,7 +1,7 @@
-import { MenuDessertGeneratedPage, metadata } from "../../../src/generated/dominos-pages/MenuDessertGeneratedPage";
+import { MenuDessertPage, metadata } from "../../../src/modules/dominos/pages/menuDessertPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuDessertGeneratedPage />;
+  return <MenuDessertPage />;
 }

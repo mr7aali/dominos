@@ -1,7 +1,7 @@
-import { MenuPastaSALFRChickenAlfredoGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuPastaSALFRChickenAlfredoGeneratedPage";
+import { MenuPastaSALFRChickenAlfredoPage, metadata } from "../../../../../src/modules/dominos/pages/menuPastaSALFRChickenAlfredoPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuPastaSALFRChickenAlfredoGeneratedPage />;
+  return <MenuPastaSALFRChickenAlfredoPage />;
 }

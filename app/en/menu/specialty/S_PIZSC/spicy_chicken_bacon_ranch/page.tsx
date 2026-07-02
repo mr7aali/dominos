@@ -1,7 +1,7 @@
-import { EnMenuSpecialtySPIZSCSpicyChickenBaconRanchGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuSpecialtySPIZSCSpicyChickenBaconRanchGeneratedPage";
+import { EnMenuSpecialtySPIZSCSpicyChickenBaconRanchPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuSpecialtySPIZSCSpicyChickenBaconRanchPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuSpecialtySPIZSCSpicyChickenBaconRanchGeneratedPage />;
+  return <EnMenuSpecialtySPIZSCSpicyChickenBaconRanchPage />;
 }

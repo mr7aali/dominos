@@ -1,7 +1,7 @@
-import { EnInternationalGeneratedPage, metadata } from "../../../src/generated/dominos-pages/EnInternationalGeneratedPage";
+import { EnInternationalPage, metadata } from "../../../src/modules/dominos/pages/enInternationalPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnInternationalGeneratedPage />;
+  return <EnInternationalPage />;
 }

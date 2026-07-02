@@ -1,7 +1,7 @@
-import { EnMenuDessertFCBITESCinnamonBreadBitesGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuDessertFCBITESCinnamonBreadBitesGeneratedPage";
+import { EnMenuDessertFCBITESCinnamonBreadBitesPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuDessertFCBITESCinnamonBreadBitesPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuDessertFCBITESCinnamonBreadBitesGeneratedPage />;
+  return <EnMenuDessertFCBITESCinnamonBreadBitesPage />;
 }

@@ -1,7 +1,7 @@
-import { EnContentNutritionGeneratedPage, metadata } from "../../../../src/generated/dominos-pages/EnContentNutritionGeneratedPage";
+import { EnContentNutritionPage, metadata } from "../../../../src/modules/dominos/pages/enContentNutritionPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnContentNutritionGeneratedPage />;
+  return <EnContentNutritionPage />;
 }

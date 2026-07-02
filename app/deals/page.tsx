@@ -1,7 +1,7 @@
-import { DealsGeneratedPage, metadata } from "../../src/generated/dominos-pages/DealsGeneratedPage";
+import { DealsPage, metadata } from "../../src/modules/dominos/pages/dealsPage";
 
 export { metadata };
 
 export default function Page() {
-  return <DealsGeneratedPage />;
+  return <DealsPage />;
 }

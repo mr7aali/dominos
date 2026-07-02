@@ -1,7 +1,7 @@
-import { EnMenuSpecialty0e22GeneratedPage, metadata } from "../../../../src/generated/dominos-pages/EnMenuSpecialty0e22GeneratedPage";
+import { EnMenuSpecialty0e22Page, metadata } from "../../../../src/modules/dominos/pages/enMenuSpecialty0e22Page";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuSpecialty0e22GeneratedPage />;
+  return <EnMenuSpecialty0e22Page />;
 }

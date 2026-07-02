@@ -1,7 +1,7 @@
-import { EnMenuSandwichSITALIANItalianGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuSandwichSITALIANItalianGeneratedPage";
+import { EnMenuSandwichSITALIANItalianPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuSandwichSITALIANItalianPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuSandwichSITALIANItalianGeneratedPage />;
+  return <EnMenuSandwichSITALIANItalianPage />;
 }

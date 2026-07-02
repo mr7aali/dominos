@@ -1,7 +1,7 @@
-import { EnContentTermsOfUseGeneratedPage, metadata } from "../../../../src/generated/dominos-pages/EnContentTermsOfUseGeneratedPage";
+import { EnContentTermsOfUsePage, metadata } from "../../../../src/modules/dominos/pages/enContentTermsOfUsePage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnContentTermsOfUseGeneratedPage />;
+  return <EnContentTermsOfUsePage />;
 }

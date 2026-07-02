@@ -1,7 +1,7 @@
-import { MenuDrinks0e22GeneratedPage, metadata } from "../../../src/generated/dominos-pages/MenuDrinks0e22GeneratedPage";
+import { MenuDrinks0e22Page, metadata } from "../../../src/modules/dominos/pages/menuDrinks0e22Page";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuDrinks0e22GeneratedPage />;
+  return <MenuDrinks0e22Page />;
 }

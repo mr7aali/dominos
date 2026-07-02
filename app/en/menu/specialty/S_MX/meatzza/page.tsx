@@ -1,7 +1,7 @@
-import { EnMenuSpecialtySMXMeatzzaGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuSpecialtySMXMeatzzaGeneratedPage";
+import { EnMenuSpecialtySMXMeatzzaPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuSpecialtySMXMeatzzaPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuSpecialtySMXMeatzzaGeneratedPage />;
+  return <EnMenuSpecialtySMXMeatzzaPage />;
 }

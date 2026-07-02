@@ -1,7 +1,7 @@
-import { MenuWingsSSCCHBLoadedChickenClassicHotBuffaloGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuWingsSSCCHBLoadedChickenClassicHotBuffaloGeneratedPage";
+import { MenuWingsSSCCHBLoadedChickenClassicHotBuffaloPage, metadata } from "../../../../../src/modules/dominos/pages/menuWingsSSCCHBLoadedChickenClassicHotBuffaloPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuWingsSSCCHBLoadedChickenClassicHotBuffaloGeneratedPage />;
+  return <MenuWingsSSCCHBLoadedChickenClassicHotBuffaloPage />;
 }

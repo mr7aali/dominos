@@ -1,7 +1,7 @@
-import { DataPrivacyRightsGeneratedPage, metadata } from "../../src/generated/dominos-pages/DataPrivacyRightsGeneratedPage";
+import { DataPrivacyRightsPage, metadata } from "../../src/modules/dominos/pages/dataPrivacyRightsPage";
 
 export { metadata };
 
 export default function Page() {
-  return <DataPrivacyRightsGeneratedPage />;
+  return <DataPrivacyRightsPage />;
 }

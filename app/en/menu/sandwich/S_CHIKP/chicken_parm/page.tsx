@@ -1,7 +1,7 @@
-import { EnMenuSandwichSCHIKPChickenParmGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuSandwichSCHIKPChickenParmGeneratedPage";
+import { EnMenuSandwichSCHIKPChickenParmPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuSandwichSCHIKPChickenParmPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuSandwichSCHIKPChickenParmGeneratedPage />;
+  return <EnMenuSandwichSCHIKPChickenParmPage />;
 }

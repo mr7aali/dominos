@@ -1,7 +1,7 @@
-import { MenuSandwichSPHILPhillyCheeseSteakGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSandwichSPHILPhillyCheeseSteakGeneratedPage";
+import { MenuSandwichSPHILPhillyCheeseSteakPage, metadata } from "../../../../../src/modules/dominos/pages/menuSandwichSPHILPhillyCheeseSteakPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSandwichSPHILPhillyCheeseSteakGeneratedPage />;
+  return <MenuSandwichSPHILPhillyCheeseSteakPage />;
 }

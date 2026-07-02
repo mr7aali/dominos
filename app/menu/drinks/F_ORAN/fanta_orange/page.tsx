@@ -1,7 +1,7 @@
-import { MenuDrinksFORANFantaOrangeGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuDrinksFORANFantaOrangeGeneratedPage";
+import { MenuDrinksFORANFantaOrangePage, metadata } from "../../../../../src/modules/dominos/pages/menuDrinksFORANFantaOrangePage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuDrinksFORANFantaOrangeGeneratedPage />;
+  return <MenuDrinksFORANFantaOrangePage />;
 }

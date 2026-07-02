@@ -1,7 +1,7 @@
-import { EnMenuWingsSGPRMWINGGarlicParmesanWingsGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuWingsSGPRMWINGGarlicParmesanWingsGeneratedPage";
+import { EnMenuWingsSGPRMWINGGarlicParmesanWingsPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuWingsSGPRMWINGGarlicParmesanWingsPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuWingsSGPRMWINGGarlicParmesanWingsGeneratedPage />;
+  return <EnMenuWingsSGPRMWINGGarlicParmesanWingsPage />;
 }

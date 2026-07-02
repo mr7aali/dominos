@@ -1,7 +1,7 @@
-import { HomeGeneratedPage, metadata } from "../src/generated/dominos-pages/HomeGeneratedPage";
+import { HomePage, metadata } from "../src/modules/dominos/pages/homePage";
 
 export { metadata };
 
 export default function Page() {
-  return <HomeGeneratedPage />;
+  return <HomePage />;
 }

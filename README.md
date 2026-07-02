@@ -7,7 +7,7 @@ This project is a standalone Next.js App Router rebuild of the captured Domino's
 - `app/page.tsx` renders the home page.
 - `app/**/page.tsx` contains concrete route files for each converted page, for example `app/content/accessibility-policy/page.tsx`.
 - `app/layout.tsx` is the shared root layout.
-- `src/generated/dominos-pages/` contains the converted TSX page bodies and page metadata.
+- `src/modules/dominos/pages/` contains the modular TSX page bodies and page metadata.
 - `src/styles/dominos.css` imports the local site stylesheet set.
 - `src/styles/vendor/` contains the converted vendor CSS that used to come from captured `_next` assets.
 - `public/site-assets/` contains local images, icons, PDFs, and other static assets used by the pages.

@@ -1,7 +1,7 @@
-import { EnMenuSidesFRANCHPKRanchDressingGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuSidesFRANCHPKRanchDressingGeneratedPage";
+import { EnMenuSidesFRANCHPKRanchDressingPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuSidesFRANCHPKRanchDressingPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuSidesFRANCHPKRanchDressingGeneratedPage />;
+  return <EnMenuSidesFRANCHPKRanchDressingPage />;
 }

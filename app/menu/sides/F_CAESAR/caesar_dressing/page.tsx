@@ -1,7 +1,7 @@
-import { MenuSidesFCAESARCaesarDressingGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSidesFCAESARCaesarDressingGeneratedPage";
+import { MenuSidesFCAESARCaesarDressingPage, metadata } from "../../../../../src/modules/dominos/pages/menuSidesFCAESARCaesarDressingPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSidesFCAESARCaesarDressingGeneratedPage />;
+  return <MenuSidesFCAESARCaesarDressingPage />;
 }

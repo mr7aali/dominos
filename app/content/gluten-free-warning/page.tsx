@@ -1,7 +1,7 @@
-import { ContentGlutenFreeWarningGeneratedPage, metadata } from "../../../src/generated/dominos-pages/ContentGlutenFreeWarningGeneratedPage";
+import { ContentGlutenFreeWarningPage, metadata } from "../../../src/modules/dominos/pages/contentGlutenFreeWarningPage";
 
 export { metadata };
 
 export default function Page() {
-  return <ContentGlutenFreeWarningGeneratedPage />;
+  return <ContentGlutenFreeWarningPage />;
 }

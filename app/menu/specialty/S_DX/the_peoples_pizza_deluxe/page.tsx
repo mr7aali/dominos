@@ -1,7 +1,7 @@
-import { MenuSpecialtySDXThePeoplesPizzaDeluxeGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSpecialtySDXThePeoplesPizzaDeluxeGeneratedPage";
+import { MenuSpecialtySDXThePeoplesPizzaDeluxePage, metadata } from "../../../../../src/modules/dominos/pages/menuSpecialtySDXThePeoplesPizzaDeluxePage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSpecialtySDXThePeoplesPizzaDeluxeGeneratedPage />;
+  return <MenuSpecialtySDXThePeoplesPizzaDeluxePage />;
 }

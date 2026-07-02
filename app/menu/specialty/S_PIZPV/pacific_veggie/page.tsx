@@ -1,7 +1,7 @@
-import { MenuSpecialtySPIZPVPacificVeggieGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSpecialtySPIZPVPacificVeggieGeneratedPage";
+import { MenuSpecialtySPIZPVPacificVeggiePage, metadata } from "../../../../../src/modules/dominos/pages/menuSpecialtySPIZPVPacificVeggiePage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSpecialtySPIZPVPacificVeggieGeneratedPage />;
+  return <MenuSpecialtySPIZPVPacificVeggiePage />;
 }

@@ -1,7 +1,7 @@
-import { EnContentGiftCardsGeneratedPage, metadata } from "../../../../src/generated/dominos-pages/EnContentGiftCardsGeneratedPage";
+import { EnContentGiftCardsPage, metadata } from "../../../../src/modules/dominos/pages/enContentGiftCardsPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnContentGiftCardsGeneratedPage />;
+  return <EnContentGiftCardsPage />;
 }

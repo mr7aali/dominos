@@ -1,7 +1,7 @@
-import { EnMenuDrinksFWATERDasaniBottleWaterGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuDrinksFWATERDasaniBottleWaterGeneratedPage";
+import { EnMenuDrinksFWATERDasaniBottleWaterPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuDrinksFWATERDasaniBottleWaterPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuDrinksFWATERDasaniBottleWaterGeneratedPage />;
+  return <EnMenuDrinksFWATERDasaniBottleWaterPage />;
 }

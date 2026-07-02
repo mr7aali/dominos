@@ -1,7 +1,7 @@
-import { MenuBreadFSPBRDPepperoniStuffedCheesyBreadGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuBreadFSPBRDPepperoniStuffedCheesyBreadGeneratedPage";
+import { MenuBreadFSPBRDPepperoniStuffedCheesyBreadPage, metadata } from "../../../../../src/modules/dominos/pages/menuBreadFSPBRDPepperoniStuffedCheesyBreadPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuBreadFSPBRDPepperoniStuffedCheesyBreadGeneratedPage />;
+  return <MenuBreadFSPBRDPepperoniStuffedCheesyBreadPage />;
 }

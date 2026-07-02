@@ -1,7 +1,7 @@
-import { MenuBuildYourOwnGeneratedPage, metadata } from "../../../src/generated/dominos-pages/MenuBuildYourOwnGeneratedPage";
+import { MenuBuildYourOwnPage, metadata } from "../../../src/modules/dominos/pages/menuBuildYourOwnPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuBuildYourOwnGeneratedPage />;
+  return <MenuBuildYourOwnPage />;
 }

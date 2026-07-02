@@ -1,7 +1,7 @@
-import { MenuBreadFSSBRDSpinachFetaStuffedCheesyBreadGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuBreadFSSBRDSpinachFetaStuffedCheesyBreadGeneratedPage";
+import { MenuBreadFSSBRDSpinachFetaStuffedCheesyBreadPage, metadata } from "../../../../../src/modules/dominos/pages/menuBreadFSSBRDSpinachFetaStuffedCheesyBreadPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuBreadFSSBRDSpinachFetaStuffedCheesyBreadGeneratedPage />;
+  return <MenuBreadFSSBRDSpinachFetaStuffedCheesyBreadPage />;
 }

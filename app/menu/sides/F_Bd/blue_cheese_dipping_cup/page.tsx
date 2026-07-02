@@ -1,7 +1,7 @@
-import { MenuSidesFBdBlueCheeseDippingCupGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSidesFBdBlueCheeseDippingCupGeneratedPage";
+import { MenuSidesFBdBlueCheeseDippingCupPage, metadata } from "../../../../../src/modules/dominos/pages/menuSidesFBdBlueCheeseDippingCupPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSidesFBdBlueCheeseDippingCupGeneratedPage />;
+  return <MenuSidesFBdBlueCheeseDippingCupPage />;
 }

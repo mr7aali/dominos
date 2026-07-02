@@ -1,7 +1,7 @@
-import { MenuPasta32f4GeneratedPage, metadata } from "../../../src/generated/dominos-pages/MenuPasta32f4GeneratedPage";
+import { MenuPasta32f4Page, metadata } from "../../../src/modules/dominos/pages/menuPasta32f4Page";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuPasta32f4GeneratedPage />;
+  return <MenuPasta32f4Page />;
 }

@@ -1,7 +1,7 @@
-import { MenuWingsSBBQWHoneyBbqWingsGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuWingsSBBQWHoneyBbqWingsGeneratedPage";
+import { MenuWingsSBBQWHoneyBbqWingsPage, metadata } from "../../../../../src/modules/dominos/pages/menuWingsSBBQWHoneyBbqWingsPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuWingsSBBQWHoneyBbqWingsGeneratedPage />;
+  return <MenuWingsSBBQWHoneyBbqWingsPage />;
 }

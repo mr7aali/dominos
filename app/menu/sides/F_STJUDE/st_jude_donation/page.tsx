@@ -1,7 +1,7 @@
-import { MenuSidesFSTJUDEStJudeDonationGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSidesFSTJUDEStJudeDonationGeneratedPage";
+import { MenuSidesFSTJUDEStJudeDonationPage, metadata } from "../../../../../src/modules/dominos/pages/menuSidesFSTJUDEStJudeDonationPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSidesFSTJUDEStJudeDonationGeneratedPage />;
+  return <MenuSidesFSTJUDEStJudeDonationPage />;
 }

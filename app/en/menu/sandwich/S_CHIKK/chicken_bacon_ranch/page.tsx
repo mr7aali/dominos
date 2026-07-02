@@ -1,7 +1,7 @@
-import { EnMenuSandwichSCHIKKChickenBaconRanchGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuSandwichSCHIKKChickenBaconRanchGeneratedPage";
+import { EnMenuSandwichSCHIKKChickenBaconRanchPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuSandwichSCHIKKChickenBaconRanchPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuSandwichSCHIKKChickenBaconRanchGeneratedPage />;
+  return <EnMenuSandwichSCHIKKChickenBaconRanchPage />;
 }

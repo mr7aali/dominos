@@ -1,7 +1,7 @@
-import { MenuSidesFSIDICEIcingDippingCupGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSidesFSIDICEIcingDippingCupGeneratedPage";
+import { MenuSidesFSIDICEIcingDippingCupPage, metadata } from "../../../../../src/modules/dominos/pages/menuSidesFSIDICEIcingDippingCupPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSidesFSIDICEIcingDippingCupGeneratedPage />;
+  return <MenuSidesFSIDICEIcingDippingCupPage />;
 }

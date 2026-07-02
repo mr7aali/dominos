@@ -1,7 +1,7 @@
-import { EnMenuDrinksFDIETDietCokeGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuDrinksFDIETDietCokeGeneratedPage";
+import { EnMenuDrinksFDIETDietCokePage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuDrinksFDIETDietCokePage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuDrinksFDIETDietCokeGeneratedPage />;
+  return <EnMenuDrinksFDIETDietCokePage />;
 }

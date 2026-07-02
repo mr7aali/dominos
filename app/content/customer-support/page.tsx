@@ -1,7 +1,7 @@
-import { ContentCustomerSupportGeneratedPage, metadata } from "../../../src/generated/dominos-pages/ContentCustomerSupportGeneratedPage";
+import { ContentCustomerSupportPage, metadata } from "../../../src/modules/dominos/pages/contentCustomerSupportPage";
 
 export { metadata };
 
 export default function Page() {
-  return <ContentCustomerSupportGeneratedPage />;
+  return <ContentCustomerSupportPage />;
 }

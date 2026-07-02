@@ -1,7 +1,7 @@
-import { EnMenuSidesFBBQCHoneyBbqDippingCupGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuSidesFBBQCHoneyBbqDippingCupGeneratedPage";
+import { EnMenuSidesFBBQCHoneyBbqDippingCupPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuSidesFBBQCHoneyBbqDippingCupPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuSidesFBBQCHoneyBbqDippingCupGeneratedPage />;
+  return <EnMenuSidesFBBQCHoneyBbqDippingCupPage />;
 }

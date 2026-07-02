@@ -1,7 +1,7 @@
-import { MenuBreadFGBITESGarlicBreadBitesGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuBreadFGBITESGarlicBreadBitesGeneratedPage";
+import { MenuBreadFGBITESGarlicBreadBitesPage, metadata } from "../../../../../src/modules/dominos/pages/menuBreadFGBITESGarlicBreadBitesPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuBreadFGBITESGarlicBreadBitesGeneratedPage />;
+  return <MenuBreadFGBITESGarlicBreadBitesPage />;
 }

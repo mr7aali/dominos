@@ -1,7 +1,7 @@
-import { EnMenuWingsSSCCBTLoadedChickenCrispyBaconTomatoGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuWingsSSCCBTLoadedChickenCrispyBaconTomatoGeneratedPage";
+import { EnMenuWingsSSCCBTLoadedChickenCrispyBaconTomatoPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuWingsSSCCBTLoadedChickenCrispyBaconTomatoPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuWingsSSCCBTLoadedChickenCrispyBaconTomatoGeneratedPage />;
+  return <EnMenuWingsSSCCBTLoadedChickenCrispyBaconTomatoPage />;
 }

@@ -1,7 +1,7 @@
-import { EnContentCarryoutInsuranceGeneratedPage, metadata } from "../../../../src/generated/dominos-pages/EnContentCarryoutInsuranceGeneratedPage";
+import { EnContentCarryoutInsurancePage, metadata } from "../../../../src/modules/dominos/pages/enContentCarryoutInsurancePage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnContentCarryoutInsuranceGeneratedPage />;
+  return <EnContentCarryoutInsurancePage />;
 }

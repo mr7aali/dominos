@@ -1,7 +1,7 @@
-import { MenuDrinksFCOKECokeGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuDrinksFCOKECokeGeneratedPage";
+import { MenuDrinksFCOKECokePage, metadata } from "../../../../../src/modules/dominos/pages/menuDrinksFCOKECokePage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuDrinksFCOKECokeGeneratedPage />;
+  return <MenuDrinksFCOKECokePage />;
 }

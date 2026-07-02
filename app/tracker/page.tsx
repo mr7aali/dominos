@@ -1,7 +1,7 @@
-import { TrackerGeneratedPage, metadata } from "../../src/generated/dominos-pages/TrackerGeneratedPage";
+import { TrackerPage, metadata } from "../../src/modules/dominos/pages/trackerPage";
 
 export { metadata };
 
 export default function Page() {
-  return <TrackerGeneratedPage />;
+  return <TrackerPage />;
 }

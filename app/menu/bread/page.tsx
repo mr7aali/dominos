@@ -1,7 +1,7 @@
-import { MenuBreadGeneratedPage, metadata } from "../../../src/generated/dominos-pages/MenuBreadGeneratedPage";
+import { MenuBreadPage, metadata } from "../../../src/modules/dominos/pages/menuBreadPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuBreadGeneratedPage />;
+  return <MenuBreadPage />;
 }

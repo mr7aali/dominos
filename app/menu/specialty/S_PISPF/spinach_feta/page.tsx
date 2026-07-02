@@ -1,7 +1,7 @@
-import { MenuSpecialtySPISPFSpinachFetaGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSpecialtySPISPFSpinachFetaGeneratedPage";
+import { MenuSpecialtySPISPFSpinachFetaPage, metadata } from "../../../../../src/modules/dominos/pages/menuSpecialtySPISPFSpinachFetaPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSpecialtySPISPFSpinachFetaGeneratedPage />;
+  return <MenuSpecialtySPISPFSpinachFetaPage />;
 }

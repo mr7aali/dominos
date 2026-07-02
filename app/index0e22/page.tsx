@@ -1,7 +1,7 @@
-import { Index0e22GeneratedPage, metadata } from "../../src/generated/dominos-pages/Index0e22GeneratedPage";
+import { Index0e22Page, metadata } from "../../src/modules/dominos/pages/index0e22Page";
 
 export { metadata };
 
 export default function Page() {
-  return <Index0e22GeneratedPage />;
+  return <Index0e22Page />;
 }

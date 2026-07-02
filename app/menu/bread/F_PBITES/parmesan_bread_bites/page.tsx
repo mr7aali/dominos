@@ -1,7 +1,7 @@
-import { MenuBreadFPBITESParmesanBreadBitesGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuBreadFPBITESParmesanBreadBitesGeneratedPage";
+import { MenuBreadFPBITESParmesanBreadBitesPage, metadata } from "../../../../../src/modules/dominos/pages/menuBreadFPBITESParmesanBreadBitesPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuBreadFPBITESParmesanBreadBitesGeneratedPage />;
+  return <MenuBreadFPBITESParmesanBreadBitesPage />;
 }

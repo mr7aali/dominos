@@ -1,7 +1,7 @@
-import { EnMenuBreadFSBBRDBaconJalapenoStuffedCheesyBreadGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuBreadFSBBRDBaconJalapenoStuffedCheesyBreadGeneratedPage";
+import { EnMenuBreadFSBBRDBaconJalapenoStuffedCheesyBreadPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuBreadFSBBRDBaconJalapenoStuffedCheesyBreadPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuBreadFSBBRDBaconJalapenoStuffedCheesyBreadGeneratedPage />;
+  return <EnMenuBreadFSBBRDBaconJalapenoStuffedCheesyBreadPage />;
 }

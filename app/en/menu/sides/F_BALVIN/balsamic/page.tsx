@@ -1,7 +1,7 @@
-import { EnMenuSidesFBALVINBalsamicGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuSidesFBALVINBalsamicGeneratedPage";
+import { EnMenuSidesFBALVINBalsamicPage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuSidesFBALVINBalsamicPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuSidesFBALVINBalsamicGeneratedPage />;
+  return <EnMenuSidesFBALVINBalsamicPage />;
 }

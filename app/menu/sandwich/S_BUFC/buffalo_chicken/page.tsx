@@ -1,7 +1,7 @@
-import { MenuSandwichSBUFCBuffaloChickenGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSandwichSBUFCBuffaloChickenGeneratedPage";
+import { MenuSandwichSBUFCBuffaloChickenPage, metadata } from "../../../../../src/modules/dominos/pages/menuSandwichSBUFCBuffaloChickenPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSandwichSBUFCBuffaloChickenGeneratedPage />;
+  return <MenuSandwichSBUFCBuffaloChickenPage />;
 }

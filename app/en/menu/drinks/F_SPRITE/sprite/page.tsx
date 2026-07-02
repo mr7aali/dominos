@@ -1,7 +1,7 @@
-import { EnMenuDrinksFSPRITESpriteGeneratedPage, metadata } from "../../../../../../src/generated/dominos-pages/EnMenuDrinksFSPRITESpriteGeneratedPage";
+import { EnMenuDrinksFSPRITESpritePage, metadata } from "../../../../../../src/modules/dominos/pages/enMenuDrinksFSPRITESpritePage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuDrinksFSPRITESpriteGeneratedPage />;
+  return <EnMenuDrinksFSPRITESpritePage />;
 }

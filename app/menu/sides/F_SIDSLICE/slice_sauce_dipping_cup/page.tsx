@@ -1,7 +1,7 @@
-import { MenuSidesFSIDSLICESliceSauceDippingCupGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSidesFSIDSLICESliceSauceDippingCupGeneratedPage";
+import { MenuSidesFSIDSLICESliceSauceDippingCupPage, metadata } from "../../../../../src/modules/dominos/pages/menuSidesFSIDSLICESliceSauceDippingCupPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSidesFSIDSLICESliceSauceDippingCupGeneratedPage />;
+  return <MenuSidesFSIDSLICESliceSauceDippingCupPage />;
 }

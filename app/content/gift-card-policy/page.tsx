@@ -1,7 +1,7 @@
-import { ContentGiftCardPolicyGeneratedPage, metadata } from "../../../src/generated/dominos-pages/ContentGiftCardPolicyGeneratedPage";
+import { ContentGiftCardPolicyPage, metadata } from "../../../src/modules/dominos/pages/contentGiftCardPolicyPage";
 
 export { metadata };
 
 export default function Page() {
-  return <ContentGiftCardPolicyGeneratedPage />;
+  return <ContentGiftCardPolicyPage />;
 }

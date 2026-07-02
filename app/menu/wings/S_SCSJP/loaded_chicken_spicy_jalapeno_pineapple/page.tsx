@@ -1,7 +1,7 @@
-import { MenuWingsSSCSJPLoadedChickenSpicyJalapenoPineappleGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuWingsSSCSJPLoadedChickenSpicyJalapenoPineappleGeneratedPage";
+import { MenuWingsSSCSJPLoadedChickenSpicyJalapenoPineapplePage, metadata } from "../../../../../src/modules/dominos/pages/menuWingsSSCSJPLoadedChickenSpicyJalapenoPineapplePage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuWingsSSCSJPLoadedChickenSpicyJalapenoPineappleGeneratedPage />;
+  return <MenuWingsSSCSJPLoadedChickenSpicyJalapenoPineapplePage />;
 }

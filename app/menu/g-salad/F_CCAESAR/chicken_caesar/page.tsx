@@ -1,7 +1,7 @@
-import { MenuGSaladFCCAESARChickenCaesarGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuGSaladFCCAESARChickenCaesarGeneratedPage";
+import { MenuGSaladFCCAESARChickenCaesarPage, metadata } from "../../../../../src/modules/dominos/pages/menuGSaladFCCAESARChickenCaesarPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuGSaladFCCAESARChickenCaesarGeneratedPage />;
+  return <MenuGSaladFCCAESARChickenCaesarPage />;
 }

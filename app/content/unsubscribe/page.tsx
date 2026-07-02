@@ -1,7 +1,7 @@
-import { ContentUnsubscribeGeneratedPage, metadata } from "../../../src/generated/dominos-pages/ContentUnsubscribeGeneratedPage";
+import { ContentUnsubscribePage, metadata } from "../../../src/modules/dominos/pages/contentUnsubscribePage";
 
 export { metadata };
 
 export default function Page() {
-  return <ContentUnsubscribeGeneratedPage />;
+  return <ContentUnsubscribePage />;
 }

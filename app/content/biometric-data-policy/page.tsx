@@ -1,7 +1,7 @@
-import { ContentBiometricDataPolicyGeneratedPage, metadata } from "../../../src/generated/dominos-pages/ContentBiometricDataPolicyGeneratedPage";
+import { ContentBiometricDataPolicyPage, metadata } from "../../../src/modules/dominos/pages/contentBiometricDataPolicyPage";
 
 export { metadata };
 
 export default function Page() {
-  return <ContentBiometricDataPolicyGeneratedPage />;
+  return <ContentBiometricDataPolicyPage />;
 }

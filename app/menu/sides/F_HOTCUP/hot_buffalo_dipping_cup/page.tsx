@@ -1,7 +1,7 @@
-import { MenuSidesFHOTCUPHotBuffaloDippingCupGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuSidesFHOTCUPHotBuffaloDippingCupGeneratedPage";
+import { MenuSidesFHOTCUPHotBuffaloDippingCupPage, metadata } from "../../../../../src/modules/dominos/pages/menuSidesFHOTCUPHotBuffaloDippingCupPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSidesFHOTCUPHotBuffaloDippingCupGeneratedPage />;
+  return <MenuSidesFHOTCUPHotBuffaloDippingCupPage />;
 }

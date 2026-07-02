@@ -1,7 +1,7 @@
-import { MenuPastaSBUFFALOSpicyBuffalo5cheeseMacCheeseGeneratedPage, metadata } from "../../../../../src/generated/dominos-pages/MenuPastaSBUFFALOSpicyBuffalo5cheeseMacCheeseGeneratedPage";
+import { MenuPastaSBUFFALOSpicyBuffalo5cheeseMacCheesePage, metadata } from "../../../../../src/modules/dominos/pages/menuPastaSBUFFALOSpicyBuffalo5cheeseMacCheesePage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuPastaSBUFFALOSpicyBuffalo5cheeseMacCheeseGeneratedPage />;
+  return <MenuPastaSBUFFALOSpicyBuffalo5cheeseMacCheesePage />;
 }

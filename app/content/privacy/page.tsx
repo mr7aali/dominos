@@ -1,7 +1,7 @@
-import { ContentPrivacyGeneratedPage, metadata } from "../../../src/generated/dominos-pages/ContentPrivacyGeneratedPage";
+import { ContentPrivacyPage, metadata } from "../../../src/modules/dominos/pages/contentPrivacyPage";
 
 export { metadata };
 
 export default function Page() {
-  return <ContentPrivacyGeneratedPage />;
+  return <ContentPrivacyPage />;
 }
