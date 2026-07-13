@@ -1,7 +1,7 @@
-import { EnMenu32f4Page, metadata } from "../../../src/modules/dominos/pages/enMenu32f4Page";
+import { EnMenuPage, metadata } from "../../../src/modules/dominos/pages/enMenuPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenu32f4Page />;
+  return <EnMenuPage />;
 }

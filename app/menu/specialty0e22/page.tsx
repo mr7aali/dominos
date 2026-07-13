@@ -1,7 +1,7 @@
-import { MenuSpecialty0e22Page, metadata } from "../../../src/modules/dominos/pages/menuSpecialty0e22Page";
+import { MenuSpecialtyPage, metadata } from "../../../src/modules/dominos/pages/menuSpecialtyPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuSpecialty0e22Page />;
+  return <MenuSpecialtyPage />;
 }

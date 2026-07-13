@@ -1,7 +1,7 @@
-import { EnMenuSpecialty32f4Page, metadata } from "../../../../src/modules/dominos/pages/enMenuSpecialty32f4Page";
+import { EnMenuSpecialtyPage, metadata } from "../../../../src/modules/dominos/pages/enMenuSpecialtyPage";
 
 export { metadata };
 
 export default function Page() {
-  return <EnMenuSpecialty32f4Page />;
+  return <EnMenuSpecialtyPage />;
 }

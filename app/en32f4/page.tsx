@@ -1,7 +1,7 @@
-import { En32f4Page, metadata } from "../../src/modules/dominos/pages/en32f4Page";
+import { En0e22Page, metadata } from "../../src/modules/dominos/pages/en0e22Page";
 
 export { metadata };
 
 export default function Page() {
-  return <En32f4Page />;
+  return <En0e22Page />;
 }

@@ -1562,8 +1562,8 @@ strong {
   color: rgba(255, 255, 255, var(--tw-text-opacity, 1));
 }
 .before\:rw-content-\[\'\2022\'\]:before {
-  --tw-content: "â€¢";
-  content: "â€¢";
+  --tw-content: "\2022";
+  content: "\2022";
   content: var(--tw-content);
 }
 .last\:rw-mb-none:last-child {

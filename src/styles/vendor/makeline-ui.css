@@ -581,83 +581,9 @@ select {
   outline: 1px solid ButtonText;
   outline: 1px auto -webkit-focus-ring-color;
 }
-@font-face {
-  font-family: One Dot;
-  font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/dominos/OneDot.woff2") format("woff2");
-}
-@font-face {
-  font-family: One Dot;
-  font-style: normal;
-  font-weight: 700;
-  src: url("/fonts/dominos/OneDot-Bold.woff2") format("woff2");
-}
-@font-face {
-  font-family: One Dot Condensed Bold;
-  font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/dominos/OneDotCd-Bold.woff2") format("woff2");
-}
-@font-face {
-  font-family: One Dot Condensed Bold;
-  font-style: normal;
-  font-weight: 700;
-  src: url("/fonts/dominos/OneDotCd-Bold.woff2") format("woff2");
-}
-@font-face {
-  font-family: One Dot Condensed Bold;
-  font-style: italic;
-  font-weight: 400;
-  src: url("/fonts/dominos/OneDotCd-BoldItalic.woff2") format("woff2");
-}
-@font-face {
-  font-family: One Dot Condensed Bold;
-  font-style: italic;
-  font-weight: 700;
-  src: url("/fonts/dominos/OneDotCd-BoldItalic.woff2") format("woff2");
-}
-@font-face {
-  font-family: One Dot Extended;
-  font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/dominos/OneDotExt.woff2") format("woff2");
-}
-@font-face {
-  font-family: One Dot Extended;
-  font-style: normal;
-  font-weight: 700;
-  src: url("/fonts/dominos/OneDotExt-Bold.woff2") format("woff2");
-}
-@font-face {
-  font-family: Dominos Sans Text;
-  font-stretch: 50% 75%;
-  font-weight: 450 700;
-  src: url("/fonts/dominos/Dominos_Sans_Text_VF.woff2")
-    format("woff2-variations");
-}
-@font-face {
-  font-family: Dominos Sans Display;
-  font-weight: 400 950;
-  src: url("/fonts/dominos/Dominos_Sans_Display_VF.woff2")
-    format("woff2-variations");
-}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
-}
-@font-face {
-  font-family: St Jude Sans;
-  font-style: normal;
-  font-weight: 700;
-  src: url("/fonts/dominos/StJudeSansWeb-Bold.woff2") format("woff2-variations");
-}
-@font-face {
-  font-family: TT Commons Pro Variable;
-  font-style: normal;
-  font-weight: 100 950;
-  src: url("/fonts/dominos/TT_Commons_Pro_Variable.woff2")
-    format("woff2-variations");
 }
 .\!container {
   width: 100% !important;

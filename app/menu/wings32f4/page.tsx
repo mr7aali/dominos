@@ -1,7 +1,7 @@
-import { MenuWings32f4Page, metadata } from "../../../src/modules/dominos/pages/menuWings32f4Page";
+import { MenuWingsPage, metadata } from "../../../src/modules/dominos/pages/menuWingsPage";
 
 export { metadata };
 
 export default function Page() {
-  return <MenuWings32f4Page />;
+  return <MenuWingsPage />;
 }

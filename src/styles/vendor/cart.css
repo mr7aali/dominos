@@ -986,9 +986,9 @@ strong {
   visibility: hidden;
 }
 .after\:ct-content-\[\'\2022\'_\/_\'\'\]:after {
-  --tw-content: "â€¢"/"";
-  content: "â€¢" "";
-  content: "â€¢"/"";
+  --tw-content: "\2022"/"";
+  content: "\2022" "";
+  content: "\2022"/"";
   content: var(--tw-content);
 }
 .last\:ct-hidden:last-child {
