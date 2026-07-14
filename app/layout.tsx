@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { SiteFooter } from "../src/modules/dominos/components/SiteFooter";
-import { SiteHeader } from "../src/modules/dominos/components/SiteHeader";
+import { DominosLayout } from "../src/modules/dominos/layouts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -16,9 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <SiteHeader />
-        {children}
-        <SiteFooter />
+        <DominosLayout>{children}</DominosLayout>
       </body>
     </html>
   );

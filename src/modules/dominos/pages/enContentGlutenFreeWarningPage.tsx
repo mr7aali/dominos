@@ -149,8 +149,10 @@ export function EnContentGlutenFreeWarningPage() {
                         {"Bacon & Jalapeno Stuffed Cheesy Bread"}
                       </li>
                     </ul>
-                    <div className="youTubeContainer">
-                      <iframe title="Crumblez Gluten Free Crust" width="560" height="315" src="https://www.youtube.com/embed/r8KEsgEQR3Y" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    <div className="youTubeContainer sh-rounded-lg sh-bg-cool-gray-200 sh-p-large">
+                      <p className="sh-text-ui-dark-cool sh-typo-body-1">
+                        {"Gluten Free Crust video removed from this clone to avoid loading third-party media."}
+                      </p>
                     </div>
                     <h2 id="dominos-gluten-free-crust-faqs" className="sh-mb-regular sh-mt-large sh-font-bold sh-uppercase sh-text-blue sh-typo-headline-2">
                       {"Crumblez Gluten Free Crust FAQs"}
