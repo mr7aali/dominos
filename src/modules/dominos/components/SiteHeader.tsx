@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { useAuthModal } from "./auth";
+import { CartModal } from "./cart";
 import { OrderMethodModal } from "./order";
 
 const navLinks = [
@@ -16,6 +18,8 @@ const navLinks = [
 ];
 
 export function SiteHeader() {
+  const { openAuthModal } = useAuthModal();
+  const [isCartOpen, setIsCartOpen] = useState(false);
   const [isOrderMethodOpen, setIsOrderMethodOpen] = useState(false);
 
   return (
@@ -89,9 +93,9 @@ export function SiteHeader() {
             </ul>
 
             <Link
-              aria-label="Crumblez logo link, home page"
+              aria-label="Domino's logo link, home page"
               className="sh-col-start-2 sh-row-start-1 sh-flex sh-items-center sh-justify-center sh-px-regular sh-py-small focus:sh-rounded-sm focus:sh-outline focus:sh-outline-1 focus:sh-outline-neutral-white"
-              data-testid="crumblez-logo-button"
+              data-testid="dominos-logo-button"
               href="/"
             >
               <img
@@ -125,8 +129,29 @@ export function SiteHeader() {
               <button
                 type="button"
                 className="sh-truncate sh-flex sh-min-w-mega-1 sh-max-w-[67px] sh-items-center sh-justify-center sh-rounded-full sh-bg-neutral-white sh-px-regular sh-py-x-small sh-text-center sh-shadow-button-white sh-typo-label-3 sh-text-blue-800"
+                onClick={() => openAuthModal("email")}
               >
                 Sign In
+              </button>
+              <button
+                aria-label="Open cart"
+                className="site-header-cart-button"
+                type="button"
+                onClick={() => setIsCartOpen(true)}
+              >
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path
+                    d="M6.3 6h15.1l-1.7 8.1a2 2 0 0 1-2 1.6H9a2 2 0 0 1-2-1.6L5.4 4.3H2.5"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                  />
+                  <circle cx="9.5" cy="20" r="1.4" fill="currentColor" />
+                  <circle cx="18" cy="20" r="1.4" fill="currentColor" />
+                </svg>
+                <span>0</span>
               </button>
               <div className="sh-w-xx-large" />
             </div>
@@ -139,6 +164,14 @@ export function SiteHeader() {
       <OrderMethodModal
         isOpen={isOrderMethodOpen}
         onClose={() => setIsOrderMethodOpen(false)}
+      />
+      <CartModal
+        isOpen={isCartOpen}
+        onClose={() => setIsCartOpen(false)}
+        onStartOrder={() => {
+          setIsCartOpen(false);
+          setIsOrderMethodOpen(true);
+        }}
       />
     </>
   );

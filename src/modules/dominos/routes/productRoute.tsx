@@ -29,8 +29,8 @@ export function buildProductMetadata({
   const canonical = `${routePrefix}/menu/${params.category}/${params.productCode}/${params.productSlug}`;
 
   return {
-    title: `${productName} Near Me | Crumblez`,
-    description: `Order your favorite Crumblez ${productName} online! Available for carryout or delivery.`,
+    title: `${productName} Near Me | Domino's`,
+    description: `Order your favorite Domino's ${productName} online! Available for carryout or delivery.`,
     alternates: {
       canonical,
     },

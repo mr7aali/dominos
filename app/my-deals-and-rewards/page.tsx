@@ -1,4 +1,7 @@
-import { MyDealsAndRewardsPage, metadata } from "../../src/modules/dominos/pages/myDealsAndRewardsPage";
+import {
+  MyDealsAndRewardsPage,
+  metadata,
+} from "../../src/modules/dominos/pages/myDealsAndRewardsPage";
 
 export { metadata };
 

@@ -3,8 +3,8 @@ import { DominosLayout } from "../src/modules/dominos/layouts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Crumblez",
-  description: "Order pizza, pasta, sandwiches, wings, and more from Crumblez.",
+  title: "Domino's",
+  description: "Order pizza, pasta, sandwiches, wings, and more from Domino's.",
 };
 
 export default function RootLayout({
