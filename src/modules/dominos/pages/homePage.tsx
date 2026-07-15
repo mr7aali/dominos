@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export function HomePage() {
   return (
     <>
-      <div>
+      <div className="home-page">
         <svg
           width="0"
           height="0"

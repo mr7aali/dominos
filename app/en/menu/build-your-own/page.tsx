@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ProductOptionsLoadingPage } from "../../../../src/modules/dominos/components/product";
+import { BuildYourOwnPizzaPage } from "../../../../src/modules/dominos/components/product";
 
 export const metadata: Metadata = {
   title: "Build Your Own Pizza | Crumblez",
@@ -11,5 +11,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <ProductOptionsLoadingPage />;
+  return <BuildYourOwnPizzaPage />;
 }

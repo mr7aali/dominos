@@ -20,6 +20,506 @@
   z-index: 1;
 }
 
+.build-pizza-page {
+  background: #fffaf4;
+  --build-pizza-container-width: 1700px;
+  --build-pizza-container-padding: 24px;
+  color: #4a2500;
+}
+
+.build-pizza-hero {
+  background: #fff3e7;
+  display: grid;
+  grid-template-columns: minmax(280px, 430px) 1fr;
+  min-height: 210px;
+  overflow: hidden;
+  padding: 32px
+    max(
+      var(--build-pizza-container-padding),
+      calc((100vw - var(--build-pizza-container-width)) / 2 + var(--build-pizza-container-padding))
+    );
+  position: relative;
+}
+
+.build-pizza-hero__copy {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.build-pizza-hero__copy p {
+  font-size: 14px;
+  font-weight: 800;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.build-pizza-hero h1 {
+  color: #0b98dc;
+  font-size: clamp(38px, 5vw, 56px);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 0.9;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.build-pizza-hero span {
+  font-size: 13px;
+  line-height: 1.45;
+  max-width: 340px;
+}
+
+.build-pizza-hero button,
+.build-pizza-page button[type="button"] {
+  background: #ec0000;
+  border: 0;
+  border-radius: 999px;
+  box-shadow: 0 8px 18px rgba(236, 0, 0, 0.22);
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 900;
+  min-width: 250px;
+  padding: 15px 24px;
+  text-transform: uppercase;
+}
+
+.build-pizza-hero img {
+  max-height: 330px;
+  min-width: 620px;
+  object-fit: contain;
+  position: absolute;
+  right: max(-64px, calc((100vw - var(--build-pizza-container-width)) / 2 - 70px));
+  top: -82px;
+  width: 58vw;
+}
+
+.build-pizza-page__content {
+  display: grid;
+  gap: 48px;
+  grid-template-columns: 260px minmax(0, 960px);
+  margin: 0 auto;
+  max-width: var(--build-pizza-container-width);
+  padding: 42px var(--build-pizza-container-padding) 72px;
+}
+
+.build-pizza-page__rail-card {
+  background: #fff3e7;
+  border-radius: 8px;
+  color: #754114;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 22px;
+  text-transform: uppercase;
+}
+
+.build-pizza-page__form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.build-option-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.build-option-section h2 {
+  color: #4a2500;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.build-option-section p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.build-quantity {
+  align-items: center;
+  border: 1px solid #c99c78;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 46px;
+  padding: 0 12px;
+}
+
+.build-quantity span {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.build-quantity div {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.build-quantity button[type="button"] {
+  align-items: center;
+  background: #ec0000;
+  border-radius: 999px;
+  box-shadow: none;
+  display: inline-flex;
+  height: 22px;
+  justify-content: center;
+  min-width: 22px;
+  padding: 0;
+  width: 22px;
+}
+
+.build-quantity button:first-child {
+  background: #cfc7bf;
+}
+
+.build-crust-grid,
+.build-choice-grid,
+.build-dip-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.build-crust-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.build-crust-grid label,
+.build-choice-grid label,
+.build-dip-grid label {
+  background: #fffaf4;
+  border: 1px solid #d5b394;
+  border-radius: 7px;
+  cursor: pointer;
+  min-height: 56px;
+  overflow: hidden;
+  position: relative;
+}
+
+.build-crust-grid label {
+  display: flex;
+  flex-direction: column;
+  min-height: 132px;
+  padding: 10px;
+}
+
+.build-crust-grid label.is-selected,
+.build-choice-grid label.is-selected {
+  border-color: #0b98dc;
+  box-shadow: inset 0 0 0 1px #0b98dc;
+}
+
+.build-crust-grid span {
+  font-size: 12px;
+  font-weight: 800;
+  position: relative;
+  z-index: 1;
+}
+
+.build-crust-grid img {
+  bottom: 0;
+  height: 92px;
+  object-fit: contain;
+  position: absolute;
+  right: 4px;
+  width: 100%;
+}
+
+.build-crust-grid input,
+.build-choice-grid input,
+.build-dip-grid input {
+  accent-color: #0b98dc;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.build-choice-grid--compact {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.build-choice-grid--wide {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.build-choice-grid label {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 94px 1fr 28px;
+}
+
+.build-choice-grid label.is-disabled {
+  background: #cbc6c0;
+  color: #8b8177;
+  cursor: not-allowed;
+}
+
+.build-choice-grid--compact label {
+  grid-template-columns: 1fr 28px;
+  padding: 12px;
+}
+
+.build-choice-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  padding: 10px 8px;
+}
+
+.build-choice-copy strong,
+.build-dip-grid label > span:first-child {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.build-choice-copy em,
+.build-dip-grid em {
+  color: #0076bd;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.build-choice-pattern {
+  align-self: stretch;
+  min-height: 70px;
+}
+
+.build-choice-pattern--tomato,
+.build-choice-pattern--tomato-pieces,
+.build-choice-pattern--pepperoni,
+.build-choice-pattern--buffalo {
+  background: radial-gradient(circle at 20% 28%, #d71920 0 9px, transparent 10px),
+    radial-gradient(circle at 64% 58%, #f0442d 0 8px, transparent 9px),
+    #fff7ee;
+}
+
+.build-choice-pattern--bbq,
+.build-choice-pattern--beef,
+.build-choice-pattern--steak {
+  background: radial-gradient(circle at 24% 40%, #8b4b28 0 9px, transparent 10px),
+    radial-gradient(circle at 66% 62%, #5b2d18 0 7px, transparent 8px),
+    #fff7ee;
+}
+
+.build-choice-pattern--cream,
+.build-choice-pattern--alfredo,
+.build-choice-pattern--ranch,
+.build-choice-pattern--feta,
+.build-choice-pattern--provolone,
+.build-choice-pattern--asiago {
+  background: radial-gradient(circle at 30% 36%, #fff 0 13px, transparent 14px),
+    radial-gradient(circle at 72% 60%, #eadfca 0 11px, transparent 12px),
+    #fff7ee;
+}
+
+.build-choice-pattern--cheese,
+.build-choice-pattern--cheddar {
+  background: repeating-linear-gradient(135deg, #ffd266 0 9px, #fff7ee 9px 18px);
+}
+
+.build-choice-pattern--ham,
+.build-choice-pattern--bacon {
+  background: repeating-linear-gradient(25deg, #d77972 0 12px, #fff7ee 12px 24px);
+}
+
+.build-choice-pattern--sausage,
+.build-choice-pattern--mushroom {
+  background: radial-gradient(circle at 24% 28%, #916240 0 8px, transparent 9px),
+    radial-gradient(circle at 70% 62%, #b08a66 0 7px, transparent 8px),
+    #fff7ee;
+}
+
+.build-choice-pattern--chicken,
+.build-choice-pattern--garlic,
+.build-choice-pattern--onion {
+  background: repeating-linear-gradient(135deg, #f3d1a6 0 10px, #fff7ee 10px 22px);
+}
+
+.build-choice-pattern--jalapeno,
+.build-choice-pattern--green-pepper,
+.build-choice-pattern--spinach {
+  background: radial-gradient(circle at 30% 38%, #2e9b45 0 9px, transparent 10px),
+    radial-gradient(circle at 70% 62%, #65b85c 0 7px, transparent 8px),
+    #fff7ee;
+}
+
+.build-choice-pattern--banana,
+.build-choice-pattern--pineapple {
+  background: radial-gradient(circle at 32% 42%, #ffd642 0 9px, transparent 10px),
+    radial-gradient(circle at 70% 58%, #f4b31e 0 7px, transparent 8px),
+    #fff7ee;
+}
+
+.build-choice-pattern--olive {
+  background: radial-gradient(circle at 32% 42%, #202020 0 7px, transparent 8px),
+    radial-gradient(circle at 70% 58%, #464646 0 7px, transparent 8px),
+    #fff7ee;
+}
+
+.build-pizza-page__details {
+  border: 1px solid #d5b394;
+  border-radius: 8px;
+}
+
+.build-pizza-page__details summary {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+  padding: 14px 16px;
+}
+
+.build-pizza-page__details textarea {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid #ead7c5;
+  display: block;
+  outline: 0;
+  padding: 12px;
+  resize: vertical;
+  width: 100%;
+}
+
+.build-dip-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.build-dip-grid label {
+  display: flex;
+  flex-direction: column;
+  min-height: 178px;
+  padding: 10px;
+}
+
+.build-dip-grid label.is-selected {
+  border-color: #0b98dc;
+  box-shadow: inset 0 0 0 1px #0b98dc;
+}
+
+.build-dip-cup {
+  align-self: center;
+  border-radius: 50% 50% 44% 44%;
+  box-shadow: inset 0 -16px 0 rgba(0, 0, 0, 0.08), 0 10px 18px rgba(74, 37, 0, 0.12);
+  display: block;
+  height: 96px;
+  margin-top: auto;
+  width: 104px;
+}
+
+.build-choice-pattern--cup-slice { background: radial-gradient(circle, #f6d480 0 36%, #ffffff 37% 58%, #24160d 59%); }
+.build-choice-pattern--cup-buffalo { background: radial-gradient(circle, #f0442d 0 38%, #ffffff 39% 59%, #f3a612 60%); }
+.build-choice-pattern--cup-mango { background: radial-gradient(circle, #d9ef75 0 38%, #ffffff 39% 59%, #f5b23b 60%); }
+.build-choice-pattern--cup-bbq { background: radial-gradient(circle, #6b2d19 0 38%, #ffffff 39% 59%, #5f2a1a 60%); }
+.build-choice-pattern--cup-ranch { background: radial-gradient(circle, #65cfbe 0 38%, #ffffff 39% 59%, #35a883 60%); }
+.build-choice-pattern--cup-blue { background: radial-gradient(circle, #1667b8 0 38%, #ffffff 39% 59%, #0b4f9c 60%); }
+.build-choice-pattern--cup-garlic { background: radial-gradient(circle, #ffa43b 0 38%, #ffffff 39% 59%, #ff8b1a 60%); }
+.build-choice-pattern--cup-marinara { background: radial-gradient(circle, #f0442d 0 38%, #ffffff 39% 59%, #e12b2b 60%); }
+
+.build-pizza-page__summary h2 {
+  font-size: 14px;
+  font-weight: 900;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+}
+
+.build-pizza-page__summary p {
+  font-size: 12px;
+  margin: 8px 0;
+}
+
+.build-pizza-summary-card {
+  align-items: flex-start;
+  background: #fff3e7;
+  border: 1px solid #d5b394;
+  border-radius: 8px;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.build-pizza-summary-card div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.build-pizza-summary-card span {
+  font-size: 12px;
+}
+
+.build-pizza-page__summary button[type="button"] {
+  margin-top: 14px;
+  width: 100%;
+}
+
+.build-pizza-page__cart-message {
+  background: #eaf8ef;
+  border: 1px solid #86c79a;
+  border-radius: 8px;
+  color: #185a2b;
+  font-weight: 800;
+  padding: 12px;
+}
+
+.build-pizza-page__summary a {
+  color: #0076bd;
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .build-pizza-hero,
+  .build-pizza-page__content {
+    grid-template-columns: 1fr;
+  }
+
+  .build-pizza-hero img {
+    opacity: 0.35;
+    right: -180px;
+  }
+
+  .build-pizza-page__rail {
+    display: none;
+  }
+
+  .build-crust-grid,
+  .build-choice-grid--compact,
+  .build-choice-grid--wide,
+  .build-dip-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .build-pizza-hero {
+    padding: 28px 20px;
+  }
+
+  .build-pizza-hero button {
+    min-width: 100%;
+  }
+
+  .build-pizza-page__content {
+    padding: 28px 16px 48px;
+  }
+
+  .build-crust-grid,
+  .build-choice-grid--compact,
+  .build-choice-grid--wide,
+  .build-dip-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .tracker-page {
   background: #fffaf4;
   color: #4a2500;
