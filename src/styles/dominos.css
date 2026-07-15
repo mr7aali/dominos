@@ -8,6 +8,314 @@
 @import "./vendor/rewards.css";
 @import "./vendor/product.css";
 
+.tracker-page {
+  background: #fffaf4;
+  color: #4a2500;
+  min-height: 100vh;
+}
+
+.tracker-page__title-band {
+  align-items: center;
+  border-bottom: 1px solid #e5d7ca;
+  display: flex;
+  min-height: 104px;
+  padding: 24px max(28px, calc((100vw - 1240px) / 2));
+}
+
+.tracker-page__title-band h1 {
+  color: #0b98dc;
+  font-size: clamp(32px, 4vw, 44px);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 1;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.tracker-page__content {
+  margin: 0 auto;
+  max-width: 1240px;
+  min-height: 560px;
+  padding: 70px 20px 84px;
+}
+
+.tracker-card {
+  background: #fff;
+  border: 1px solid #d6c9bc;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(74, 37, 0, 0.18);
+  overflow: hidden;
+}
+
+.tracker-card__progress {
+  background: #fff;
+  border-bottom: 1px solid #e9e0d7;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 18px 24px 38px;
+  position: relative;
+}
+
+.tracker-card__progress::before {
+  background: #087fbd;
+  border: 8px solid #fff;
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(74, 37, 0, 0.22);
+  content: "";
+  height: 42px;
+  left: 24px;
+  position: absolute;
+  right: 24px;
+  top: 18px;
+}
+
+.tracker-card__progress span {
+  border-right: 4px solid #fff;
+  height: 42px;
+  position: relative;
+  transform: skewX(-34deg);
+  z-index: 1;
+}
+
+.tracker-card__progress span:last-child {
+  border-right: 0;
+}
+
+.tracker-card__patent {
+  color: #8a4a20;
+  font-size: 10px;
+  margin: -28px 28px 12px 0;
+  position: relative;
+  text-align: right;
+  z-index: 1;
+}
+
+.tracker-card__form-area {
+  display: grid;
+  gap: 18px;
+  padding: 28px 20px 22px;
+}
+
+.tracker-card__form-area h2 {
+  color: #6b3408;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.tracker-form {
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tracker-form__field {
+  background: #fffaf4;
+  border: 1px solid #b88761;
+  border-radius: 8px;
+  color: #8a4a20;
+  display: grid;
+  height: 44px;
+  min-width: 84px;
+  padding: 7px 16px 6px;
+}
+
+.tracker-form__field--phone {
+  min-width: 172px;
+}
+
+.tracker-form__field span {
+  font-size: 10px;
+  line-height: 1.1;
+}
+
+.tracker-form__field input {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  color: #4a2500;
+  font: inherit;
+  font-size: 12px;
+  outline: none;
+  padding: 0;
+  width: 100%;
+}
+
+.tracker-form button {
+  background: #e60000;
+  border: 0;
+  border-radius: 999px;
+  box-shadow: 0 7px 14px rgba(230, 0, 0, 0.22);
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 900;
+  height: 40px;
+  padding: 0 22px;
+  text-transform: uppercase;
+}
+
+.tracker-card__terms,
+.tracker-card__error,
+.tracker-page__driver-note {
+  color: #8a4a20;
+  font-size: 11px;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.tracker-card__terms a {
+  color: #0073b2;
+  text-decoration: underline;
+}
+
+.tracker-card__error {
+  color: #9a5a18;
+  font-size: 12px;
+}
+
+.tracker-page__driver-note {
+  margin-top: 14px;
+}
+
+.tracker-page__footer-links {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 50px 20px 70px;
+}
+
+.tracker-page__footer-logo {
+  border-radius: 8px;
+  display: block;
+  height: 44px;
+  margin-bottom: 44px;
+  object-fit: contain;
+  width: 44px;
+}
+
+.tracker-page__footer-grid {
+  display: grid;
+  gap: 34px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.tracker-page__footer-grid h3 {
+  font-size: 14px;
+  font-weight: 900;
+  margin: 0 0 18px;
+}
+
+.tracker-page__footer-grid ul {
+  display: grid;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tracker-page__footer-grid a {
+  color: #6b3408;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.tracker-page__download {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.tracker-page__download img {
+  display: block;
+  height: 38px;
+  width: auto;
+}
+
+.tracker-page__socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.tracker-page__socials a {
+  align-items: center;
+  background: #0b98dc;
+  border-radius: 999px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 11px;
+  font-weight: 900;
+  height: 24px;
+  justify-content: center;
+  text-decoration: none;
+  width: 24px;
+}
+
+.tracker-page__legal {
+  background: #087fbd;
+  color: #fff;
+  display: grid;
+  gap: 72px;
+  grid-template-columns: minmax(0, 1fr) 0.85fr;
+  padding: 64px max(32px, calc((100vw - 1240px) / 2)) 88px;
+}
+
+.tracker-page__legal article {
+  margin-bottom: 32px;
+  max-width: 720px;
+}
+
+.tracker-page__legal h3 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 900;
+  margin: 0 0 12px;
+}
+
+.tracker-page__legal p,
+.tracker-page__legal a {
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.tracker-page__legal a {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.tracker-page__accordions {
+  align-content: start;
+  display: grid;
+  gap: 18px;
+}
+
+.tracker-page__accordions button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 13px;
+  font-weight: 900;
+  justify-content: space-between;
+  padding: 0;
+  text-align: left;
+}
+
+.tracker-page__accordions svg {
+  height: 16px;
+  width: 16px;
+}
+
 .rewards-page {
   background: #fffaf4;
   color: #4a2500;
@@ -394,6 +702,10 @@
 .shopping-cart-modal-open,
 .order-method-modal-open {
   overflow: hidden;
+}
+
+.modal-scroll-lock {
+  width: 100%;
 }
 
 .site-header-cart-button {
@@ -1431,6 +1743,32 @@
 }
 
 @media (max-width: 900px) {
+  .tracker-page__content {
+    min-height: 420px;
+    padding: 36px 16px 56px;
+  }
+
+  .tracker-card__progress {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .tracker-card__progress::before {
+    left: 14px;
+    right: 14px;
+  }
+
+  .tracker-page__footer-grid,
+  .tracker-page__legal {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tracker-page__legal {
+    gap: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
   .rewards-page__masthead {
     min-height: 130px;
   }
@@ -1530,6 +1868,38 @@
 }
 
 @media (max-width: 480px) {
+  .tracker-page__title-band {
+    min-height: 88px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .tracker-page__title-band h1 {
+    font-size: 30px;
+  }
+
+  .tracker-card__form-area {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .tracker-form {
+    align-items: stretch;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .tracker-form__field,
+  .tracker-form__field--phone,
+  .tracker-form button {
+    width: 100%;
+  }
+
+  .tracker-page__footer-grid,
+  .tracker-page__legal {
+    grid-template-columns: 1fr;
+  }
+
   .rewards-page-brand img {
     height: 44px;
     width: 44px;

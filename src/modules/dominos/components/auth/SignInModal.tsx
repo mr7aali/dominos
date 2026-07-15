@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useEffect, useState } from "react";
+import { useBodyScrollLock } from "../../hooks/useBodyScrollLock";
 
 type SignInModalProps = {
   initialStep?: AuthStep;
@@ -128,6 +129,8 @@ export function SignInModal({ initialStep = "email", isOpen, onClose }: SignInMo
   const [step, setStep] = useState<AuthStep>("email");
   const [showPassword, setShowPassword] = useState(false);
 
+  useBodyScrollLock(isOpen, "sign-in-modal-open");
+
   useEffect(() => {
     if (!isOpen) {
       return;
@@ -139,11 +142,9 @@ export function SignInModal({ initialStep = "email", isOpen, onClose }: SignInMo
       }
     };
 
-    document.body.classList.add("sign-in-modal-open");
     window.addEventListener("keydown", handleKeyDown);
 
     return () => {
-      document.body.classList.remove("sign-in-modal-open");
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [isOpen, onClose]);

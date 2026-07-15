@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useEffect, useState } from "react";
+import { useBodyScrollLock } from "../../hooks/useBodyScrollLock";
 
 type CartModalProps = {
   isOpen: boolean;
@@ -27,6 +28,8 @@ export function CartModal({ isOpen, onClose, onStartOrder }: CartModalProps) {
   const [isPromoOpen, setIsPromoOpen] = useState(false);
   const [promoCode, setPromoCode] = useState("");
 
+  useBodyScrollLock(isOpen, "shopping-cart-modal-open");
+
   useEffect(() => {
     if (!isOpen) {
       return;
@@ -38,11 +41,9 @@ export function CartModal({ isOpen, onClose, onStartOrder }: CartModalProps) {
       }
     };
 
-    document.body.classList.add("shopping-cart-modal-open");
     window.addEventListener("keydown", handleKeyDown);
 
     return () => {
-      document.body.classList.remove("shopping-cart-modal-open");
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [isOpen, onClose]);

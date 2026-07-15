@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useBodyScrollLock } from "../../hooks/useBodyScrollLock";
 
 type OrderMethodModalProps = {
   isOpen: boolean;
@@ -239,6 +240,8 @@ export function OrderMethodModal({ isOpen, onClose }: OrderMethodModalProps) {
   const [mapZoom, setMapZoom] = useState(4);
   const [selectedMethod, setSelectedMethod] = useState<OrderMethodId | null>(null);
 
+  useBodyScrollLock(isOpen, "order-method-modal-open");
+
   useEffect(() => {
     if (!isOpen) {
       return;
@@ -250,11 +253,9 @@ export function OrderMethodModal({ isOpen, onClose }: OrderMethodModalProps) {
       }
     };
 
-    document.body.classList.add("order-method-modal-open");
     window.addEventListener("keydown", handleKeyDown);
 
     return () => {
-      document.body.classList.remove("order-method-modal-open");
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [isOpen, onClose]);
