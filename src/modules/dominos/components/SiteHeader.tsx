@@ -111,7 +111,12 @@ export function SiteHeader() {
                   className="clickable-card sv-flex sv-w-full sv-rounded-xl sv-bg-dark-blue sv-font-sans sv-text-sm sv-normal-case sv-text-neutral-white md:sv-w-1/2 lg:sv-w-full sv-p-x-small lg:sv-px-regular lg:sv-py-small active:outline active:outline-blue"
                   data-testid="clickable-card"
                 >
-                  <button type="button" className="sv-h-full sv-w-full">
+                  <button
+                    aria-haspopup="dialog"
+                    type="button"
+                    className="sv-h-full sv-w-full"
+                    onClick={() => setIsOrderMethodOpen(true)}
+                  >
                     <span className="sv-grid sv-grid-cols-[auto_1fr] sv-grid-rows-1 sv-items-center sv-justify-center sv-gap-x-x-small sv-font-bold">
                       <span>
                         <img

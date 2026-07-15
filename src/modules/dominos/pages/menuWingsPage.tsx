@@ -2,6 +2,7 @@
 // @ts-nocheck
 import Link from "next/link";
 import type { Metadata } from "next";
+import { MenuCategoryGrid } from "../components/menu";
 
 export const metadata: Metadata = {
   "title": "Chicken & Wings Near Me | Crumblez",
@@ -75,7 +76,7 @@ export function MenuWingsPage() {
                         <div className="order-last flex flex-col gap-x-small">
                           <div className="flex flex-col gap-tiny">
                             <h2 className="flex gap-tiny font-bold text-text-primary typo-body-1">
-                              {"Loaded Chicken – Crispy Bacon & Tomato"}
+                              {"Loaded Chicken â€“ Crispy Bacon & Tomato"}
                             </h2>
                             <p className="text-text-secondary typo-body-2 lg:typo-body-1 line-clamp-3">
                               {"Tender bites of breaded chicken made with 100% whole breast white meat topped with garlic Parmesan sauce, a blend of cheese made with mozzarella and cheddar, crispy bacon and tomato."}
@@ -85,20 +86,20 @@ export function MenuWingsPage() {
                         <div className="group relative order-first">
                           <div className="relative flex aspect-square justify-end overflow-hidden rounded-xl border-solid border-2 border-transparent bg-cool-gray-200 group-hover:border-cool-gray-700 group-active:border-blue">
                             <picture>
-                              <source data-testid="Loaded Chicken – Crispy Bacon & Tomato-source-xl" srcSet="/site-assets/cms/assets/57d521dd-6307-40d4-82fa-d34e1bed613743fb.png?modified_on=2024-07-29T12%3A34%3A23.853Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="Loaded Chicken – Crispy Bacon & Tomato-source-lg" srcSet="/site-assets/cms/assets/57d521dd-6307-40d4-82fa-d34e1bed613743fb.png?modified_on=2024-07-29T12%3A34%3A23.853Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="Loaded Chicken – Crispy Bacon & Tomato-source-md" srcSet="/site-assets/cms/assets/57d521dd-6307-40d4-82fa-d34e1bed613743fb.png?modified_on=2024-07-29T12%3A34%3A23.853Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C228%2C228%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img className="min-h-full min-w-full object-right" data-testid="Loaded Chicken – Crispy Bacon & Tomato-img-sm" alt="" loading="lazy" src="/site-assets/cms/assets/57d521dd-6307-40d4-82fa-d34e1bed613743fb.png?modified_on=2024-07-29T12%3A34%3A23.853Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C234%2C234%29%2CallowExpansion" />
+                              <source data-testid="Loaded Chicken â€“ Crispy Bacon & Tomato-source-xl" srcSet="/site-assets/cms/assets/57d521dd-6307-40d4-82fa-d34e1bed613743fb.png?modified_on=2024-07-29T12%3A34%3A23.853Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
+                              <source data-testid="Loaded Chicken â€“ Crispy Bacon & Tomato-source-lg" srcSet="/site-assets/cms/assets/57d521dd-6307-40d4-82fa-d34e1bed613743fb.png?modified_on=2024-07-29T12%3A34%3A23.853Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1000px)" />
+                              <source data-testid="Loaded Chicken â€“ Crispy Bacon & Tomato-source-md" srcSet="/site-assets/cms/assets/57d521dd-6307-40d4-82fa-d34e1bed613743fb.png?modified_on=2024-07-29T12%3A34%3A23.853Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C228%2C228%29%2CallowExpansion" media="(min-width: 500px)" />
+                              <img className="min-h-full min-w-full object-right" data-testid="Loaded Chicken â€“ Crispy Bacon & Tomato-img-sm" alt="" loading="lazy" src="/site-assets/cms/assets/57d521dd-6307-40d4-82fa-d34e1bed613743fb.png?modified_on=2024-07-29T12%3A34%3A23.853Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C234%2C234%29%2CallowExpansion" />
                             </picture>
                           </div>
                           <div className="absolute inset-none m-small flex flex-col items-end justify-end lg:flex-row">
                             <Link className="sr-only" href="/menu/wings/S_SCCBT/loaded_chicken_crispy_bacon_tomato">
                               {"Customize "}
-                              {"Loaded Chicken – Crispy Bacon & Tomato"}
+                              {"Loaded Chicken â€“ Crispy Bacon & Tomato"}
                             </Link>
                             <div className="pd-rounded-full pd-transition-all pd-duration-400 motion-reduce:pd-transition-none">
                               <span className="">
-                                <button aria-label="Add Loaded Chicken – Crispy Bacon & Tomato to Cart" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-red bg-red-default border border-neutral-white [&:not([aria-disabled='true'])]:hover:bg-red-800 [&:not([aria-disabled='true'])]:active:bg-wine [&:not([aria-disabled='true'])]:focus:shadow-button-primary disabled:bg-ui-background-border [&:not([aria-disabled='false'])]:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:shadow-[0_0_2px_0_rgba(255,73,73,0.40),1px_1px_10px_0_rgba(255,73,73,0.30)] [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(227,24,55,0.70),0_0_0_4px_#E31837] [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] [&:not([aria-disabled='true'])]:active:bg-red-900 disabled:bg-warm-gray-400 disabled:pointer-events-none h-x-large w-x-large p-x-small rounded-full aspect-square" type="button">
+                                <button aria-label="Add Loaded Chicken â€“ Crispy Bacon & Tomato to Cart" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-red bg-red-default border border-neutral-white [&:not([aria-disabled='true'])]:hover:bg-red-800 [&:not([aria-disabled='true'])]:active:bg-wine [&:not([aria-disabled='true'])]:focus:shadow-button-primary disabled:bg-ui-background-border [&:not([aria-disabled='false'])]:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:shadow-[0_0_2px_0_rgba(255,73,73,0.40),1px_1px_10px_0_rgba(255,73,73,0.30)] [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(227,24,55,0.70),0_0_0_4px_#E31837] [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] [&:not([aria-disabled='true'])]:active:bg-red-900 disabled:bg-warm-gray-400 disabled:pointer-events-none h-x-large w-x-large p-x-small rounded-full aspect-square" type="button">
                                   <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/icon-type-add-cart--background-primary.svg" />
                                 </button>
                               </span>
@@ -107,7 +108,7 @@ export function MenuWingsPage() {
                             <div hidden style={{ display: "none" }}>
                               <div className="w-fit rounded-full border border-cool-gray-700 bg-cool-gray-200 p-tiny leading-none shadow-[0_2px_6px_0_rgba(120,84,49,0.10)]">
                                 <div className="inline-flex items-center justify-center gap-small leading-none">
-                                  <button aria-label="Remove one Loaded Chicken – Crispy Bacon & Tomato" aria-disabled="true" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square cursor-not-allowed bg-cool-gray-500 pointer-events-none border" type="button">
+                                  <button aria-label="Remove one Loaded Chicken â€“ Crispy Bacon & Tomato" aria-disabled="true" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square cursor-not-allowed bg-cool-gray-500 pointer-events-none border" type="button">
                                     <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/minus--text-tertiary.svg" />
                                   </button>
                                   <div role="status" aria-busy="false" className="flex justify-center">
@@ -118,7 +119,7 @@ export function MenuWingsPage() {
                                       {"Quantity: 0"}
                                     </span>
                                   </div>
-                                  <button aria-label="Add one Loaded Chicken – Crispy Bacon & Tomato" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square" type="button">
+                                  <button aria-label="Add one Loaded Chicken â€“ Crispy Bacon & Tomato" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square" type="button">
                                     <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/plus--background-primary.svg" />
                                   </button>
                                 </div>
@@ -133,7 +134,7 @@ export function MenuWingsPage() {
                         <div className="order-last flex flex-col gap-x-small">
                           <div className="flex flex-col gap-tiny">
                             <h2 className="flex gap-tiny font-bold text-text-primary typo-body-1">
-                              {"Loaded Chicken – Classic Hot Buffalo"}
+                              {"Loaded Chicken â€“ Classic Hot Buffalo"}
                             </h2>
                             <p className="text-text-secondary typo-body-2 lg:typo-body-1 line-clamp-3">
                               {"Tender bites of breaded chicken made with 100% whole breast white meat topped with hot buffalo sauce, ranch, a blend of cheese made with mozzarella and cheddar, and feta."}
@@ -143,20 +144,20 @@ export function MenuWingsPage() {
                         <div className="group relative order-first">
                           <div className="relative flex aspect-square justify-end overflow-hidden rounded-xl border-solid border-2 border-transparent bg-cool-gray-200 group-hover:border-cool-gray-700 group-active:border-blue">
                             <picture>
-                              <source data-testid="Loaded Chicken – Classic Hot Buffalo-source-xl" srcSet="/site-assets/cms/assets/c3395e8d-f0ce-48da-bf2e-ede56e00d0ff1618.png?modified_on=2024-07-29T12%3A34%3A23.553Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="Loaded Chicken – Classic Hot Buffalo-source-lg" srcSet="/site-assets/cms/assets/c3395e8d-f0ce-48da-bf2e-ede56e00d0ff1618.png?modified_on=2024-07-29T12%3A34%3A23.553Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="Loaded Chicken – Classic Hot Buffalo-source-md" srcSet="/site-assets/cms/assets/c3395e8d-f0ce-48da-bf2e-ede56e00d0ff1618.png?modified_on=2024-07-29T12%3A34%3A23.553Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C228%2C228%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img className="min-h-full min-w-full object-right" data-testid="Loaded Chicken – Classic Hot Buffalo-img-sm" alt="" loading="lazy" src="/site-assets/cms/assets/c3395e8d-f0ce-48da-bf2e-ede56e00d0ff1618.png?modified_on=2024-07-29T12%3A34%3A23.553Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C234%2C234%29%2CallowExpansion" />
+                              <source data-testid="Loaded Chicken â€“ Classic Hot Buffalo-source-xl" srcSet="/site-assets/cms/assets/c3395e8d-f0ce-48da-bf2e-ede56e00d0ff1618.png?modified_on=2024-07-29T12%3A34%3A23.553Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
+                              <source data-testid="Loaded Chicken â€“ Classic Hot Buffalo-source-lg" srcSet="/site-assets/cms/assets/c3395e8d-f0ce-48da-bf2e-ede56e00d0ff1618.png?modified_on=2024-07-29T12%3A34%3A23.553Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1000px)" />
+                              <source data-testid="Loaded Chicken â€“ Classic Hot Buffalo-source-md" srcSet="/site-assets/cms/assets/c3395e8d-f0ce-48da-bf2e-ede56e00d0ff1618.png?modified_on=2024-07-29T12%3A34%3A23.553Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C228%2C228%29%2CallowExpansion" media="(min-width: 500px)" />
+                              <img className="min-h-full min-w-full object-right" data-testid="Loaded Chicken â€“ Classic Hot Buffalo-img-sm" alt="" loading="lazy" src="/site-assets/cms/assets/c3395e8d-f0ce-48da-bf2e-ede56e00d0ff1618.png?modified_on=2024-07-29T12%3A34%3A23.553Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C234%2C234%29%2CallowExpansion" />
                             </picture>
                           </div>
                           <div className="absolute inset-none m-small flex flex-col items-end justify-end lg:flex-row">
                             <Link className="sr-only" href="/menu/wings/S_SCCHB/loaded_chicken_classic_hot_buffalo">
                               {"Customize "}
-                              {"Loaded Chicken – Classic Hot Buffalo"}
+                              {"Loaded Chicken â€“ Classic Hot Buffalo"}
                             </Link>
                             <div className="pd-rounded-full pd-transition-all pd-duration-400 motion-reduce:pd-transition-none">
                               <span className="">
-                                <button aria-label="Add Loaded Chicken – Classic Hot Buffalo to Cart" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-red bg-red-default border border-neutral-white [&:not([aria-disabled='true'])]:hover:bg-red-800 [&:not([aria-disabled='true'])]:active:bg-wine [&:not([aria-disabled='true'])]:focus:shadow-button-primary disabled:bg-ui-background-border [&:not([aria-disabled='false'])]:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:shadow-[0_0_2px_0_rgba(255,73,73,0.40),1px_1px_10px_0_rgba(255,73,73,0.30)] [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(227,24,55,0.70),0_0_0_4px_#E31837] [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] [&:not([aria-disabled='true'])]:active:bg-red-900 disabled:bg-warm-gray-400 disabled:pointer-events-none h-x-large w-x-large p-x-small rounded-full aspect-square" type="button">
+                                <button aria-label="Add Loaded Chicken â€“ Classic Hot Buffalo to Cart" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-red bg-red-default border border-neutral-white [&:not([aria-disabled='true'])]:hover:bg-red-800 [&:not([aria-disabled='true'])]:active:bg-wine [&:not([aria-disabled='true'])]:focus:shadow-button-primary disabled:bg-ui-background-border [&:not([aria-disabled='false'])]:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:shadow-[0_0_2px_0_rgba(255,73,73,0.40),1px_1px_10px_0_rgba(255,73,73,0.30)] [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(227,24,55,0.70),0_0_0_4px_#E31837] [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] [&:not([aria-disabled='true'])]:active:bg-red-900 disabled:bg-warm-gray-400 disabled:pointer-events-none h-x-large w-x-large p-x-small rounded-full aspect-square" type="button">
                                   <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/icon-type-add-cart--background-primary.svg" />
                                 </button>
                               </span>
@@ -165,7 +166,7 @@ export function MenuWingsPage() {
                             <div hidden style={{ display: "none" }}>
                               <div className="w-fit rounded-full border border-cool-gray-700 bg-cool-gray-200 p-tiny leading-none shadow-[0_2px_6px_0_rgba(120,84,49,0.10)]">
                                 <div className="inline-flex items-center justify-center gap-small leading-none">
-                                  <button aria-label="Remove one Loaded Chicken – Classic Hot Buffalo" aria-disabled="true" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square cursor-not-allowed bg-cool-gray-500 pointer-events-none border" type="button">
+                                  <button aria-label="Remove one Loaded Chicken â€“ Classic Hot Buffalo" aria-disabled="true" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square cursor-not-allowed bg-cool-gray-500 pointer-events-none border" type="button">
                                     <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/minus--text-tertiary.svg" />
                                   </button>
                                   <div role="status" aria-busy="false" className="flex justify-center">
@@ -176,7 +177,7 @@ export function MenuWingsPage() {
                                       {"Quantity: 0"}
                                     </span>
                                   </div>
-                                  <button aria-label="Add one Loaded Chicken – Classic Hot Buffalo" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square" type="button">
+                                  <button aria-label="Add one Loaded Chicken â€“ Classic Hot Buffalo" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square" type="button">
                                     <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/plus--background-primary.svg" />
                                   </button>
                                 </div>
@@ -191,7 +192,7 @@ export function MenuWingsPage() {
                         <div className="order-last flex flex-col gap-x-small">
                           <div className="flex flex-col gap-tiny">
                             <h2 className="flex gap-tiny font-bold text-text-primary typo-body-1">
-                              {"Loaded Chicken – Spicy Jalapeno - Pineapple"}
+                              {"Loaded Chicken â€“ Spicy Jalapeno - Pineapple"}
                             </h2>
                             <p className="text-text-secondary typo-body-2 lg:typo-body-1 line-clamp-3">
                               {"Tender bites of lightly breaded, 100% whole breast white meat chicken, topped with sweet and spicy mango-habanero sauce, a blend of cheese made with mozzarella and cheddar, jalapeno and pineapple."}
@@ -201,20 +202,20 @@ export function MenuWingsPage() {
                         <div className="group relative order-first">
                           <div className="relative flex aspect-square justify-end overflow-hidden rounded-xl border-solid border-2 border-transparent bg-cool-gray-200 group-hover:border-cool-gray-700 group-active:border-blue">
                             <picture>
-                              <source data-testid="Loaded Chicken – Spicy Jalapeno - Pineapple-source-xl" srcSet="/site-assets/cms/assets/29f7b9c3-4f6f-48f5-83ba-90bee259e803f9c4.png?modified_on=2024-09-23T13%3A53%3A43.936Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="Loaded Chicken – Spicy Jalapeno - Pineapple-source-lg" srcSet="/site-assets/cms/assets/29f7b9c3-4f6f-48f5-83ba-90bee259e803f9c4.png?modified_on=2024-09-23T13%3A53%3A43.936Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="Loaded Chicken – Spicy Jalapeno - Pineapple-source-md" srcSet="/site-assets/cms/assets/29f7b9c3-4f6f-48f5-83ba-90bee259e803f9c4.png?modified_on=2024-09-23T13%3A53%3A43.936Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C228%2C228%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img className="min-h-full min-w-full object-right" data-testid="Loaded Chicken – Spicy Jalapeno - Pineapple-img-sm" alt="" loading="lazy" src="/site-assets/cms/assets/29f7b9c3-4f6f-48f5-83ba-90bee259e803f9c4.png?modified_on=2024-09-23T13%3A53%3A43.936Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C234%2C234%29%2CallowExpansion" />
+                              <source data-testid="Loaded Chicken â€“ Spicy Jalapeno - Pineapple-source-xl" srcSet="/site-assets/cms/assets/29f7b9c3-4f6f-48f5-83ba-90bee259e803f9c4.png?modified_on=2024-09-23T13%3A53%3A43.936Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
+                              <source data-testid="Loaded Chicken â€“ Spicy Jalapeno - Pineapple-source-lg" srcSet="/site-assets/cms/assets/29f7b9c3-4f6f-48f5-83ba-90bee259e803f9c4.png?modified_on=2024-09-23T13%3A53%3A43.936Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1000px)" />
+                              <source data-testid="Loaded Chicken â€“ Spicy Jalapeno - Pineapple-source-md" srcSet="/site-assets/cms/assets/29f7b9c3-4f6f-48f5-83ba-90bee259e803f9c4.png?modified_on=2024-09-23T13%3A53%3A43.936Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C228%2C228%29%2CallowExpansion" media="(min-width: 500px)" />
+                              <img className="min-h-full min-w-full object-right" data-testid="Loaded Chicken â€“ Spicy Jalapeno - Pineapple-img-sm" alt="" loading="lazy" src="/site-assets/cms/assets/29f7b9c3-4f6f-48f5-83ba-90bee259e803f9c4.png?modified_on=2024-09-23T13%3A53%3A43.936Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C234%2C234%29%2CallowExpansion" />
                             </picture>
                           </div>
                           <div className="absolute inset-none m-small flex flex-col items-end justify-end lg:flex-row">
                             <Link className="sr-only" href="/menu/wings/S_SCSJP/loaded_chicken_spicy_jalapeno_pineapple">
                               {"Customize "}
-                              {"Loaded Chicken – Spicy Jalapeno - Pineapple"}
+                              {"Loaded Chicken â€“ Spicy Jalapeno - Pineapple"}
                             </Link>
                             <div className="pd-rounded-full pd-transition-all pd-duration-400 motion-reduce:pd-transition-none">
                               <span className="">
-                                <button aria-label="Add Loaded Chicken – Spicy Jalapeno - Pineapple to Cart" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-red bg-red-default border border-neutral-white [&:not([aria-disabled='true'])]:hover:bg-red-800 [&:not([aria-disabled='true'])]:active:bg-wine [&:not([aria-disabled='true'])]:focus:shadow-button-primary disabled:bg-ui-background-border [&:not([aria-disabled='false'])]:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:shadow-[0_0_2px_0_rgba(255,73,73,0.40),1px_1px_10px_0_rgba(255,73,73,0.30)] [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(227,24,55,0.70),0_0_0_4px_#E31837] [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] [&:not([aria-disabled='true'])]:active:bg-red-900 disabled:bg-warm-gray-400 disabled:pointer-events-none h-x-large w-x-large p-x-small rounded-full aspect-square" type="button">
+                                <button aria-label="Add Loaded Chicken â€“ Spicy Jalapeno - Pineapple to Cart" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-red bg-red-default border border-neutral-white [&:not([aria-disabled='true'])]:hover:bg-red-800 [&:not([aria-disabled='true'])]:active:bg-wine [&:not([aria-disabled='true'])]:focus:shadow-button-primary disabled:bg-ui-background-border [&:not([aria-disabled='false'])]:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:shadow-[0_0_2px_0_rgba(255,73,73,0.40),1px_1px_10px_0_rgba(255,73,73,0.30)] [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(227,24,55,0.70),0_0_0_4px_#E31837] [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] [&:not([aria-disabled='true'])]:active:bg-red-900 disabled:bg-warm-gray-400 disabled:pointer-events-none h-x-large w-x-large p-x-small rounded-full aspect-square" type="button">
                                   <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/icon-type-add-cart--background-primary.svg" />
                                 </button>
                               </span>
@@ -223,7 +224,7 @@ export function MenuWingsPage() {
                             <div hidden style={{ display: "none" }}>
                               <div className="w-fit rounded-full border border-cool-gray-700 bg-cool-gray-200 p-tiny leading-none shadow-[0_2px_6px_0_rgba(120,84,49,0.10)]">
                                 <div className="inline-flex items-center justify-center gap-small leading-none">
-                                  <button aria-label="Remove one Loaded Chicken – Spicy Jalapeno - Pineapple" aria-disabled="true" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square cursor-not-allowed bg-cool-gray-500 pointer-events-none border" type="button">
+                                  <button aria-label="Remove one Loaded Chicken â€“ Spicy Jalapeno - Pineapple" aria-disabled="true" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square cursor-not-allowed bg-cool-gray-500 pointer-events-none border" type="button">
                                     <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/minus--text-tertiary.svg" />
                                   </button>
                                   <div role="status" aria-busy="false" className="flex justify-center">
@@ -234,7 +235,7 @@ export function MenuWingsPage() {
                                       {"Quantity: 0"}
                                     </span>
                                   </div>
-                                  <button aria-label="Add one Loaded Chicken – Spicy Jalapeno - Pineapple" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square" type="button">
+                                  <button aria-label="Add one Loaded Chicken â€“ Spicy Jalapeno - Pineapple" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square" type="button">
                                     <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/plus--background-primary.svg" />
                                   </button>
                                 </div>
@@ -249,7 +250,7 @@ export function MenuWingsPage() {
                         <div className="order-last flex flex-col gap-x-small">
                           <div className="flex flex-col gap-tiny">
                             <h2 className="flex gap-tiny font-bold text-text-primary typo-body-1">
-                              {"Loaded Chicken – Sweet BBQ Bacon"}
+                              {"Loaded Chicken â€“ Sweet BBQ Bacon"}
                             </h2>
                             <p className="text-text-secondary typo-body-2 lg:typo-body-1 line-clamp-3">
                               {"Tender bites of breaded chicken made with 100% whole breast white meat topped with sweet and smoky honey BBQ sauce, a blend of cheese made with mozzarella and cheddar, and crispy bacon."}
@@ -259,20 +260,20 @@ export function MenuWingsPage() {
                         <div className="group relative order-first">
                           <div className="relative flex aspect-square justify-end overflow-hidden rounded-xl border-solid border-2 border-transparent bg-cool-gray-200 group-hover:border-cool-gray-700 group-active:border-blue">
                             <picture>
-                              <source data-testid="Loaded Chicken – Sweet BBQ Bacon-source-xl" srcSet="/site-assets/cms/assets/92e5e84a-106c-4d2d-98cf-45ecde815b651073.png?modified_on=2024-07-29T12%3A34%3A20.953Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="Loaded Chicken – Sweet BBQ Bacon-source-lg" srcSet="/site-assets/cms/assets/92e5e84a-106c-4d2d-98cf-45ecde815b651073.png?modified_on=2024-07-29T12%3A34%3A20.953Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="Loaded Chicken – Sweet BBQ Bacon-source-md" srcSet="/site-assets/cms/assets/92e5e84a-106c-4d2d-98cf-45ecde815b651073.png?modified_on=2024-07-29T12%3A34%3A20.953Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C228%2C228%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img className="min-h-full min-w-full object-right" data-testid="Loaded Chicken – Sweet BBQ Bacon-img-sm" alt="" loading="lazy" src="/site-assets/cms/assets/92e5e84a-106c-4d2d-98cf-45ecde815b651073.png?modified_on=2024-07-29T12%3A34%3A20.953Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C234%2C234%29%2CallowExpansion" />
+                              <source data-testid="Loaded Chicken â€“ Sweet BBQ Bacon-source-xl" srcSet="/site-assets/cms/assets/92e5e84a-106c-4d2d-98cf-45ecde815b651073.png?modified_on=2024-07-29T12%3A34%3A20.953Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
+                              <source data-testid="Loaded Chicken â€“ Sweet BBQ Bacon-source-lg" srcSet="/site-assets/cms/assets/92e5e84a-106c-4d2d-98cf-45ecde815b651073.png?modified_on=2024-07-29T12%3A34%3A20.953Z&im=Resize%3D%28703%2C703%29%3BCrop%2Crect%3D%28294%2C176%2C431%2C431%29%2CallowExpansion" media="(min-width: 1000px)" />
+                              <source data-testid="Loaded Chicken â€“ Sweet BBQ Bacon-source-md" srcSet="/site-assets/cms/assets/92e5e84a-106c-4d2d-98cf-45ecde815b651073.png?modified_on=2024-07-29T12%3A34%3A20.953Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C228%2C228%29%2CallowExpansion" media="(min-width: 500px)" />
+                              <img className="min-h-full min-w-full object-right" data-testid="Loaded Chicken â€“ Sweet BBQ Bacon-img-sm" alt="" loading="lazy" src="/site-assets/cms/assets/92e5e84a-106c-4d2d-98cf-45ecde815b651073.png?modified_on=2024-07-29T12%3A34%3A20.953Z&im=Resize%3D%28426%2C426%29%3BCrop%2Crect%3D%28200%2C130%2C234%2C234%29%2CallowExpansion" />
                             </picture>
                           </div>
                           <div className="absolute inset-none m-small flex flex-col items-end justify-end lg:flex-row">
                             <Link className="sr-only" href="/menu/wings/S_SCSBBQ/loaded_chicken_sweet_bbq_bacon">
                               {"Customize "}
-                              {"Loaded Chicken – Sweet BBQ Bacon"}
+                              {"Loaded Chicken â€“ Sweet BBQ Bacon"}
                             </Link>
                             <div className="pd-rounded-full pd-transition-all pd-duration-400 motion-reduce:pd-transition-none">
                               <span className="">
-                                <button aria-label="Add Loaded Chicken – Sweet BBQ Bacon to Cart" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-red bg-red-default border border-neutral-white [&:not([aria-disabled='true'])]:hover:bg-red-800 [&:not([aria-disabled='true'])]:active:bg-wine [&:not([aria-disabled='true'])]:focus:shadow-button-primary disabled:bg-ui-background-border [&:not([aria-disabled='false'])]:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:shadow-[0_0_2px_0_rgba(255,73,73,0.40),1px_1px_10px_0_rgba(255,73,73,0.30)] [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(227,24,55,0.70),0_0_0_4px_#E31837] [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] [&:not([aria-disabled='true'])]:active:bg-red-900 disabled:bg-warm-gray-400 disabled:pointer-events-none h-x-large w-x-large p-x-small rounded-full aspect-square" type="button">
+                                <button aria-label="Add Loaded Chicken â€“ Sweet BBQ Bacon to Cart" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-red bg-red-default border border-neutral-white [&:not([aria-disabled='true'])]:hover:bg-red-800 [&:not([aria-disabled='true'])]:active:bg-wine [&:not([aria-disabled='true'])]:focus:shadow-button-primary disabled:bg-ui-background-border [&:not([aria-disabled='false'])]:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:shadow-[0_0_2px_0_rgba(255,73,73,0.40),1px_1px_10px_0_rgba(255,73,73,0.30)] [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(227,24,55,0.70),0_0_0_4px_#E31837] [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] [&:not([aria-disabled='true'])]:active:bg-red-900 disabled:bg-warm-gray-400 disabled:pointer-events-none h-x-large w-x-large p-x-small rounded-full aspect-square" type="button">
                                   <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/icon-type-add-cart--background-primary.svg" />
                                 </button>
                               </span>
@@ -281,7 +282,7 @@ export function MenuWingsPage() {
                             <div hidden style={{ display: "none" }}>
                               <div className="w-fit rounded-full border border-cool-gray-700 bg-cool-gray-200 p-tiny leading-none shadow-[0_2px_6px_0_rgba(120,84,49,0.10)]">
                                 <div className="inline-flex items-center justify-center gap-small leading-none">
-                                  <button aria-label="Remove one Loaded Chicken – Sweet BBQ Bacon" aria-disabled="true" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square cursor-not-allowed bg-cool-gray-500 pointer-events-none border" type="button">
+                                  <button aria-label="Remove one Loaded Chicken â€“ Sweet BBQ Bacon" aria-disabled="true" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square cursor-not-allowed bg-cool-gray-500 pointer-events-none border" type="button">
                                     <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/minus--text-tertiary.svg" />
                                   </button>
                                   <div role="status" aria-busy="false" className="flex justify-center">
@@ -292,7 +293,7 @@ export function MenuWingsPage() {
                                       {"Quantity: 0"}
                                     </span>
                                   </div>
-                                  <button aria-label="Add one Loaded Chicken – Sweet BBQ Bacon" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square" type="button">
+                                  <button aria-label="Add one Loaded Chicken â€“ Sweet BBQ Bacon" aria-disabled="false" className="inline-flex w-fit items-center justify-center disabled:cursor-not-allowed bg-blue [&:not([aria-disabled='true'])]:hover:bg-blue-900 disabled:bg-ui-background-border border-none [&:not([aria-disabled='true'])]:focus:shadow-[0_0_5px_4px_rgba(0,144,226,0.70),0_0_0_4px_rgba(0,144,226,0.50)] disabled:bg-warm-gray-400 disabled:pointer-events-none [&:not([aria-disabled='true'])]:active:bg-blue-1000 [&:not([aria-disabled='true'])]:active:focus:[box-shadow:none] w-large p-tiny rounded-full aspect-square" type="button">
                                     <img alt="" className="block w-regular h-regular" src="/site-assets/dpz-ecomm-makeline-ui-mfe/icons/modern/plus--background-primary.svg" />
                                   </button>
                                 </div>
@@ -658,185 +659,7 @@ export function MenuWingsPage() {
                     <h1 className="pd-text-blue pd-typo-subhead-2">
                       {"Full Menu"}
                     </h1>
-                    <ul className="pd-grid pd-auto-cols-fr pd-auto-rows-fr pd-grid-cols-2 pd-gap-regular md:pd-grid-cols-4 lg:pd-grid-cols-6">
-                      <li className="">
-                        <div className="clickable-card flex h-full flex-col overflow-hidden rounded-lg text-ui-extra-dark-cool outline-dark-blue bg-cool-gray-200 hover:border-ui-medium-cool focus:outline-2 active:outline-blue hover:outline hover:outline-1 hover:outline-cool-gray-700 active:outline-2 active:hover:outline-2 aspect-square active:outline active:outline-blue" data-testid="clickable-card">
-                          <div className="relative flex flex-1 items-end justify-start overflow-visible">
-                            <picture className="absolute min-h-full min-w-full max-w-full">
-                              <source data-testid="BuildYourOwn-source-xl" srcSet="/site-assets/cms/assets/e981ac7d-12a0-4412-a5f3-f2da0c489d808b64.png?modified_on=2025-08-08T14%3A03%3A16.290Z&im=Resize%3D%28624%2C624%29%3BCrop%2Crect%3D%28202%2C206%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="BuildYourOwn-source-lg" srcSet="/site-assets/cms/assets/e981ac7d-12a0-4412-a5f3-f2da0c489d808b64.png?modified_on=2025-08-08T14%3A03%3A16.290Z&im=Resize%3D%28406%2C406%29%3BCrop%2Crect%3D%28132%2C134%2C280%2C280%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="BuildYourOwn-source-md" srcSet="/site-assets/cms/assets/e981ac7d-12a0-4412-a5f3-f2da0c489d808b64.png?modified_on=2025-08-08T14%3A03%3A16.290Z&im=Resize%3D%28333%2C333%29%3BCrop%2Crect%3D%28106%2C111%2C230%2C230%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img alt="" className="absolute" data-testid="BuildYourOwn-img-sm" draggable="false" loading="lazy" src="/site-assets/cms/assets/e981ac7d-12a0-4412-a5f3-f2da0c489d808b64.png?modified_on=2025-08-08T14%3A03%3A16.290Z&im=Resize%3D%28333%2C333%29%3BCrop%2Crect%3D%28106%2C102%2C234%2C234%29%2CallowExpansion" />
-                            </picture>
-                          </div>
-                          <div className="z-[5] bg-cool-gray-200 bg-opacity-70">
-                            <Link className="text-left flex items-end justify-start outline-none typo-label-2 mx-regular mb-small lg:typo-label-1 lg:mx-medium lg:mb-medium z-10" href="/menu/build-your-own">
-                              {"Build Your Own"}
-                            </Link>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="">
-                        <div className="clickable-card flex h-full flex-col overflow-hidden rounded-lg text-ui-extra-dark-cool outline-dark-blue bg-cool-gray-200 hover:border-ui-medium-cool focus:outline-2 active:outline-blue hover:outline hover:outline-1 hover:outline-cool-gray-700 active:outline-2 active:hover:outline-2 aspect-square active:outline active:outline-blue" data-testid="clickable-card">
-                          <div className="relative flex flex-1 items-end justify-start overflow-visible">
-                            <picture className="absolute min-h-full min-w-full max-w-full">
-                              <source data-testid="Specialty-source-xl" srcSet="/site-assets/cms/assets/2050a7ae-c278-4d60-b984-0956367382cf2f79.png?modified_on=2024-07-30T12%3A23%3A51.406Z&im=Resize%3D%28624%2C624%29%3BCrop%2Crect%3D%28202%2C206%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="Specialty-source-lg" srcSet="/site-assets/cms/assets/2050a7ae-c278-4d60-b984-0956367382cf2f79.png?modified_on=2024-07-30T12%3A23%3A51.406Z&im=Resize%3D%28406%2C406%29%3BCrop%2Crect%3D%28132%2C134%2C280%2C280%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="Specialty-source-md" srcSet="/site-assets/cms/assets/2050a7ae-c278-4d60-b984-0956367382cf2f79.png?modified_on=2024-07-30T12%3A23%3A51.406Z&im=Resize%3D%28333%2C333%29%3BCrop%2Crect%3D%28106%2C111%2C230%2C230%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img alt="" className="absolute" data-testid="Specialty-img-sm" draggable="false" loading="lazy" src="/site-assets/cms/assets/2050a7ae-c278-4d60-b984-0956367382cf2f79.png?modified_on=2024-07-30T12%3A23%3A51.406Z&im=Resize%3D%28333%2C333%29%3BCrop%2Crect%3D%28106%2C102%2C234%2C234%29%2CallowExpansion" />
-                            </picture>
-                          </div>
-                          <div className="z-[5] bg-cool-gray-200 bg-opacity-70">
-                            <Link className="text-left flex items-end justify-start outline-none typo-label-2 mx-regular mb-small lg:typo-label-1 lg:mx-medium lg:mb-medium z-10" href="/menu/specialty">
-                              {"Specialty Pizzas"}
-                            </Link>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="">
-                        <div className="clickable-card flex h-full flex-col overflow-hidden rounded-lg text-ui-extra-dark-cool outline-dark-blue bg-cool-gray-200 hover:border-ui-medium-cool focus:outline-2 active:outline-blue hover:outline hover:outline-1 hover:outline-cool-gray-700 active:outline-2 active:hover:outline-2 aspect-square active:outline active:outline-blue" data-testid="clickable-card">
-                          <div className="relative flex flex-1 items-end justify-start overflow-visible">
-                            <picture className="absolute min-h-full min-w-full max-w-full">
-                              <source data-testid="Bread-source-xl" srcSet="/site-assets/cms/assets/25702277-acad-4abb-8427-34b639f67ecd5cdd.png?modified_on=2024-12-02T17%3A09%3A35.142Z&im=Resize%3D%28512%2C512%29%3BCrop%2Crect%3D%28105%2C59%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="Bread-source-lg" srcSet="/site-assets/cms/assets/25702277-acad-4abb-8427-34b639f67ecd5cdd.png?modified_on=2024-12-02T17%3A09%3A35.142Z&im=Resize%3D%28333%2C333%29%3BCrop%2Crect%3D%2869%2C42%2C280%2C280%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="Bread-source-md" srcSet="/site-assets/cms/assets/25702277-acad-4abb-8427-34b639f67ecd5cdd.png?modified_on=2024-12-02T17%3A09%3A35.142Z&im=Resize%3D%28281%2C281%29%3BCrop%2Crect%3D%2859%2C38%2C230%2C230%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img alt="" className="absolute" data-testid="Bread-img-sm" draggable="false" loading="lazy" src="/site-assets/cms/assets/25702277-acad-4abb-8427-34b639f67ecd5cdd.png?modified_on=2024-12-02T17%3A09%3A35.142Z&im=Resize%3D%28281%2C281%29%3BCrop%2Crect%3D%2859%2C36%2C234%2C234%29%2CallowExpansion" />
-                            </picture>
-                          </div>
-                          <div className="z-[5] bg-cool-gray-200 bg-opacity-70">
-                            <Link className="text-left flex items-end justify-start outline-none typo-label-2 mx-regular mb-small lg:typo-label-1 lg:mx-medium lg:mb-medium z-10" href="/menu/bread">
-                              {"Breads"}
-                            </Link>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="">
-                        <div className="clickable-card flex h-full flex-col overflow-hidden rounded-lg text-ui-extra-dark-cool outline-dark-blue bg-cool-gray-200 hover:border-ui-medium-cool focus:outline-2 active:outline-blue hover:outline hover:outline-1 hover:outline-cool-gray-700 active:outline-2 active:hover:outline-2 aspect-square active:outline active:outline-blue" data-testid="clickable-card">
-                          <div className="relative flex flex-1 items-end justify-start overflow-visible">
-                            <picture className="absolute min-h-full min-w-full max-w-full">
-                              <source data-testid="Wings-source-xl" srcSet="/site-assets/cms/assets/52a5cd59-c19c-472d-b5b2-e8e0c6144408929e.png?modified_on=2024-12-02T17%3A11%3A10.571Z&im=Resize%3D%28519%2C519%29%3BCrop%2Crect%3D%2890%2C161%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="Wings-source-lg" srcSet="/site-assets/cms/assets/52a5cd59-c19c-472d-b5b2-e8e0c6144408929e.png?modified_on=2024-12-02T17%3A11%3A10.571Z&im=Resize%3D%28337%2C337%29%3BCrop%2Crect%3D%2859%2C105%2C280%2C280%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="Wings-source-md" srcSet="/site-assets/cms/assets/52a5cd59-c19c-472d-b5b2-e8e0c6144408929e.png?modified_on=2024-12-02T17%3A11%3A10.571Z&im=Resize%3D%28281%2C281%29%3BCrop%2Crect%3D%2859%2C88%2C230%2C230%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img alt="" className="absolute" data-testid="Wings-img-sm" draggable="false" loading="lazy" src="/site-assets/cms/assets/52a5cd59-c19c-472d-b5b2-e8e0c6144408929e.png?modified_on=2024-12-02T17%3A11%3A10.571Z&im=Resize%3D%28281%2C281%29%3BCrop%2Crect%3D%2859%2C85%2C234%2C234%29%2CallowExpansion" />
-                            </picture>
-                          </div>
-                          <div className="z-[5] bg-cool-gray-200 bg-opacity-70">
-                            <Link className="text-left flex items-end justify-start outline-none typo-label-2 mx-regular mb-small lg:typo-label-1 lg:mx-medium lg:mb-medium z-10" href="/menu/wings">
-                              {"Chicken"}
-                            </Link>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="">
-                        <div className="clickable-card flex h-full flex-col overflow-hidden rounded-lg text-ui-extra-dark-cool outline-dark-blue bg-cool-gray-200 hover:border-ui-medium-cool focus:outline-2 active:outline-blue hover:outline hover:outline-1 hover:outline-cool-gray-700 active:outline-2 active:hover:outline-2 aspect-square active:outline active:outline-blue" data-testid="clickable-card">
-                          <div className="relative flex flex-1 items-end justify-start overflow-visible">
-                            <picture className="absolute min-h-full min-w-full max-w-full">
-                              <source data-testid="Dessert-source-xl" srcSet="/site-assets/cms/assets/ae22b2e2-9f64-423f-98e7-df93821a49930515.png?modified_on=2024-07-26T20%3A08%3A08.048Z&im=Resize%3D%28413%2C413%29%3BCrop%2Crect%3D%2828%2C91%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="Dessert-source-lg" srcSet="/site-assets/cms/assets/ae22b2e2-9f64-423f-98e7-df93821a49930515.png?modified_on=2024-07-26T20%3A08%3A08.048Z&im=Resize%3D%28269%2C269%29%3BCrop%2Crect%3D%2818%2C59%2C280%2C280%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="Dessert-source-md" srcSet="/site-assets/cms/assets/ae22b2e2-9f64-423f-98e7-df93821a49930515.png?modified_on=2024-07-26T20%3A08%3A08.048Z&im=Resize%3D%28217%2C217%29%3BCrop%2Crect%3D%2815%2C46%2C230%2C230%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img alt="" className="absolute" data-testid="Dessert-img-sm" draggable="false" loading="lazy" src="/site-assets/cms/assets/ae22b2e2-9f64-423f-98e7-df93821a49930515.png?modified_on=2024-07-26T20%3A08%3A08.048Z&im=Resize%3D%28217%2C217%29%3BCrop%2Crect%3D%2815%2C41%2C234%2C234%29%2CallowExpansion" />
-                            </picture>
-                          </div>
-                          <div className="z-[5] bg-cool-gray-200 bg-opacity-70">
-                            <Link className="text-left flex items-end justify-start outline-none typo-label-2 mx-regular mb-small lg:typo-label-1 lg:mx-medium lg:mb-medium z-10" href="/menu/dessert">
-                              {"Desserts"}
-                            </Link>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="">
-                        <div className="clickable-card flex h-full flex-col overflow-hidden rounded-lg text-ui-extra-dark-cool outline-dark-blue bg-cool-gray-200 hover:border-ui-medium-cool focus:outline-2 active:outline-blue hover:outline hover:outline-1 hover:outline-cool-gray-700 active:outline-2 active:hover:outline-2 aspect-square active:outline active:outline-blue" data-testid="clickable-card">
-                          <div className="relative flex flex-1 items-end justify-start overflow-visible">
-                            <picture className="absolute min-h-full min-w-full max-w-full">
-                              <source data-testid="Pasta-source-xl" srcSet="/site-assets/cms/assets/dec46cc9-7059-4004-8b32-14fc9465bac15a27.png?modified_on=2024-12-02T16%3A54%3A22.015Z&im=Resize%3D%28462%2C462%29%3BCrop%2Crect%3D%2877%2C133%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="Pasta-source-lg" srcSet="/site-assets/cms/assets/dec46cc9-7059-4004-8b32-14fc9465bac15a27.png?modified_on=2024-12-02T16%3A54%3A22.015Z&im=Resize%3D%28301%2C301%29%3BCrop%2Crect%3D%2850%2C87%2C280%2C280%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="Pasta-source-md" srcSet="/site-assets/cms/assets/dec46cc9-7059-4004-8b32-14fc9465bac15a27.png?modified_on=2024-12-02T16%3A54%3A22.015Z&im=Resize%3D%28281%2C281%29%3BCrop%2Crect%3D%2850%2C101%2C230%2C230%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img alt="" className="absolute" data-testid="Pasta-img-sm" draggable="false" loading="lazy" src="/site-assets/cms/assets/dec46cc9-7059-4004-8b32-14fc9465bac15a27.png?modified_on=2024-12-02T16%3A54%3A22.015Z&im=Resize%3D%28281%2C281%29%3BCrop%2Crect%3D%2850%2C95%2C234%2C234%29%2CallowExpansion" />
-                            </picture>
-                          </div>
-                          <div className="z-[5] bg-cool-gray-200 bg-opacity-70">
-                            <Link className="text-left flex items-end justify-start outline-none typo-label-2 mx-regular mb-small lg:typo-label-1 lg:mx-medium lg:mb-medium z-10" href="/menu/pasta">
-                              {"Oven-Baked Pastas"}
-                            </Link>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="">
-                        <div className="clickable-card flex h-full flex-col overflow-hidden rounded-lg text-ui-extra-dark-cool outline-dark-blue bg-cool-gray-200 hover:border-ui-medium-cool focus:outline-2 active:outline-blue hover:outline hover:outline-1 hover:outline-cool-gray-700 active:outline-2 active:hover:outline-2 aspect-square active:outline active:outline-blue" data-testid="clickable-card">
-                          <div className="relative flex flex-1 items-end justify-start overflow-visible">
-                            <picture className="absolute min-h-full min-w-full max-w-full">
-                              <source data-testid="Sandwich-source-xl" srcSet="/site-assets/cms/assets/de67c289-a105-4ee3-a0ef-015aa5b73f4982af.png?modified_on=2026-04-27T21%3A57%3A21.647Z&im=Resize%3D%28517%2C517%29%3BCrop%2Crect%3D%28101%2C153%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="Sandwich-source-lg" srcSet="/site-assets/cms/assets/de67c289-a105-4ee3-a0ef-015aa5b73f4982af.png?modified_on=2026-04-27T21%3A57%3A21.647Z&im=Resize%3D%28336%2C336%29%3BCrop%2Crect%3D%2866%2C99%2C280%2C280%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="Sandwich-source-md" srcSet="/site-assets/cms/assets/de67c289-a105-4ee3-a0ef-015aa5b73f4982af.png?modified_on=2026-04-27T21%3A57%3A21.647Z&im=Resize%3D%28281%2C281%29%3BCrop%2Crect%3D%2859%2C83%2C230%2C230%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img alt="" className="absolute" data-testid="Sandwich-img-sm" draggable="false" loading="lazy" src="/site-assets/cms/assets/de67c289-a105-4ee3-a0ef-015aa5b73f4982af.png?modified_on=2026-04-27T21%3A57%3A21.647Z&im=Resize%3D%28281%2C281%29%3BCrop%2Crect%3D%2859%2C83%2C234%2C234%29%2CallowExpansion" />
-                            </picture>
-                          </div>
-                          <div className="z-[5] bg-cool-gray-200 bg-opacity-70">
-                            <Link className="text-left flex items-end justify-start outline-none typo-label-2 mx-regular mb-small lg:typo-label-1 lg:mx-medium lg:mb-medium z-10" href="/menu/sandwich">
-                              {"Oven-Baked Sandwiches"}
-                            </Link>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="">
-                        <div className="clickable-card flex h-full flex-col overflow-hidden rounded-lg text-ui-extra-dark-cool outline-dark-blue bg-cool-gray-200 hover:border-ui-medium-cool focus:outline-2 active:outline-blue hover:outline hover:outline-1 hover:outline-cool-gray-700 active:outline-2 active:hover:outline-2 aspect-square active:outline active:outline-blue" data-testid="clickable-card">
-                          <div className="relative flex flex-1 items-end justify-start overflow-visible">
-                            <picture className="absolute min-h-full min-w-full max-w-full">
-                              <source data-testid="GSalad-source-xl" srcSet="/site-assets/cms/assets/7c90a9cc-9c70-4ff2-a030-f2a4fdfd9f55da56.png?modified_on=2024-12-02T17%3A58%3A35.453Z&im=Resize%3D%28462%2C462%29%3BCrop%2Crect%3D%2877%2C133%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="GSalad-source-lg" srcSet="/site-assets/cms/assets/7c90a9cc-9c70-4ff2-a030-f2a4fdfd9f55da56.png?modified_on=2024-12-02T17%3A58%3A35.453Z&im=Resize%3D%28301%2C301%29%3BCrop%2Crect%3D%2850%2C87%2C280%2C280%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="GSalad-source-md" srcSet="/site-assets/cms/assets/7c90a9cc-9c70-4ff2-a030-f2a4fdfd9f55da56.png?modified_on=2024-12-02T17%3A58%3A35.453Z&im=Resize%3D%28281%2C281%29%3BCrop%2Crect%3D%2850%2C101%2C230%2C230%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img alt="" className="absolute" data-testid="GSalad-img-sm" draggable="false" loading="lazy" src="/site-assets/cms/assets/7c90a9cc-9c70-4ff2-a030-f2a4fdfd9f55da56.png?modified_on=2024-12-02T17%3A58%3A35.453Z&im=Resize%3D%28281%2C281%29%3BCrop%2Crect%3D%2850%2C95%2C234%2C234%29%2CallowExpansion" />
-                            </picture>
-                          </div>
-                          <div className="z-[5] bg-cool-gray-200 bg-opacity-70">
-                            <Link className="text-left flex items-end justify-start outline-none typo-label-2 mx-regular mb-small lg:typo-label-1 lg:mx-medium lg:mb-medium z-10" href="/menu/g-salad">
-                              {"Salads"}
-                            </Link>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="">
-                        <div className="clickable-card flex h-full flex-col overflow-hidden rounded-lg text-ui-extra-dark-cool outline-dark-blue bg-cool-gray-200 hover:border-ui-medium-cool focus:outline-2 active:outline-blue hover:outline hover:outline-1 hover:outline-cool-gray-700 active:outline-2 active:hover:outline-2 aspect-square active:outline active:outline-blue" data-testid="clickable-card">
-                          <div className="relative flex flex-1 items-end justify-start overflow-visible">
-                            <picture className="absolute min-h-full min-w-full max-w-full">
-                              <source data-testid="Drinks-source-xl" srcSet="/site-assets/cms/assets/86aa18bc-ed6b-49d3-af01-a1302a4916d90354.png?modified_on=2024-12-02T17%3A08%3A17.596Z&im=Resize%3D%28431%2C431%29%3BCrop%2Crect%3D%280%2C0%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="Drinks-source-lg" srcSet="/site-assets/cms/assets/86aa18bc-ed6b-49d3-af01-a1302a4916d90354.png?modified_on=2024-12-02T17%3A08%3A17.596Z&im=Resize%3D%28280%2C280%29%3BCrop%2Crect%3D%280%2C0%2C280%2C280%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="Drinks-source-md" srcSet="/site-assets/cms/assets/86aa18bc-ed6b-49d3-af01-a1302a4916d90354.png?modified_on=2024-12-02T17%3A08%3A17.596Z&im=Resize%3D%28230%2C230%29%3BCrop%2Crect%3D%280%2C0%2C230%2C230%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img alt="" className="absolute" data-testid="Drinks-img-sm" draggable="false" loading="lazy" src="/site-assets/cms/assets/86aa18bc-ed6b-49d3-af01-a1302a4916d90354.png?modified_on=2024-12-02T17%3A08%3A17.596Z&im=Resize%3D%28234%2C234%29%3BCrop%2Crect%3D%280%2C0%2C234%2C234%29%2CallowExpansion" />
-                            </picture>
-                          </div>
-                          <div className="z-[5] bg-cool-gray-200 bg-opacity-70">
-                            <Link className="text-left flex items-end justify-start outline-none typo-label-2 mx-regular mb-small lg:typo-label-1 lg:mx-medium lg:mb-medium z-10" href="/menu/drinks">
-                              {"Drinks"}
-                            </Link>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="">
-                        <div className="clickable-card flex h-full flex-col overflow-hidden rounded-lg text-ui-extra-dark-cool outline-dark-blue bg-cool-gray-200 hover:border-ui-medium-cool focus:outline-2 active:outline-blue hover:outline hover:outline-1 hover:outline-cool-gray-700 active:outline-2 active:hover:outline-2 aspect-square active:outline active:outline-blue" data-testid="clickable-card">
-                          <div className="relative flex flex-1 items-end justify-start overflow-visible">
-                            <div className="z-10 mx-regular mt-small flex items-end justify-start self-start text-left outline-none typo-label-2 lg:mx-medium lg:mt-medium lg:typo-label-1">
-                              <span className="inline-flex max-w-full items-center justify-center h-large border [background:linear-gradient(#191919,#191919)_padding-box,var(--gradient-gold)_border-box] rounded-[3.6px] border-transparent shadow-gold">
-                                <span className="inline-flex overflow-hidden overflow-ellipsis whitespace-nowrap !leading-[0.86] px-x-small typo-label-4 bg-gradient-gold bg-clip-text text-transparent">
-                                  {"NEW!"}
-                                </span>
-                              </span>
-                            </div>
-                            <picture className="absolute min-h-full min-w-full max-w-full">
-                              <source data-testid="Sides-source-xl" srcSet="/site-assets/cms/assets/b25dd6b4-4327-4bbb-b37d-880e8eb30b93cdea.png?modified_on=2026-02-04T13%3A32%3A21.828Z&im=Resize%3D%28417%2C417%29%3BCrop%2Crect%3D%2832%2C116%2C431%2C431%29%2CallowExpansion" media="(min-width: 1700px)" />
-                              <source data-testid="Sides-source-lg" srcSet="/site-assets/cms/assets/b25dd6b4-4327-4bbb-b37d-880e8eb30b93cdea.png?modified_on=2026-02-04T13%3A32%3A21.828Z&im=Resize%3D%28272%2C272%29%3BCrop%2Crect%3D%2821%2C76%2C280%2C280%29%2CallowExpansion" media="(min-width: 1000px)" />
-                              <source data-testid="Sides-source-md" srcSet="/site-assets/cms/assets/b25dd6b4-4327-4bbb-b37d-880e8eb30b93cdea.png?modified_on=2026-02-04T13%3A32%3A21.828Z&im=Resize%3D%28272%2C272%29%3BCrop%2Crect%3D%2849%2C108%2C230%2C230%29%2CallowExpansion" media="(min-width: 500px)" />
-                              <img alt="" className="absolute" data-testid="Sides-img-sm" draggable="false" loading="lazy" src="/site-assets/cms/assets/b25dd6b4-4327-4bbb-b37d-880e8eb30b93cdea.png?modified_on=2026-02-04T13%3A32%3A21.828Z&im=Resize%3D%28272%2C272%29%3BCrop%2Crect%3D%2849%2C105%2C234%2C234%29%2CallowExpansion" />
-                            </picture>
-                          </div>
-                          <div className="z-[5] bg-cool-gray-200 bg-opacity-70">
-                            <Link className="text-left flex items-end justify-start outline-none typo-label-2 mx-regular mb-small lg:typo-label-1 lg:mx-medium lg:mb-medium z-10" href="/menu/sides">
-                              {"Extras"}
-                            </Link>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
+                    <MenuCategoryGrid />
                   </div>
                 </article>
               </div>
